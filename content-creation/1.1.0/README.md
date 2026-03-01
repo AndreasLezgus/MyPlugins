@@ -37,8 +37,8 @@ Content type templates, writing best practices by channel, SEO fundamentals, hea
 ```
 > /draft-blog-post
 Type: blog post
-Topic: How AI is transforming B2B marketing
-Audience: Marketing directors at mid-market SaaS companies
+Topic: Research Gartner article
+Audience: IT-Leadership Team, CEO, CIO, CTO, Governance Leaders
 Key messages: AI saves time on repetitive tasks, improves personalization, requires human oversight
 Tone: Authoritative but approachable
 Length: 1200 words
@@ -46,26 +46,33 @@ Length: 1200 words
 
 Claude will generate a structured blog post draft with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
 
-### Planning a Campaign
+### Drafting a substack article
 
 ```
-> /campaign-plan
-Goal: Drive 500 signups for our new product launch
-Audience: Technical decision-makers at enterprise companies
-Timeline: 6 weeks
-Budget range: $20,000-$30,000
+> /draft-substack-article
+Type: substack article
+Topic: Research Gartner article
+Audience: IT-Leadership Team, CEO, CIO, CTO, Governance Leaders
+Key messages: AI saves time on repetitive tasks, improves personalization, requires human oversight
+Tone: Authoritative but approachable
+Length: 1200 words
 ```
 
-Claude will produce a campaign brief covering objectives, audience segmentation, key messages, channel strategy, a week-by-week content calendar, and KPIs to track.
+Claude will generate a structured substack article with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
 
-### Reviewing Content Against Brand Guidelines
+### Drafting substack notes
 
 ```
-> /brand-review
-[paste your draft content]
+> /draft-substack-notes
+Type: substack notes
+Topic: Research Gartner article
+Audience: IT-Leadership Team, CEO, CIO, CTO, Governance Leaders
+Key messages: AI saves time on repetitive tasks, improves personalization, requires human oversight
+Tone: Authoritative but approachable
+Length: 500 words
 ```
 
-If your brand style guide is configured in local settings, Claude will check your content against voice, tone, terminology, and messaging pillars. If not configured, Claude will ask about your guidelines or provide a generic review for clarity, consistency, and professionalism.
+Claude will generate a structured substack note with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
 
 ## Configuration
 
@@ -77,12 +84,8 @@ Configure your brand voice, style guide, and target personas in a local settings
 
 This plugin works with the following MCP servers:
 
-- **Slack** — Share drafts, reports, and briefs with your team
-- **Canva** — Create and edit design assets
-- **Figma** — Access design files and brand assets
-- **HubSpot** — Pull campaign data, manage contacts, and track marketing automation
-- **Amplitude** — Pull product analytics and user behavior data for performance reporting
-- **Notion** — Access briefs, style guides, and campaign documents
-- **Ahrefs** — SEO keyword research, backlink analysis, and site audits
-- **Similarweb** — Competitive traffic analysis and market benchmarking
-- **Klaviyo** — Draft and review email marketing sequences and campaigns
+- **Devonthink** — Share content, pdf, research articles
+- **Drafts** — Create and edit drafts
+- **Ulysses** — Create and edit blog post, substack articles and notes, linkedIn articles
+- **Noteplan** — Create and edit meeting notes, daily planning, weekly planning, special tasks
+

@@ -1,48 +1,42 @@
 {
   "mcpServers": {
-    "slack": {
-      "type": "http",
-      "url": "https://mcp.slack.com/mcp"
+    "devonthink": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:TomBener/devonthink-mcp"
+      ]
     },
-    "canva": {
-      "type": "http",
-      "url": "https://mcp.canva.com/mcp"
+    "noteplan": {
+      "command": "node",
+      "args": [
+        "/Users/administrator/noteplan-mcp/dist/index.js"
+      ],
+      "env": {
+        "NOTEPLAN_BASE_PATH": "/Users/andreas/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp"
+      }
     },
-    "figma": {
-      "type": "http",
-      "url": "https://mcp.figma.com/mcp"
-    },
-    "hubspot": {
-      "type": "http",
-      "url": "https://mcp.hubspot.com/anthropic"
-    },
-    "amplitude": {
-      "type": "http",
-      "url": "https://mcp.amplitude.com/mcp"
-    },
-    "notion": {
-      "type": "http",
-      "url": "https://mcp.notion.com/mcp"
-    },
-    "ahrefs": {
-      "type": "http",
-      "url": "https://api.ahrefs.com/mcp/mcp"
-    },
-    "similarweb": {
-      "type": "http",
-      "url": "https://mcp.similarweb.com"
-    },
-    "klaviyo": {
-      "type": "http",
-      "url": "https://mcp.klaviyo.com/mcp"
-    },
-    "google-calendar": {
-      "type": "http",
-      "url": "https://gcal.mcp.claude.com/mcp"
-    },
-    "gmail": {
-      "type": "http",
-      "url": "https://gmail.mcp.claude.com/mcp"
+    "ulysses": {
+  "command": "/Users/andreas/.local/bin/uv",
+  "args": [
+    "--directory",
+    "/Users/andreas/ulysses-mcp",
+    "run",
+    "ulysses-mcp"
+  ]
+},
+    "drafts": {
+      "command": "npx",
+      "args": [
+        "@agiletortoise/drafts-mcp-server"
+      ]
     }
+  },
+  "preferences": {
+    "localAgentModeTrustedFolders": [
+      "/Users/andreas/Library/Mobile Documents/com~apple~CloudDocs/10-Code/99-Archiv/01-Claude-Code/01-Settings"
+    ],
+    "sidebarMode": "chat",
+    "coworkScheduledTasksEnabled": false
   }
 }
