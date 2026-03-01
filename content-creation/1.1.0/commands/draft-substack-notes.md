@@ -1,5 +1,5 @@
 ---
-description: Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies
+description: Draft substack notes with ulysses app, publish via ulysses app on substack. Create 30 substack notes from one article to publish regulary within a week
 argument-hint: "<content type and topic>"
 ---
 

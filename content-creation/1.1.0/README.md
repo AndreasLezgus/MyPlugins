@@ -1,6 +1,6 @@
 # Content Creation Plugin
 
-A content creation plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Analyze provided content, create a blog post, create a substack artikel, create substack notes, create linkedIn article. Maintain my brand voice consistency, my writing style, my quality gates and my visual style.
+A content creation plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Analyze provided content, create a blog post, create a substack artikel, create substack notes, create linkedIn article. Maintain my writing style consistency, my visual design and my quality gates.
 
 ## Installation
 
@@ -11,23 +11,17 @@ A content creation plugin primarily designed for [Cowork](https://claude.com/pro
 
 | Command | Description |
 |---|---|
-| `/draft-blog-post` | Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies |
-| `/draft-substack-article` | Generate a full campaign brief with objectives, channels, content calendar, and success metrics |
-| `/draft-substack-notes` | Review content against your brand voice, style guide, and messaging pillars |
-| `/drafts-linkedin-article` | Research competitors and generate a positioning and messaging comparison |
-| `/seo-audit` | Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison |
+| `/draft-blog-post` | Draft blog posts for my ghost blog. Publish with ulysses app. Content from Devonthink Research |
+| `/draft-substack-article` | Draft substack article. Publish with ulysses app. Content from Devonthink Research |
+| `/draft-substack-notes` | Draft substack notes. Publish with ulysses app. Content from Devonthink Research |
+| `/drafts-linkedin-article` | Draft linkedin article. Publish with ulysses app. Content from Devonthink Research |
 
 ## Skills
 
 | Skill | Description |
 |---|---|
-| `blog-post-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
-| `substack-article-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
-| `substack-notes-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
-| `linkedin-article-creation` | 
-Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
-| `brand-voice` | Brand voice documentation, voice attributes, tone adaptation, style guide enforcement, and terminology management |
-| `visual-style` | visual style attributes, style guide enforcement, logos and hero-images |
+| `content-creation-pipeline` | Content type writing-style,visual-design, quality-gates, Content type workflows, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
+
 
 
 ## Example Workflows
@@ -37,46 +31,46 @@ Content type templates, writing best practices by channel, SEO fundamentals, hea
 ```
 > /draft-blog-post
 Type: blog post
-Topic: Research Gartner article
+Topic: Research from Gartner article oder PDF-Research
 Audience: IT-Leadership Team, CEO, CIO, CTO, Governance Leaders
-Key messages: AI saves time on repetitive tasks, improves personalization, requires human oversight
+Key messages: AI without governance is shadow ai, requires human oversight and minimum vaiable policies
 Tone: Authoritative but approachable
 Length: 1200 words
 ```
 
-Claude will generate a structured blog post draft with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
+Claude will generate a structured german blog post draft with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action. Claude create the draft in ulysses app to edit and curate in a special folder.
 
 ### Drafting a substack article
 
 ```
 > /draft-substack-article
 Type: substack article
-Topic: Research Gartner article
+Topic: Research from Gartner article oder PDF-Research
 Audience: IT-Leadership Team, CEO, CIO, CTO, Governance Leaders
-Key messages: AI saves time on repetitive tasks, improves personalization, requires human oversight
+Key messages: AI without governance is shadow ai, requires human oversight and minimum vaiable policies
 Tone: Authoritative but approachable
 Length: 1200 words
 ```
 
-Claude will generate a structured substack article with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
+Claude will generate a structured english substack article with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action. Claude create the draft in ulysses app to edit and curate in a special folder.
 
 ### Drafting substack notes
 
 ```
 > /draft-substack-notes
 Type: substack notes
-Topic: Research Gartner article
+Topic: Research from Gartner article oder PDF-Research
 Audience: IT-Leadership Team, CEO, CIO, CTO, Governance Leaders
-Key messages: AI saves time on repetitive tasks, improves personalization, requires human oversight
+Key messages: AI without governance is shadow ai, requires human oversight and minimum vaiable policies
 Tone: Authoritative but approachable
 Length: 500 words
 ```
 
-Claude will generate a structured substack note with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action.
+Claude will generate 30 english structured substack notes with an engaging headline, introduction with a hook, organized sections, SEO-optimized subheadings, and a clear call to action. Claude create the drafts in ulysses app to edit and curate in a special folder.
 
 ## Configuration
 
-Configure your brand voice, style guide, and target personas in a local settings file for personalized output. This allows commands like `/draft-content` and `/brand-review` to automatically apply your brand standards without prompting each time.
+Configure your writing style, visual style, and quality gates in a local settings file for personalized output. This allows commands like `/content-creation-pipeline` to automatically apply your brand standards without prompting each time.
 
 ## MCP Integrations
 

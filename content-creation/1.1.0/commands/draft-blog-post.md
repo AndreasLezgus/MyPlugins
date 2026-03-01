@@ -1,5 +1,5 @@
 ---
-description: Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies
+description: Draft blog posts with ulysses app, from ulysses app connect to publish on personal ghost blog
 argument-hint: "<content type and topic>"
 ---
 

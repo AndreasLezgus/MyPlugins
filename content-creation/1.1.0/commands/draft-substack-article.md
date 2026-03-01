@@ -1,5 +1,5 @@
 ---
-description: Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies
+description: Draft substack article with ulysses app, publish via ulysses app on substack
 argument-hint: "<content type and topic>"
 ---
 
