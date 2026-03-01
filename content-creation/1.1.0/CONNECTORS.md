@@ -11,5 +11,5 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 | References | `~~references` | Devonthink | Devonthink |
 | Taks | `~~tasks` | Noteplan | Noteplan |
 | Writing | `~~writing` | Ulysses | Ulysses |
-| Drafts | `~~drafts` | Drafts | Agile Tortose |
+| Drafts | `~~drafts` | Drafts | Drafts |
 
