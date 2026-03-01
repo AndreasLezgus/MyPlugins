@@ -1,41 +1,41 @@
-# Marketing Plugin
+# Content Creation Plugin
 
-A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice management, competitive analysis, and performance reporting.
+A content creation plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Analyze provided content, create a blog post, create a substack artikel, create substack notes, create linkedIn article. Maintain my brand voice consistency, my writing style, my quality gates and my visual style.
 
 ## Installation
 
-```bash
-claude plugins add knowledge-work-plugins/marketing
+```download plugin.zip file into claude Cowork Plugin directory
 ```
 
 ## Commands
 
 | Command | Description |
 |---|---|
-| `/draft-content` | Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies |
-| `/campaign-plan` | Generate a full campaign brief with objectives, channels, content calendar, and success metrics |
-| `/brand-review` | Review content against your brand voice, style guide, and messaging pillars |
-| `/competitive-brief` | Research competitors and generate a positioning and messaging comparison |
-| `/performance-report` | Build a marketing performance report with key metrics, trends, and optimization recommendations |
+| `/draft-blog-post` | Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies |
+| `/draft-substack-article` | Generate a full campaign brief with objectives, channels, content calendar, and success metrics |
+| `/draft-substack-notes` | Review content against your brand voice, style guide, and messaging pillars |
+| `/drafts-linkedin-article` | Research competitors and generate a positioning and messaging comparison |
 | `/seo-audit` | Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison |
-| `/email-sequence` | Design and draft multi-email sequences for nurture flows, onboarding, drip campaigns, and more |
 
 ## Skills
 
 | Skill | Description |
 |---|---|
-| `content-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
-| `campaign-planning` | Campaign frameworks, channel selection, content calendar creation, budget allocation, and success metrics |
+| `blog-post-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
+| `substack-article-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
+| `substack-notes-creation` | Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
+| `linkedin-article-creation` | 
+Content type templates, writing best practices by channel, SEO fundamentals, headline formulas, and CTA guidance |
 | `brand-voice` | Brand voice documentation, voice attributes, tone adaptation, style guide enforcement, and terminology management |
-| `competitive-analysis` | Competitive research methodology, messaging comparison, content gap analysis, positioning, and battlecard creation |
-| `performance-analytics` | Key metrics by channel, reporting templates, trend analysis, attribution modeling, and optimization frameworks |
+| `visual-style` | visual style attributes, style guide enforcement, logos and hero-images |
+
 
 ## Example Workflows
 
 ### Drafting a Blog Post
 
 ```
-> /draft-content
+> /draft-blog-post
 Type: blog post
 Topic: How AI is transforming B2B marketing
 Audience: Marketing directors at mid-market SaaS companies
