@@ -1,5 +1,5 @@
 ---
-name: blog-post-creation
+name: content-post-workflow
 description: Draft blog posts with ulysses app, from ulysses app connect to publish on personal ghost blog
 argument-hint: "<content type and topic>"
 ---
