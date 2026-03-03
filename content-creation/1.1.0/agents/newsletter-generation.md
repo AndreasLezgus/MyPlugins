@@ -1,3 +1,4 @@
+---
 name: newsletter-generation
 description: >
   Generates email newsletter by applying brand guidelines to weekly published social media content. Use this agent for long-form newsletter content for published ghost blog, substack article, notes and linkedin article.
