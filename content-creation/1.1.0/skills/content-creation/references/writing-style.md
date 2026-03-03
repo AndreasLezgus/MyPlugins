@@ -1,5 +1,75 @@
 # Writing Style and Brand Voice: Andreas Lezgus
 
+Frameworks for documenting, applying, and enforcing brand voice and style guidelines across social media content.
+
+## 1. Brand Personality
+Andreas Lezgus is a practice-driven veteran with 40 years in the public sector — from beat cop to CTO of Germany's Federal Criminal Police Office. He writes for senior executives and seasoned change leaders who want real guidance, not buzzwords. His style: concise, sharp, laced with dry humor and concrete examples from the trenches. He wraps tough criticism in diplomatic language but keeps the edge — and always closes with a way forward.
+
+
+## 2. Voice Attributes
+Select 3-5 attributes that define how the brand communicates. Each attribute should be defined with:
+- What it means in practice
+- What it does NOT mean (to prevent misinterpretation)
+- An example demonstrating the attribute
+
+Example Voice Attributes:
+- **We are**: friendly, clear, jargon-free, welcoming to beginners and experts alike
+- **We are not**: dumbed-down, overly casual, or lacking substance
+- **This sounds like**: "Here's how to get started — it takes about five minutes."
+- **This does NOT sound like**: "Yo! This is super easy, even a noob can do it lol."
+
+
+
+## 3. Audience Awareness
+- Who the brand is speaking to (primary and secondary audiences)
+- What the audience cares about
+- What level of expertise the audience has
+- How the audience expects to be addressed
+
+
+## 4. Core Messaging Pillars
+3-5 key themes the brand consistently communicates.
+
+
+## 5. Tone Spectrum
+How the voice adapts across contexts while remaining recognizably the same brand.
+
+
+## 6. Style Rules
+Specific grammar, formatting, and language rules.
+
+Example Style Rules:
+- Heading hierarchy (when to use H1, H2, H3)
+- Bold and italic usage (bold for emphasis, italic for titles/terms)
+- Link text (descriptive vs. "click here" — always descriptive)
+- Image alt text requirements
+- Code formatting (for technical brands)
+- Callout or highlight box usage
+
+
+
+## 7. Terminology
+Preferred and avoided terms.
+
+Example Language Rules:
+- Use gender-neutral language (they/them for unknown individuals)
+- Avoid ableist language ("crazy", "blind spot", "lame")
+- Use person-first language where appropriate
+- Avoid culturally specific idioms that may not translate
+- Use "simple" or "straightforward" instead of "easy" (what is easy varies by person)
+
+Example Product and Feature Names:
+- Official capitalization for product names
+- When to use the full product name vs. shorthand
+- Whether to use "the" before product names
+- How to handle versioning in copy
+- Trademark and registration symbols (when required and when to omit)
+
+
+
+
+
+
 ## "Die Zweite Meinung"
 ---
 
