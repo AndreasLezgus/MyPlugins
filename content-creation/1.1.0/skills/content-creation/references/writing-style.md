@@ -29,6 +29,10 @@ Example Voice Attributes:
 
 ## 4. Core Messaging Pillars
 3-5 key themes the brand consistently communicates.
+- Not everything that's technically possible is legally permissible.
+- Data needs to be carefully curated and enriched with context before AI can make anything meaningful out of it.
+- The consumer mindset of just throwing data together and expecting AI to figure it out is problematic in security environments — and legally indefensible.
+- Nobody gets praised anymore for long-running projects — yet some of them are unavoidable, because too much was neglected in digitalization over the past years. 
 
 
 ## 5. Tone Spectrum
