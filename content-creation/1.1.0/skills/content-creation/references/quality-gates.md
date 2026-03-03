@@ -1,6 +1,19 @@
 
 # Quality gates: Workflow-Checkliste
 
+
+## 1
+- Zu viele Fachbegriffe ohne Erklärung
+- Superlative
+- Wenige konkrete Beispiele
+- Langatmige Ausführungen, die nur wiederholend sind
+
+- Zu viele Fachbegriffe ohne Erklärung
+- Superlative
+- Wenige konkrete Beispiele
+- Langatmige Ausführungen, die nur wiederholend sind
+
+
 ## Pre-Flight Check
 
 - [ ] DEVONthink-Ordner 10.10-Social-Media enthält Dokumente

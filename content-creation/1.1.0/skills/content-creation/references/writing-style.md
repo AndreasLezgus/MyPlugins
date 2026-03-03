@@ -5,42 +5,105 @@ Frameworks for documenting, applying, and enforcing brand voice and style guidel
 ## 1. Brand Personality
 Andreas Lezgus is a practice-driven veteran with 40 years in the public sector — from beat cop to CTO of Germany's Federal Criminal Police Office. He writes for senior executives and seasoned change leaders who want real guidance, not buzzwords. His style: concise, sharp, laced with dry humor and concrete examples from the trenches. He wraps tough criticism in diplomatic language but keeps the edge — and always closes with a way forward.
 
-
 ## 2. Voice Attributes
-Select 3-5 attributes that define how the brand communicates. Each attribute should be defined with:
-- What it means in practice
-- What it does NOT mean (to prevent misinterpretation)
-- An example demonstrating the attribute
+Have you actually tried this in a heavily regulated environment? What trustworthy data do you need for good results — and where are you going to get it on an ongoing basis?
 
 Example Voice Attributes:
-- **We are**: friendly, clear, jargon-free, welcoming to beginners and experts alike
-- **We are not**: dumbed-down, overly casual, or lacking substance
-- **This sounds like**: "Here's how to get started — it takes about five minutes."
-- **This does NOT sound like**: "Yo! This is super easy, even a noob can do it lol."
-
+**Undiplomatic:** "There are too many sycophants who just cozy up to politicians without having the faintest clue about digital transformation."
+**Publishable:** "The self-proclaimed experts whose main strength lies in proximity to politics tend to have little actual experience in digital change. Their real talent is pairing white sneakers with a blue suit and a t-shirt."
+**Pattern:** Mockery through imagery is fair game — name-calling is not. The contempt is still there — just wrapped more elegantly.
+**We are**: friendly, clear, jargon-free, welcoming to beginners and experts alike
+**We are not**: dumbed-down, overly casual, or lacking substance
+**This sounds like**: "Here's how to get started — it takes about five minutes."
+**This does NOT sound like**: "Yo! This is super easy, even a noob can do it lol."
 
 
 ## 3. Audience Awareness
-- Who the brand is speaking to (primary and secondary audiences)
-- What the audience cares about
-- What level of expertise the audience has
-- How the audience expects to be addressed
+I want to speak to senior executives and seasoned digital transformation leaders. Nothing should be sugarcoated — but no cheap shots either. No calling people 'brown-nosers' or 'sneaker digitalists'.
 
+We're dealing with different generations of employees with different backgrounds. That means past experience doesn't automatically transfer to the future. Better, in my view, to share experience — but not insist on it as gospel. Continuous learning in context matters. Don't apply yesterday's methods expecting the same results. Have the courage to try new things. Allow mistakes — just make them fast and learn from them faster.
+
+People need leadership — not a boss who lets everything slide and plays it cool.
+
+Projects and innovations must demonstrate clear value — not just chase the hype with 'we need to do something with AI because everyone else is.
+
+I say it straight in the meeting. I start with tough questions — and if they're dodged with vague generalities, I make it clear: these questions need answers before we commit serious money.
+
+Example for Audience Awareness:
+**Experience** Have you actually tried this in a heavily regulated environment?
+**Data Quality** What trustworthy data do you need for good results — and where are you going to get it on an ongoing basis?
+**Consistency** Anyone can scrape together good data for a demo. But on an ongoing basis? That's what separates those who've thought about scale from those who just wanted applause.
 
 ## 4. Core Messaging Pillars
-3-5 key themes the brand consistently communicates.
 - Not everything that's technically possible is legally permissible.
 - Data needs to be carefully curated and enriched with context before AI can make anything meaningful out of it.
 - The consumer mindset of just throwing data together and expecting AI to figure it out is problematic in security environments — and legally indefensible.
-- Nobody gets praised anymore for long-running projects — yet some of them are unavoidable, because too much was neglected in digitalization over the past years. 
+- Nobody gets praised anymore for long-running projects — yet some of them are unavoidable, because too much was neglected in digitalization over the past years.
+- Politicians want quick results without understanding how long real change actually takes.
+- Nostalgia is no business model for the future. But experience and critical thinking forged in real situations help cut through the hype around new developments — and allow for calm assessment based on solid criteria.
+- Writing style and BKA references: Only in the bio. Otherwise, just a nod to hands-on experience from previous roles.
+- In my view, we need clear direction and clear objectives — ones that give people room to grow. But no collective irresponsibility. 
+- Accountability has a name. That means we don't just delegate — we stay on the hook for results.
+- We need to prove concrete value in every new technology — AI included. It's not enough to have external consultants demo an isolated pilot in an unregulated sandbox.
+- Capture once, use everywhere — sounds great, ignores the federal reality of 16 states
+- Everything is digitally sovereign — hollow phrase
+- AI will replace your job — hype and fearmongering
+- Just do it — too flippant for serious decisions
+- Accountability has a name.
+- Everyone wants to be agile — but agile is not a methodology.
+- AI must prove concrete value.
+- Too much security makes you lonely.
+- The school of life doesn't do vacations.
+- Analog beats digital.
+- Nostalgia is no business model for the future.
 
 
 ## 5. Tone Spectrum
 How the voice adapts across contexts while remaining recognizably the same brand.
 
+Short, punchy sentences. No nested clauses or long-winded passages that keep repeating themselves. Three sentences, three thoughts, no explicit connectors — the logic stays implicit.
+
+Em dashes yes, semicolons no.
+
+Connectors like 'therefore' or 'at the same time' are fine. Clear statements can follow a soft transition.
+- Responsibility for large organizational units
+- Extended tenure in a single role
+- Major program or project mandates — and their delivery
+
+Example for Tone Spektrum:
+**Engagement** Write your AI strategy now — before AI writes it for you."
+**Dry humor is welcome** A wink at the end goes a long way — especially in a world that takes itself too seriously and moves too fast.
+**Plastic phrases (NEVER use):** "People are at the center of everything." "Just do it." "AI changes everything." "We're out of time." "We need to become digitally independent."
+**What tone makes you suspicious?** Over-the-top enthusiasm, Blind faith in every new technology — almost religious, Lack of experience over any meaningful period, Having done one internship and calling yourself an expert
+**Structural patterns annoying** Texts with zero concrete reference points, Texts with long personal anecdotes
+**Criteria for real experience:** Responsibility for large organizational units, Extended tenure in a single role, Major program or project mandates — and their delivery
+**MILD PREFERENCE:** No quotes as openers, no name-dropping famous people for decoration.
+**Metaphors I would NEVER use:** Data is the new oil Digitalization as a journey. Clueless people in the boardroom.
+**Principle:** Leadership, not facilitation. Decisions, not compromises that leave nobody happy.
+**Patterns** Open questions that prompt self-reflection. Let the reader reach the conclusion on their own. Describing it simply and getting to the point — that's the real art.
+
+
+
+**Sample opening:**
+"Adequate security, scalable infrastructure, and sustainably good data are mission-critical. So why do they only get serious attention at the tail end of AI pilots?"
+
+**Pattern:** Thesis (blunt, direct, nouns stacked) + rhetorical question with an accusation baked in. The question isn't friendly curiosity — it's an indictment.
+
+Examples: '10 tips for better AI understanding' and the like — too generic. Better to use a concrete example. There are no 10 tips that magically apply across the board. I want to solve a specific problem with specific examples.'"
+
 
 ## 6. Style Rules
-Specific grammar, formatting, and language rules.
+Short, punchy sentences. No nested clauses or long-winded passages that keep repeating themselves. No nested sentences.
+
+Lists are fine — but frame them with a short intro before and a takeaway after. Use **bold** for words that carry special weight or deserve emphasis.
+
+Longer pieces with a 5-minute read time. When possible, also a short 2-minute version — with a pointer to the full article for those who want the deep dive.
+
+Short teasers that point to the longer piece.
+
+**Principle:** "A 14-year-old in the boardroom" is the benchmark for clarity — simple enough for someone without technical knowledge, but framed for decision-makers.
+**Prinzip:** „Es einfach zu beschreiben und kurz auf den Punkt bringen ist die wahre Kunst."
+
 
 Example Style Rules:
 - Heading hierarchy (when to use H1, H2, H3)
@@ -49,7 +112,6 @@ Example Style Rules:
 - Image alt text requirements
 - Code formatting (for technical brands)
 - Callout or highlight box usage
-
 
 
 ## 7. Terminology
@@ -70,517 +132,17 @@ Example Product and Feature Names:
 - Trademark and registration symbols (when required and when to omit)
 
 
-
-
-
-
-## "Die Zweite Meinung"
 ---
 
-## Kernidentität
 
-Andreas Lezgus ist ein erfahrungsbasierter Praktiker mit 40 Jahren im öffentlichen Sektor – vom Wachtmeister zum CTO des Bundeskriminalamts. Er schreibt für TOP-Führungskräfte und erfahrene Veränderungsmanager, die echte Orientierung suchen statt Buzzwords. Sein Stil: kurz, prägnant, mit trockenem Humor und konkreten Beispielen aus der Praxis. Er übersetzt scharfe Kritik in diplomatische Formulierungen, behält aber den Biss – und endet immer mit einem Weg nach vorn.
 
 ---
 
-## ABSCHNITT 1: ÜBERZEUGUNGEN & UNKONVENTIONELLE SICHTEN
 
-### F1: Was ist die eine Überzeugung über KI-Strategie oder digitale Transformation im öffentlichen Sektor, die du vertrittst – und von der du weißt, dass die meisten deiner Kolleg\*innen in Behörden oder auf Gartner-Konferenzen dir widersprechen würden?
-
-Die Daten müssen zuvor extra kuratiert und mit Kontext ergänzt werden, bevor KI etwas Sinnvolles daraus machen kann. Im Sicherheitsumfeld müssen zwingend rechtliche Voraussetzungen gegeben sein, um beliebige Daten einfach auszuwerten. Das bedeutet, die Daten müssen so gekennzeichnet sein, dass sie mit anderen Daten rechtsstaatlich ausgewertet werden können, um z.B. keine Unbeteiligten mit in Verdachtsmomente einbeziehen zu dürfen. Die Konsumentenhaltung, einfach viele Daten zusammenzubringen und die KI macht schon was draus, ist im Sicherheitsumfeld problematisch und rechtlich nicht haltbar.
-
-**Kernaussage:** „Nicht alles was technisch möglich ist, ist auch rechtsstaatlich erlaubt."
-
-### F2: Wer drückt auf der anderen Seite?
-
-Die Politik will schnelle Ergebnisse ohne Ahnung davon zu haben, wie lange Veränderungsprozesse dauern. Es gibt zu viele Schleimer, die nur die Nähe zur Politik suchen ohne irgendwelche Ahnung von digitalen Veränderungsprozessen zu haben oder je ein Rechenzentrum von innen gesehen zu haben. Es wird niemand mehr gelobt für langjährige Projekte, die aber teilweise erforderlich sind, da in den letzten Jahren in der Digitalisierung vieles verschlafen wurde. Viele junge Berater mit weißen Turnschuhen kümmern sich nicht um die wahren Voraussetzungen, von denen aus in neue technologische Welten gesprungen werden soll.
-
-### F3: Schreibst du so auch in deinem Blog? Mit „Schleimer" und „weißen Turnschuhen"?
-
-Ja, ich verwende eine Übersetzungsschicht. Ich möchte schon TOP-Führungskräfte und erfahrene digitale Veränderungsmanager ansprechen. Es sollte schon nichts hinter dem Berg gehalten werden, aber auch keine verletzenden Worte wie „Schleimer" oder „Turnschuh-Digitalisten".
-
-### F4: Zeig mir, wie die Übersetzung funktioniert.
-
-**Undiplomatisch:** „Es gibt zu viele Schleimer, die nur die Nähe zur Politik suchen, ohne irgendwelche Ahnung von digitalen Veränderungsprozessen zu haben."
-
-**Publizierbar:** „Die vermeintlichen Experten, die im Wesentlichen ihre Stärke zur Nähe der Politik sehen, haben zumeist wenig Erfahrung in digitalen Veränderungsprozessen. Ihre Stärke liegt eher in weißen Turnschuhen bei einem blauen Anzug mit T-Shirt."
-
-**Muster:** Spott durch Bilder ist erlaubt, Schimpfwörter nicht. Die Verachtung ist noch da – aber eleganter verpackt.
-
-### F5: Wie viel spielst du die Erfahrungskarte bewusst aus?
-
-Nostalgie ist zwar kein zukünftiges Geschäftsmodell. Aber Erfahrung und kritisches Denken aus erlebten Situationen hilft beim Hype um neue Entwicklungen und ruhiger Einordnung mit sauberen Kriterien.
-
-### F6: Schreibst du in deinem Blog Sätze wie „In meinen 40 Jahren beim BKA habe ich gelernt, dass…"?
-
-Nur in der Bio. Sonst eher ein Hinweis auf bisherige praktische Erfahrungen.
-
-**Beispiele für Autorität durch Spezifik:**
-- „In meinem Projekt zur Einführung einer Vorgangsbearbeitung für 40.000 Polizistinnen und Polizisten habe ich folgende Erfahrung machen können..."
-- „Bei der Einführung eines Portfoliomanagements im Bundeskriminalamt habe ich feststellen können, dass..."
-
-**Muster:** Konkrete Projekte, konkrete Zahlen – Autorität durch Spezifik, nicht durch Behauptung.
-
-### F7: Ist die Konstruktion „habe ich feststellen können" statt „ist so" bewusst?
-
-Wir haben ja andere Generationen an Mitarbeitenden mit anderen Erfahrungshintergründen. Das bedeutet, dass nicht unbedingt die Erfahrungen der letzten Jahre wieder auf die Zukunft übertragbar sind. Besser ist es meines Erachtens, die Erfahrungen zu teilen, aber nicht so absolut auf die Meinung zu bestehen. Ständiges Lernen im Situationskontext ist wichtig. Nicht alle Methoden der Vergangenheit anwenden, um die gleichen Ergebnisse zu erzielen. Besser wäre, Mut für neue Dinge aufzubringen. Fehler zulassen, aber schnell machen und daraus schnell lernen.
-
-### F8: Bei welchen Themen bist du offen und lernbereit, und bei welchen hast du eine Position, die du nicht mehr zur Diskussion stellst?
-
-**Hügel, auf denen ich sterbe:**
-1. Mitarbeiter benötigen Führung und nicht alles laufen lassen und chillen.
-2. Projekte oder Innovationen müssen einen klaren Mehrwert nachweisen – nicht einfach nur dem Hype folgen und „wir müssen auch etwas mit KI machen, da es die anderen auch machen."
-
-### F9: Was verstehst du unter „Führung"?
-
-Aus meiner Sicht brauchen wir auch mal klare Ansagen, klare Zielvereinbarungen, in denen die Mitarbeitenden selbst sich entwickeln können. Aber keine kollektiven Unverantwortlichkeiten. **Verantwortung hat einen Namen.** Das bedeutet, dass wir nicht nur delegieren, sondern auch weiterhin für Ergebnisse verantwortlich sein müssen.
-
-### F10: Wie oft hörst du „Wir müssen auch etwas mit KI machen" – und wie reagierst du?
-
-Wir müssen den konkreten Mehrwert in allen neuen Technologien – auch KI – nachweisen. Es reicht nicht, einfach nur einen isolierten Piloten in nicht regulierten Umgebungen von externen Beratern zeigen zu lassen. Wir brauchen konkrete praktische Mehrwerte und ein klares Bild von dem Aufwand für die Skalierbarkeit auf die gesamte Organisation.
-
-### F11: Wenn du in einem Meeting sitzt und jemand einen isolierten Piloten präsentiert – was machst du dann konkret?
-
-Ich sage es direkt in der Besprechung. Ich stelle zunächst kritische Fragen, und falls diese nicht beantwortet werden, sondern allgemein ausgewichen wird, stelle ich es so dar, dass diese Fragen zuvor beantwortet werden sollten, bevor wir eine hohe Investitionssumme investieren.
-
-### F12: Gib mir ein Beispiel für eine dieser kritischen Fragen.
-
-- „Haben Sie dies schon mal in einem stark regulierten Umfeld ausprobiert?"
-- „Welche vertrauenswürdigen Daten brauchen Sie für gute Ergebnisse und woher erhalten Sie diese dauerhaft?"
-
-**Das Wort „dauerhaft" ist der Dolch.** Jeder kann einmal gute Daten für eine Demo besorgen. Aber dauerhaft? Das entlarvt, ob jemand an Skalierung gedacht hat oder nur an Applaus.
-
-### F13: Was passiert dann typischerweise im Raum?
-
-Von den Beratern oder Vortragenden wird dann eher skeptisch geschaut, von den erfahrenen Praktikern kommt: „Gut, dass du diesen Aspekt eingebracht hast." Man muss allerdings vorsichtig sein, seine eigene Meinung auch kritisch zu hinterfragen. Viele neue Technologien gerade im KI-Bereich haben viele neue Möglichkeiten, und alte Muster können natürlich behindern. Aber wesentliche Grundlagen ändern sich häufig auch mit neuen Technologien nicht und müssen auch benannt werden.
-
-### F14: Hast du dich schon mal geirrt bei einer neuen Technologie?
-
-Grundsätzlich war ich aufgrund meines Alters und meiner Erfahrungen darauf ausgerichtet, dass Erfahrungen durch längere Projekt- und Organisationserfahrungen gewonnen werden. Heutige Generationen sind jedoch häufig nur ein Jahr in einer Position und suchen schon nach der nächsten besseren Position. Parallel werden mit KI viele Erfahrungen schneller gewonnen werden können. Viele Tätigkeiten, die früher langjährige Erfahrungen bedurften, sind heute im KI-Zeitalter viel schneller zu machen. Daher muss ich meine Annahmen von früher schneller überdenken und anpassen.
-
-### F15: Gib mir ein spezifisches Beispiel für einen Irrtum.
-
-Ein Beispiel aus der KI: Am Anfang habe ich geglaubt, dass durch die Halluzinationen die KI nicht richtig gut einsetzbar ist, um klare Workflows zu gestalten. Mit der Möglichkeit, gesondertes Wissen über z.B. MCP-Server oder speziell trainierte Skills hinzuzufügen, wird die Qualität der Ergebnisse extrem besser. Auch die Möglichkeit, erste und gute Piloten zu erstellen, die dann nur noch im Dialog verbessert werden müssen, hat sich stark verändert.
-
-### F16: Hast du diesen Meinungswandel öffentlich geteilt?
-
-Ich will zukünftig darüber schreiben. Ich möchte ja gerne in meinem Blog über KI-Leadership mehr schreiben. Auf dem Weg zu meiner Pensionsphase in einem Jahr möchte ich eine gute Community aufbauen.
-
----
-
-## ABSCHNITT 2: SCHREIBMECHANIK
-
-### F17: Wie sieht der erste Satz deiner Blog-Artikel typischerweise aus?
-
-**Beispiel-Eröffnung:**
-„Angemessene Sicherheit, skalierbare Infrastrukturen und dauerhafte gute Daten sind erfolgskritisch. Warum werden diese erst am Ende von KI-Piloten ausreichend betrachtet?"
-
-**Muster:** These (hart, direkt, Substantive aufgereiht) + rhetorische Frage mit Vorwurf. Die Frage ist nicht freundlich-neugierig, sie ist anklagend.
-
-### F18-19: Ist diese Struktur – These, dann Warum-Frage – dein Standard-Einstieg?
-
-Eher knapp und so, dass ein Trigger fürs Weiterlesen gesetzt wird.
-
-### F20: Was ist für dich ein guter Trigger – und was ein billiger Trick?
-
-„10 Tipps für besseres KI-Verständnis" oder ähnlich sind zu allgemein. Besser ist es, ein konkretes Beispiel zu verwenden. Es gibt keine 10 Tipps, die zwar vielleicht allgemein gelten – aber ich möchte ein spezifisches Problem lösen mit konkreten Beispielen.
-
-**HARTES NEIN:** „10 Tipps für…"-Formate
-
-### F21: Schreibst du oft kurze, dichte Sätze mit Aufzählungen?
-
-Lieber kurze und prägnante Sätze. Keine Schachtelsätze und lange Abhandlungen, die wiederholte Elemente haben.
-
-**HARTES GESETZ:** Keine Schachtelsätze.
-
-### F22: Wie brichst du komplexe Zusammenhänge in kurze Sätze auf?
-
-**Beispiel (komplexer Gedanke in drei Sätzen):**
-„Schlechte Daten bringen auch gute KI zu keinen sinnvollen Ergebnissen. Verknüpfungen von Daten bedingen rechtliche Voraussetzungen. Dies geht nur, wenn die Daten rechtlich in Verbindung gesetzt werden dürfen."
-
-**Muster:** Drei Sätze, drei Gedanken, keine expliziten Verbindungswörter – der logische Fluss bleibt implizit.
-
-### F23: Welche Verbindungswörter benutzt du?
-
-Verbindungswörter wie „Daher" oder „Gleichzeitig" sind erlaubt. Klare Statements sollten auch einem weichen Übergang folgen.
-
-### F24: Wie beendest du einen Artikel?
-
-Eher mit einem Appell.
-
-**Beispiel:** „Schreiben Sie jetzt Ihre KI-Strategie, bevor es die KI tut."
-
-(Trockener Humor, Augenzwinkern am Ende)
-
-### F25: Benutzt du Humor – und wenn ja, welche Art?
-
-Trockener Humor ist willkommen. Augenzwinkern in der dynamischen und schnelllebigen Welt ist wichtig, gerade zum Ende.
-
-**STARKE TENDENZ:** Trockener Humor am Ende eines Artikels.
-
-### F26-27: Welche Wörter/Phrasen siehst du kritisch?
-
-- „Einmalerfassung und Mehrfachnutzung" – klingt gut, ignoriert aber die föderale Realität von 16 Ländern
-- „Alles ist digital souverän" – hohle Phrase
-- „KI ersetzt Deinen Arbeitsplatz" – Hype und Panikmache
-- „Einfach mal machen" – zu flapsig für ernste Entscheidungen
-
-### F28: Welche Wörter oder Phrasen liebst du?
-
-**Eigene Aphorismen:**
-- „Verantwortung hat einen Namen."
-- „Agil will jeder sein und ist kein Vorgehensmodell."
-- „KI muss konkrete Mehrwerte darstellen können."
-- „Zuviel Sicherheit macht einsam."
-- „Die Schule des Lebens kennt keine Ferien."
-- „Analog schlägt digital."
-- „Nostalgie ist kein zukünftiges Geschäftsmodell."
-
-### F29-30: Was meinst du mit „Zuviel Sicherheit macht einsam"?
-
-Zuviel Sicherheit bedeutet, ich muss Risiken bewerten, einordnen und akzeptieren. Es muss pragmatische Sicherheit sein, die die wesentlichen Dinge konsequent umsetzt, aber nicht alles Mögliche ohne Kontext.
-
-### F31: Wann schlägt analog digital?
-
-Reviews und ausreichend Gedanken über schwere Entscheidungen gelingen in einem manuellen Moleskine besser. In Ruhe manuell etwas aufschreiben ohne Druck und ohne digitale Ablenkung ist wichtig.
-
-Ich trinke auch ein gutes Glas Wein und schreibe dabei in einem Moleskine gute Gedanken. Diese präge ich dann später wieder digital weiter aus. Aber die Ideen kommen analog und nicht immer digital.
-
-### F32: Wie stehst du zu Formatierung – Fettdruck, Kursiv, Bulletpoints?
-
-Listen sind erlaubt, aber vorab und nachher mit einer kurzen Einordnung als Text. Fettdruck sollte für spezielle Wörter verwendet werden, die Besonderheiten ausmachen oder besonders betont werden sollen.
-
-**STARKE TENDENZ:** Listen nur mit Einleitung und Abschluss einsetzen.
-
-### F33-34: Gib mir ein konkretes Beispiel für einen Absatz mit Liste.
-
-[Kein Beispiel gegeben – spontanes Erfinden abgelehnt]
-
-### F35: Wie lang sind deine Blog-Artikel typischerweise?
-
-Längere Abhandlungen mit 5 Minuten Lesezeit, bei Möglichkeit auch kurz 2 Minuten und Ergänzungen/Verweis auf langen Artikel in 5 Minuten.
-
-**Zwei-Ebenen-Strategie:** Kurze Teaser mit Verweis auf längere Stücke.
-
-### F36: Erklärst du Fachbegriffe oder setzt du sie voraus?
-
-Es sollte so erklärt werden, dass 14-Jährige auf Vorstandsetage es verstehen. Also so einfach wie möglich.
-
-**Prinzip:** „14-Jährige auf Vorstandsetage" ist ein Maßstab für Verständlichkeit – einfach genug für jemanden ohne technisches Wissen, aber im Kontext von Entscheidern.
-
-### F37: Wer ist dein Publikum wirklich?
-
-Zu Beginn den Begriff besser erklären, dann die Balance schaffen, um neue Erkenntnisse der Zielgruppe beizubringen und konkrete Beispiele für die eigene Praxis zu übertragen.
-
-**Dreistufiger Aufbau:** Begriff erklären → neue Erkenntnisse vermitteln → auf die Praxis übertragen.
-
-### F38: Wie stehst du zu Gedankenstrichen, Doppelpunkten, Semikolons?
-
-Gedankenstriche ja, Semikolon nein.
-
-**HARTES GESETZ:** Keine Semikolons.
-
-### F39: Nutzt du rhetorische Fragen häufig?
-
-Rhetorische Fragen im gesamten Text sind gut.
-
-### F40: Wie lang sind deine Absätze?
-
-Drei, vier Sätze – dann lieber einen Umbruch.
-
----
-
-## ABSCHNITT 3: ÄSTHETISCHE „VERBRECHEN"
-
-### F41: Was lässt dich bei Texten über Digitalisierung oder KI cringe finden?
-
-„10 Tipps" oder „Dinge, die Du unbedingt machen musst." Es gibt keinen einfachen Weg. Es muss auf die jeweilige individuelle Situation angepasst werden.
-
-### F42: Welche konkreten Phrasen oder Formulierungen lassen dich an einem Text zweifeln?
-
-**Plastikphrasen (NIE verwenden):**
-- „Im Mittelpunkt steht der Mensch."
-- „Einfach mal machen."
-- „KI verändert alles."
-- „Wir haben keine Zeit mehr."
-- „Wir müssen digital unabhängig werden."
-
-### F43: Was genau stört dich an „Im Mittelpunkt steht der Mensch"?
-
-Der Mensch steht nicht im Mittelpunkt. Er muss sich verändern und anpassen. Er ist mit KI besser als vorher, aber wenn er nicht KI bedienen kann, ist er nicht mehr im Mittelpunkt, sondern nicht mehr relevant.
-
-**Publizierbare Version:**
-„Der Mensch muss sich anpassen. Wie er dies schon Jahrhunderte vorher gemacht hat. Aber jetzt wird die Geschwindigkeit der Veränderungen bedeutsamer. Wir müssen schneller lernen, mit der KI zusammenzuarbeiten. Wir müssen lernen, die KI für unsere humanen Zwecke dauerhaft besser einzusetzen."
-
-**Muster:** Die harte Version („nicht mehr relevant") wird in die konstruktive Version („schneller lernen") übersetzt. Die Konsequenz verschwindet, der Appell bleibt.
-
-### F45: Was für ein Ton in Texten macht dich misstrauisch?
-
-- Übertriebener Enthusiasmus
-- Jeder neuen Technologie gläubig und religiös sein
-- Fehlende Erfahrungen über eine gewisse Zeit
-- Nur mal ein Praktikum gemacht zu haben und Experte in dem Thema zu sein
-
-### F46: Wie erkennst du den Unterschied zwischen echtem Wissen und Buzzword-Wiederholung?
-
-Eine gewisse Zeit in einem Thema ist nicht ersetzbar. Manchmal muss man auch Kreide gefressen haben. Auch Personalverantwortung für größere Organisationseinheiten ist wichtig. Kritische Ressourcenkonflikte selbst erlebt zu haben, sich gegen andere Stakeholder in Bund und Ländern durchgesetzt zu haben oder einen guten Überblick über deutsche Sicherheitsbehörden zu haben – ist erfolgskritisch.
-
-### F47: Wie überträgst du das auf Leute außerhalb der Sicherheitsbehörden?
-
-**Kriterien für echte Erfahrung:**
-- Verantwortung für größere Organisationseinheiten
-- Längere Standzeiten in einer Aufgabe
-- Größere Programm- oder Projektaufgaben und deren Umsetzung
-
-### F48: Welche strukturellen Muster in Texten nerven dich?
-
-- Texte ohne jeden konkreten Bezug
-- Texte mit langen persönlichen Anekdoten
-
-### F49: Ab wann wird eine persönliche Referenz zur nervigen Anekdote?
-
-Es ist die Länge. Lieber kurz und prägnant. Storytelling ja, aber nicht die Länge der eigenen Story in den Vordergrund stellen.
-
-**Regel:** Die Anekdote ist Beleg, nicht Hauptattraktion.
-
-### F50: Wie stehst du zu Anglizismen?
-
-Bitte die englischen Begriffe ins Deutsche übersetzen. Aber besser zu Beginn erklären. Dann im späteren das Deutsche verwenden.
-
-### F51: Welches deutsche Wort verwendest du für „Stakeholder", „Governance", „Compliance"?
-
-- Stakeholder → **Anspruchsgruppen**
-- Governance → **Entscheidungsregeln**
-- Compliance → **Rechtssicherheit**
-
-### F52: Sagst du „KI" oder „AI"?
-
-Künstliche Intelligenz zu Beginn. Dann KI als Abkürzung.
-
-### F53: Nutzt du Zitate in deinen Texten?
-
-Eher weniger. Vielleicht im späteren Text mal, wenn es passt.
-
-**LEICHTE PRÄFERENZ:** Keine Zitate als Eröffnung, kein Schmücken mit berühmten Namen.
-
-### F54-55: Wie bewusst setzt du Metaphern und Bilder ein?
-
-Metaphern sind gut, aber nicht die abgedroschenen, die überall verwendet werden.
-
-**Metaphern, die ich NIE verwenden würde:**
-- „Daten sind das neue Öl."
-- „Digitalisierung als Reise."
-- „Unwissende auf Vorstandsetage."
-
-### F56: Was macht „14-Jährige auf Vorstandsetage" besser als „Unwissende auf Vorstandsetage"?
-
-Es geht darum: Wie erkläre ich es so einfach, dass es Nicht-Digitalisten auch schnell verstehen. Daher „Vorstandsetage als 14-jährige Erfahrung im digitalen Kontext."
-
-**Erkenntnis:** „14-Jährige auf Vorstandsetage" ist ein Maßstab für Verständlichkeit, keine Herablassung über unwissende Vorstände.
-
----
-
-## ABSCHNITT 4: STIMME & PERSÖNLICHKEIT
-
-### F57: Wie viel von dir als Person steckt in deinen Texten?
-
-Es kann alles publiziert werden. Analoge Vorgehensweise. Wein trinken. Was den Menschen ausmacht.
-
-### F58: Wie viel Verletzlichkeit zeigst du?
-
-Ja, Unsicherheit ist wichtig. Aber auch konsequente Haltung und Werte.
-
-### F59: Gib mir ein Beispiel für Unsicherheit vs. konsequente Haltung.
-
-[Kein konkretes Beispiel gegeben]
-
-### F60: Wie reagierst du auf Kritik an deinen Texten oder Positionen?
-
-Ich verteidige es, wenn es sinnvoll ist und mich nicht überzeugt. Ich passe meine Position an, wenn das Argument überzeugend ist.
-
-### F61: Wie klingst du, wenn du verteidigst?
-
-Ich will Diskussionen zu einem Ergebnis bringen. Nicht einfach „agree to disagree" – sondern Klärung.
-
-### F62: Wie sieht dieses „Ergebnis" aus?
-
-Am besten ist es, nicht den minimalen Konsens zu finden. Die richtige Alternative auswählen und durchziehen.
-
-**Prinzip:** Führung, nicht Moderation. Entscheidungen, nicht Kompromisse, die niemanden glücklich machen.
-
-### F63: Wie klingst du, wenn du begeistert bist? Bei welchen Themen?
-
-- Zukunftsthemen
-- KI-Leadership
-- Zukunft der Arbeit
-
-### F64: Was ändert sich in deinem Schreibstil bei Begeisterung?
-
-Kurze Sätze. Ergänzt durch Fragen. Sachlich in Empfehlungen.
-
-**Erkenntnis:** Auch in der Begeisterung kontrolliert – keine Ausrufezeichen, kein überschwänglicher Ton. Die Begeisterung zeigt sich durch Klarheit und Handlungsorientierung.
-
-### F65-66: Wie drückst du Skepsis oder Ärger aus, ohne beleidigend zu werden?
-
-Offene Fragen zur Selbsterkenntnis. Der Leser soll selbst zum Schluss kommen.
-
-**Alternatives Muster:**
-„Dies kann man so machen. Es ist allerdings nicht erfolgsversprechend, dass..."
-
-**Muster:** Erst anerkennen, dann untergraben. „Das kann man machen – aber es wird nicht funktionieren." Diplomatisch, aber mit klarer Wertung.
-
-### F67-70: Rhetorische Fragen oder Aussagesätze?
-
-**Erkenntnis aus dem Interview:** Andreas sagt, er nutzt rhetorische Fragen – aber sein natürlicher Stil sind klare, direkte Feststellungen:
-- „Das Ergebnis war vorhersehbar."
-- „Ohne gute Daten wird auch die KI keine Wunder vollbringen können."
-
-Das sind Urteile, keine Fragen. Andreas ist kein sokratischer Fragesteller – er bezieht Position.
-
-### F71: Wie viele Fragezeichen findest du pro Artikel?
-
-Zwei, drei – dann besser Erfahrungen oder Empfehlungen, wie man es machen sollte.
-
-**Muster:** Die Fragen sind Türöffner, aber der Kernstil sind Feststellungen und Handlungsempfehlungen.
-
----
-
-## ABSCHNITT 5: STRUKTURELLE VORLIEBEN
-
-### F72: Wie strukturierst du einen typischen Blog-Artikel inhaltlich?
-
-**Problem → Analyse → Lösung**
-
-### F73: Wie viel Raum gibst du jedem Teil?
-
-Gleichmäßig verteilt.
-
-### F74: Gibt es Artikel, in denen du keine Lösung anbietest?
-
-Nein. Jeder Artikel endet mit einer Empfehlung, einem Weg nach vorn.
-
-**HARTES GESETZ:** Immer mit Lösung/Ausblick enden.
-
-### F75: Wie beginnst du den Lösungsteil?
-
-**Standardbrücke:** „Wie können wir die dargestellten Probleme lösen?"
-
-Ein „wir", das den Leser einbezieht. Nicht belehrend von oben herab, sondern gemeinsam nach vorn.
-
-### F76-77: Wie oft nutzt du „wir" vs. „Sie" vs. „du" in deinen Texten?
-
-Aktuell eher „Sie", aber die neue Zielgruppe und der persönliche Newsletter werden eher „Du" verwenden.
-
-### F78: Wenn du auf „Du" wechselst – ändert sich dann auch dein Ton?
-
-Inhalt bleibt gleich, nur die Anrede verändert sich.
-
-### F79-80: Wie gehst du mit Zwischenüberschriften um?
-
-Zwischenüberschriften sind gut. Eher provokant mit einer einleitenden Frage.
-
-### F81: Wie lang sind deine Zwischenüberschriften?
-
-Die Struktur ohne Zahlen. Kann ein ganzer Satz sein, aber besser sind einige Worte.
-
-**STARKE TENDENZ:** Keine Nummerierungen („1. Das Problem"), kurze Überschriften als Fragen.
-
----
-
-## ABSCHNITT 6: HARTE NEINS
-
-### F82: Über welche Themen würdest du nie schreiben?
-
-- Liebe
-- Sexuelle Anmutungen
-- Venture-Capitalist-Sprache (Series A, etc.) – nicht weil es schlecht ist, sondern weil ich keine Erfahrung damit habe
-- Jugendliche Sprache und deren Interpretationen
-
-### F83: Was genau stört dich an Venture-Capital-Themen?
-
-Ich meine nur, dass ich nichts vom Investment-Geschäft verstehe bzw. Erfahrungen darin habe. Nicht das generelle Investieren und Skalieren von Start-ups oder Piloten. Die Methoden schon, aber nicht die einzelnen Begriffe wie „Series A Investment" o.ä.
-
-**Prinzip:** Nur über Dinge schreiben, von denen ich praktische Erfahrung habe.
-
-### F84: Welche Herangehensweisen oder Formate würdest du nie wählen?
-
-- Persönliche Angriffe auf namentlich genannte Personen
-- Extrem politisch geprägte Aussagen
-- Rechts- oder linksradikale Parolen
-
-**HARTES GESETZ:** Keine Namen bei Kritik. Typen kritisieren, nicht Personen.
-
-### F85: Wo genau liegt die Grenze bei Politik?
-
-Digitalpolitik kritisieren ist okay, aber nicht Parteien.
-
-### F86: Gibt es Tonarten, die du nie anschlagen würdest?
-
-**NIE:**
-- Wütend
-- Resigniert
-- Belehrend von oben herab
-
-**IMMER:**
-- Aufmunternd
-- Lösungssuchend
-- Mutig nach vorne gehen
-- Schnell Erfahrungen machen und kontinuierlich lernen
-
-### F87: Gibt es Grenzen bei der Selbstdarstellung?
-
-**TABU:**
-- Enge familiäre Details
-- Gesundheitliches
-- Finanzielle Details
-- Konflikte mit Vorgesetzten (außer sie werden als allgemeines Muster/Beispiel verwendet)
-
-### F88: Würdest du je einen Text schreiben, der nur Probleme beschreibt – ohne Lösung?
-
-Ich schreibe dann schon darüber, gebe aber alternative Wege an, ohne die Lösung zu kennen. Der Aufruf an die Community, ihre Erfahrungen zu schildern zur Problemlösung oder Reflexion der Situation, ist okay.
-
-**Klarstellung:** Keine Artikel ohne Ausblick – aber der Ausblick kann auch eine Einladung zur gemeinsamen Suche sein.
-
-### F89: Würdest du je bezahlte Inhalte schreiben – Sponsored Posts, Advertorials?
-
-Im Aufbau des eigenen Blogs zunächst keine Monetarisierung. Nach dem Pensionsbeginn für Inhalte ja. Sponsoring nein, da es meine neutrale Meinung bleiben soll und nicht geprägt durch wohlwollende Advertorials.
-
-**HARTES GESETZ:** Keine gesponserten Meinungen. Unabhängigkeit vor Monetarisierung.
-
-### F90: Würdest du je öffentlich jemanden loben – ein Unternehmen, ein Tool, eine Person?
-
-Ja, insbesondere wenn ich es auch selbst nutze und Erfahrungen damit habe. In meinen Workflows verwende ich Tools, die ich auch gerne darstellen kann und auch deren Konfigurationen für die persönliche Produktivität erläutere.
-
-**Prinzip:** Empfehlungen nur basierend auf eigener Nutzung – keine theoretischen Lobpreisungen.
-
-### F91: Gibt es eine Länge, unter oder über der du nie schreiben würdest?
-
-Alles erlaubt, keine Begrenzung. Am besten jedoch Artikel, die 2-3 Seiten enthalten, oder bei Bedarf länger.
-
----
 
 ## ABSCHNITT 7: WARNZEICHEN
 
-### F92: Was lässt dich sofort einem Inhalt misstrauen?
 
-- Nur Buzzwords
-- Allgemeinplätze
-- Autoren, die aus eigener Erfahrung es gar nicht erlebt haben können
-
-### F93: Wie prüfst du, ob jemand etwas erlebt haben kann?
-
-Junge Führungskräfte, die im Halbjahreszyklus die Firmen wechseln und dann über Veränderungsprozesse sprechen, die mehrere Jahre dauern.
-
-**Die Mathematik muss stimmen.**
-
-### F94: Was sind sprachliche Warnzeichen?
-
-- Zu viele Fachbegriffe ohne Erklärung
-- Superlative
-- Wenige konkrete Beispiele
-- Langatmige Ausführungen, die nur wiederholend sind
-
-**Prinzip:** „Es einfach zu beschreiben und kurz auf den Punkt bringen ist die wahre Kunst."
 
 ### F95: Was sind Warnzeichen bei Präsentationen oder Vorträgen?
 
