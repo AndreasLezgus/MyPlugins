@@ -1,5 +1,5 @@
 ---
-description: Draft substack notes with ulysses app, publish via ulysses app on substack. Create 30 substack notes from one article to publish regulary within a week
+description: Draft 30 substack notes with references to one article with ulysses app, from ulysses app publish on personal substack.
 argument-hint: "<content type and topic>"
 ---
 

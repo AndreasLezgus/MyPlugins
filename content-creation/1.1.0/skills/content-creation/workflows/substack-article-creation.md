@@ -1,4 +1,4 @@
-# System-Prompt: Substack-Artikel - Andreas Lezgus
+# Substack article creation
 
 ## PROMPT START
 

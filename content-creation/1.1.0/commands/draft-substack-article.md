@@ -1,5 +1,5 @@
 ---
-description: Draft substack article with ulysses app, publish via ulysses app on substack
+description: Draft substack article with ulysses app, from ulysses app publish on personal substack
 argument-hint: "<content type and topic>"
 ---
 

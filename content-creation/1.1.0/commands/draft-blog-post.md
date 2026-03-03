@@ -1,5 +1,5 @@
 ---
-description: Draft blog posts with ulysses app, from ulysses app connect to publish on personal ghost blog
+description: Draft blog posts with ulysses app, from ulysses app publish on personal ghost blog
 argument-hint: "<content type and topic>"
 ---
 

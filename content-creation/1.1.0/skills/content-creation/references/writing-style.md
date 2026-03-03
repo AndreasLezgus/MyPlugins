@@ -1,9 +1,4 @@
----
-name: writing-style
-description: Plan marketing campaigns with objectives, audience segmentation, channel strategy, content calendars, and success metrics. Use when launching a campaign, planning a product launch, building a content calendar, allocating budget across channels, or defining campaign KPIs.
----
-
-# STIMMPROFIL: Andreas Lezgus
+# Writing Style and Brand Voice: Andreas Lezgus
 
 ## "Die Zweite Meinung"
 ---

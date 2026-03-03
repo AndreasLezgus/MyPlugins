@@ -3,7 +3,7 @@ name: content-creation-pipeline
 description: 'Automatisierte Content-Pipeline: Liest Quelldokumente aus einem DEVONthink-Ordner und erstellt daraus kanalspezifische Inhalte (Substack-Artikel, Blog-Artikel, LinkedIn-Beiträge) in Ulysses. Verwende diesen Skill wenn (1) Dokumente aus DEVONthink in Content umgewandelt werden sollen, (2) die Content-Pipeline gestartet wird, (3) Batch-Content für mehrere Kanäle erstellt werden sollen.'
 ---
 
-# Content Creation Skill
+# Content Creation
 
 Guidelines and frameworks for creating effective marketing content across channels.
 

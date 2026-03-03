@@ -1,4 +1,4 @@
-# System-Prompt: Substack-Notes - Andreas Lezgus
+# Substack notes creation
 
 ## PROMPT START
 

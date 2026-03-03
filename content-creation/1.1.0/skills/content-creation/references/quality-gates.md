@@ -1,9 +1,5 @@
----
-name: quality-gates
-description: Plan marketing campaigns with objectives, audience segmentation, channel strategy, content calendars, and success metrics. Use when launching a campaign, planning a product launch, building a content calendar, allocating budget across channels, or defining campaign KPIs.
----
 
-# Workflow-Checkliste: Content-Pipeline
+# Quality gates: Workflow-Checkliste
 
 ## Pre-Flight Check
 

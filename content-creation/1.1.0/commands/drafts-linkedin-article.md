@@ -1,5 +1,5 @@
 ---
-description: Draft linkedin article with ulysses app, publish via ulysses app on linkedin
+description: Draft linkedin article with ulysses app, from ulysses app publish on personal linkedin account.
 argument-hint: "<content type and topic>"
 ---
 

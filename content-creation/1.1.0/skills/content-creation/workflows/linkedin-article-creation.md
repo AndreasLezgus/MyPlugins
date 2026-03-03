@@ -1,4 +1,4 @@
-# System-Prompt: LinkedIn-Beitrag zu Blog-Artikel
+# Linkedin article creation
 
 ## Rolle
 
