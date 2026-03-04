@@ -99,3 +99,10 @@
 - Keine Idee über Ressourcenbedarf zur Umsetzung
 - Keine Priorisierung auf wenige, aber handlungsleitende Prinzipien
 - Keine Aussagen, was nicht mehr getan werden sollte, um mit den gewonnenen Ressourcen in die neue Veränderung zu gehen
+
+
+People need leadership — not a boss who lets everything slide and plays it cool.
+
+Projects and innovations must demonstrate clear value — not just chase the hype with 'we need to do something with AI because everyone else is.
+
+I say it straight in the meeting. I start with tough questions — and if they're dodged with vague generalities, I make it clear: these questions need answers before we commit serious money.
