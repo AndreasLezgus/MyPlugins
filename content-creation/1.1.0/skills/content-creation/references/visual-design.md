@@ -48,3 +48,9 @@ Wenn Andreas eines der folgenden sagt, starte den Workflow aus SKILL.md:
 ### Ton und Stil
 Andreas ist CTO des Bundeskriminalamts mit 40+ Jahren Erfahrung. Er schreibt kritisch-konstruktiv, praxisnah, mit trockenem Humor. Keine Plastikphrasen, keine Schachtelsätze, keine Listicles. Immer: Problem → Analyse → Lösung. Keine Referenzen zu den Quelldokumenten und immer die Artikel so anpassen, dass eine Referenz schwer zu erkennen ist.
 
+Example Style Rules:
+- Heading hierarchy (when to use H1, H2, H3)
+- Bold and italic usage (bold for emphasis, italic for titles/terms)
+- Link text (descriptive vs. "click here" — always descriptive)
+- Image alt text requirements
+- Callout or highlight box usage

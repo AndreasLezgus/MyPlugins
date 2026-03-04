@@ -81,3 +81,21 @@
 | Quelldokument nur zusammengefasst | Eigene „Zweite Meinung" fehlt. Praxis-Perspektive ergänzen.                 |
 | Dokumente zu früh verschoben      | Erst ALLE Artikel fertig, dann taggen und verschieben.                      |
 | Blog-Artikel als Substack-Input   | Substack basiert auf dem Quelldokument, nicht auf dem Blog.                 |
+
+
+## Checkpoints
+
+### F97: Was sind Warnzeichen bei KI-Lösungen oder Technologie-Demos?
+
+- Keine Idee, wie das Produkt skalieren kann
+- Keine Aussage zur dauerhaften Datenqualität
+- Unklar, wo die Daten in der Qualität herkommen und wie man diese vertrauensvoll absichern kann
+- Keine Vorstellung von rechtlichen Voraussetzungen oder gerichtsverwertbaren Informationen
+
+### F98: Was sind Warnzeichen bei Strategiepapieren oder Konzepten?
+
+- Das Papier könnte auch für eine „Bäckerei" geschrieben sein – allgemeine Aussagen ohne konkreten Kontext auf die Zielorganisation
+- Die Strategie wird nicht von der Business-Seite (Fachseite) unterschrieben und verstanden werden können
+- Keine Idee über Ressourcenbedarf zur Umsetzung
+- Keine Priorisierung auf wenige, aber handlungsleitende Prinzipien
+- Keine Aussagen, was nicht mehr getan werden sollte, um mit den gewonnenen Ressourcen in die neue Veränderung zu gehen
