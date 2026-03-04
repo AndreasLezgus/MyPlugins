@@ -1,0 +1,99 @@
+{
+  "name": "zweite-meinung-content-pipeline",
+  "version": "1.0.0",
+  "display_name": "Die Zweite Meinung – Content Pipeline",
+  "description": "Vollautomatische Content-Pipeline: Gartner PDF → Blog DE → LinkedIn → Substack EN → 30 Notes → Newsletter",
+  "author": "Andreas Lezgus",
+  "icon": "📝",
+
+  "agent": "agent.md",
+
+  "commands": [
+    {
+      "id": "full-pipeline",
+      "name": "Vollständige Pipeline starten",
+      "description": "Analysiert ein Gartner PDF aus DEVONthink und erstellt alle Content-Formate",
+      "file": "commands/00-full-pipeline.md",
+      "shortcut": "⌘⇧P"
+    },
+    {
+      "id": "analyze-only",
+      "name": "Nur Analyse (Content Core)",
+      "description": "Analysiert das Gartner PDF und erstellt den Content Core – ohne Drafts",
+      "file": "commands/01-analyze-gartner.md"
+    },
+    {
+      "id": "blog-only",
+      "name": "Nur Blog DE",
+      "description": "Erstellt den Blog-Artikel auf Basis eines vorhandenen Content Core",
+      "file": "commands/02-blog-draft-de.md"
+    },
+    {
+      "id": "linkedin-only",
+      "name": "Nur LinkedIn Post",
+      "description": "Erstellt den LinkedIn Post auf Basis eines vorhandenen Blog-Drafts",
+      "file": "commands/03-linkedin-post.md"
+    },
+    {
+      "id": "substack-only",
+      "name": "Nur Substack Artikel EN",
+      "description": "Erstellt den Substack-Artikel auf Basis eines vorhandenen Content Core",
+      "file": "commands/04-substack-article-en.md"
+    },
+    {
+      "id": "notes-only",
+      "name": "Nur 30 Substack Notes",
+      "description": "Erstellt 30 Substack Notes auf Basis eines vorhandenen Substack-Artikels",
+      "file": "commands/05-substack-notes.md"
+    },
+    {
+      "id": "newsletter",
+      "name": "Freitags-Newsletter erstellen",
+      "description": "Erstellt Newsletter DE (Ghost) und EN (Substack) aus der Wochensproduktion",
+      "file": "commands/06-newsletter.md"
+    }
+  ],
+
+  "triggers": [
+    {
+      "id": "devonthink-auto",
+      "type": "file_watch",
+      "description": "Automatischer Start wenn neues PDF in DEVONthink-Gruppe landet",
+      "watch_path": "~/Library/Application Support/DEVONthink 3/",
+      "filter": "Gartner-Inbox",
+      "on_match": "full-pipeline",
+      "setup_guide": "triggers/hazel-setup.md"
+    },
+    {
+      "id": "manual",
+      "type": "manual",
+      "description": "Manueller Start über Cowork Interface",
+      "command": "full-pipeline"
+    }
+  ],
+
+  "integrations": {
+    "devonthink": {
+      "source_group": "Gartner-Inbox",
+      "processed_group": "Gartner-Verarbeitet",
+      "mcp_tool": "devonthink"
+    },
+    "ulysses": {
+      "blog_de_ki_fuehrung_group": "Die Zweite Meinung/Blog DE/KI-Führung",
+      "blog_de_quick_checks_group": "Die Zweite Meinung/Blog DE/Quick Checks",
+      "blog_de_kritisches_denken_group": "Die Zweite Meinung/Blog DE/Kritisches Denken",
+      "linkedin_group": "Die Zweite Meinung/LinkedIn",
+      "substack_en_group": "Die Zweite Meinung/Substack EN",
+      "notes_group": "Die Zweite Meinung/Substack Notes",
+      "newsletter_de_group": "Die Zweite Meinung/Newsletter DE",
+      "newsletter_en_group": "Die Zweite Meinung/Newsletter EN",
+      "mcp_tool": "ulysses"
+    }
+  },
+
+  "skills": [
+    "skills/writing-style.md",
+    "skills/quality-gates.md",
+    "skills/content-core-template.md"
+  ]
+}
