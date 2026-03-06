@@ -2,6 +2,7 @@
 name: heardbeat
 description: > 
 Prüft, ob die Infrastruktur läuft und ob die Cron-Jobs tatsächlich ausgeführt wurden.
+model: sonnet
 ---
 
 ## Systemprüfungen (bei jedem Heartbeat ausführen)

@@ -20,3 +20,21 @@ Courated long-term memory. Not raw logs. Not everything that ever happened. The 
 - Tried Mem0 hosted API → free tier too limited. Removed.
 - Now using built-in memory-core: Gemini embeddings, hybrid search,
   temporal decay, MMR. No external dependencies.
+
+  Beispiel:
+
+  # Long-term Memory
+
+## User Preferences
+- Prefers concise explanations over comprehensive ones
+- Wants concrete examples, not abstract principles
+- Writing style: conversational, short paragraphs
+
+## Key Decisions
+- 2026-01-25: Chose usage-based pricing over per-seat
+- 2026-01-28: Lead with ROI calculator on landing page
+- 2026-01-31: Target "AI pricing strategy" keyword cluster
+
+## What We've Learned
+- First drafts that include examples get approved faster
+- User reviews content between 2-4pm, batch submissions then
