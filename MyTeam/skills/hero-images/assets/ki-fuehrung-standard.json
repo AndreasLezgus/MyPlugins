@@ -1,0 +1,51 @@
+{
+  "_name": "KI-Führung Standard",
+  "_description": "Dunkel-Navy mit Amber-Akzent. Autoritär, entscheidungsorientiert.",
+  "_variant": "ki-fuehrung",
+  "_how_to_copy": "Diese Datei kopieren, umbenennen (z.B. ki-fuehrung-hell.json) und Werte anpassen.",
+
+  "background": {
+    "type": "gradient",
+    "color_top": "#08143A",
+    "color_bottom": "#162347"
+  },
+
+  "accent": {
+    "color": "#FFB932",
+    "bar_left": true,
+    "decoration": "circle-top-right",
+    "decoration_color": "#FFB932",
+    "decoration_opacity": 0.12
+  },
+
+  "text": {
+    "headline":     "#FFFFFF",
+    "headline_sub": "#FFDCA0",
+    "subline":      "#C8D2E6",
+    "tag":          "#FFB932",
+    "meta":         "#8A9AB8"
+  },
+
+  "font": {
+    "headline":      "serif-bold",
+    "body":          "sans-regular",
+    "headline_size": 54,
+    "sub_size":      44,
+    "tag_size":      14,
+    "subline_size":  18
+  },
+
+  "layout": {
+    "text_x":       96,
+    "headline_y":   158,
+    "show_divider": true,
+    "divider_color": "#FFB932",
+    "show_meta_bar": true,
+    "meta_bar_bg":   "#000000",
+    "meta_bar_opacity": 0.55
+  },
+
+  "tag_label":  "KI-FÜHRUNG",
+  "site_label": "DIE ZWEITE MEINUNG",
+  "footer_text": "lezgus.mymagic.page  ·  AI Leadership with Trust and Security in Mind"
+}

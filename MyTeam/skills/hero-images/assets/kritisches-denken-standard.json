@@ -1,0 +1,52 @@
+{
+  "_name": "Kritisches Denken Standard",
+  "_description": "Dunkel-Charcoal mit Rot-Akzent. Kritisch, kontrastierend.",
+  "_variant": "kritisches-denken",
+  "_how_to_copy": "Diese Datei kopieren, umbenennen (z.B. kritisches-denken-blau.json) und Werte anpassen.",
+
+  "background": {
+    "type": "gradient",
+    "color_top": "#121216",
+    "color_bottom": "#1A1A22"
+  },
+
+  "accent": {
+    "color": "#DC4632",
+    "bar_left": true,
+    "decoration": "triangle-top-right",
+    "decoration_color": "#DC4632",
+    "decoration_opacity": 0.15
+  },
+
+  "text": {
+    "headline":     "#FFFFFF",
+    "headline_sub": "#F0A064",
+    "subline":      "#B4B9C3",
+    "tag":          "#DC4632",
+    "meta":         "#8C9199"
+  },
+
+  "font": {
+    "headline":      "serif-bold",
+    "body":          "sans-regular",
+    "headline_size": 50,
+    "sub_size":      38,
+    "tag_size":      14,
+    "subline_size":  17
+  },
+
+  "layout": {
+    "text_x":        96,
+    "headline_y":    152,
+    "show_divider":  true,
+    "divider_color": "#DC4632",
+    "show_warning_icon": true,
+    "show_meta_bar": true,
+    "meta_bar_bg":   "#000000",
+    "meta_bar_opacity": 0.63
+  },
+
+  "tag_label":  "KRITISCHES DENKEN",
+  "site_label": "DIE ZWEITE MEINUNG",
+  "footer_text": "lezgus.mymagic.page  ·  AI Leadership with Trust and Security in Mind"
+}

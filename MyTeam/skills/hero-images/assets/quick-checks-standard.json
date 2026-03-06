@@ -1,0 +1,54 @@
+{
+  "_name": "Quick Checks Standard",
+  "_description": "Hell-grau mit Teal-Akzent. Praktisch, checklisten-orientiert.",
+  "_variant": "quick-checks",
+  "_how_to_copy": "Diese Datei kopieren, umbenennen (z.B. quick-checks-dunkel.json) und Werte anpassen.",
+
+  "background": {
+    "type": "gradient",
+    "color_top": "#F5F8FA",
+    "color_bottom": "#DDE5EC"
+  },
+
+  "accent": {
+    "color": "#00968C",
+    "bar_left": true,
+    "bar_width": 8,
+    "decoration": "checklist-right",
+    "decoration_color": "#00968C",
+    "decoration_opacity": 0.18
+  },
+
+  "text": {
+    "headline":     "#141E2D",
+    "headline_sub": "#00968C",
+    "subline":      "#4A5568",
+    "tag":          "#00968C",
+    "meta":         "#5A6677"
+  },
+
+  "font": {
+    "headline":      "serif-bold",
+    "body":          "sans-regular",
+    "headline_size": 52,
+    "sub_size":      38,
+    "tag_size":      14,
+    "subline_size":  18
+  },
+
+  "layout": {
+    "text_x":        30,
+    "headline_y":    152,
+    "show_divider":  true,
+    "divider_color": "#00968C",
+    "show_count_badge": true,
+    "badge_bg":      "#00968C",
+    "show_meta_bar": true,
+    "meta_bar_bg":   "#141E2D",
+    "meta_bar_opacity": 0.10
+  },
+
+  "tag_label":  "QUICK CHECK",
+  "site_label": "DIE ZWEITE MEINUNG",
+  "footer_text": "lezgus.mymagic.page  ·  AI Leadership with Trust and Security in Mind"
+}

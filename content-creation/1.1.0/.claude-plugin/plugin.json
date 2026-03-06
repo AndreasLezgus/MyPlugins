@@ -1,8 +1,0 @@
-{
-  "name": "content-creation",
-  "version": "1.1.0",
-  "description": "Analyze provided content, create a blog post, create a substack artikel, create substack notes, create linkedIn article. Maintain my brand voice consistency, my writing style, my quality gates, my visual style.",
-  "author": {
-    "name": "Andreas Lezgus"
-  }
-}
