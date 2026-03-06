@@ -1,4 +1,4 @@
-# Die Zweite Meinung – Blog Content Pipeline 
+# MyTeam – Agents for Andreas Lezgus
 
 **Version 1.0.0** | Autor: Andreas Lezgus
 
@@ -10,13 +10,15 @@ Analysiert z.B. Gartner reserach aus Devonthink und erstellt folgende Entwürfe 
 - 30 Substack Notes mit Verweis auf den Substack Artikel in Englisch
 - 3 Hero-Imgaes für die drei Blog-Artikel
 
+Weitere Agenten für den Tagesalltag:
+
 ---
 
 ## Installation
 
 ### Plugin installieren
 
-```Download zweite-meinung-plugin.zip un hochladen in das Claude Cowork Plugin Verzeichnis
+```Download myteam-plugin.zip und hochladen in das Claude Cowork Plugin Verzeichnis
 ```
 
 Claude Code neu starten, damit das Plugin aktiv wird.
