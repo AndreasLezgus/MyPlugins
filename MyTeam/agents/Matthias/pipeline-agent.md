@@ -17,7 +17,7 @@ Dieser Agent führt die vollständige Content-Pipeline durch.
 
 ## Aktivierung
 
-Wird über `/pipeline` oder durch direkten Aufruf gestartet.
+Wird über `/content` oder durch direkten Aufruf gestartet.
 
 ## Ablauf
 

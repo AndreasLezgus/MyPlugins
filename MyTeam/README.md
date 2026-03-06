@@ -29,7 +29,7 @@ Claude Code neu starten, damit das Plugin aktiv wird.
 
 | Command       | Beschreibung |
 |---------------|--------------|
-| `/pipeline`   | Vollständige Pipeline starten (alle Schritte) |
+| `/content`   | Vollständige Pipeline starten (alle Schritte) |
 | `/newsletter` | Newsletter DE + EN erstellen |
 
 ---

@@ -10,7 +10,7 @@ Neue Templates können ohne technisches Wissen erstellt werden.
 1. Eine bestehende JSON-Datei kopieren (z.B. `ki-fuehrung-standard.json`)
 2. Umbenennen: `ki-fuehrung-dunkel.json` oder `mein-thema-blau.json`
 3. Werte anpassen (Farben, Schriftgrößen, Layout – alles in der Datei kommentiert)
-4. Im Pipeline-Command den Template-Namen eintragen
+4. Im Content-Command den Template-Namen eintragen
 
 ---
 
@@ -192,7 +192,7 @@ Es stehen zwei Schriftarten zur Verfügung:
 
 ## Template im Pipeline-Command aktivieren
 
-In `commands/00-full-pipeline.md`, Schritt 8, die Template-Namen anpassen:
+In `commands/content.md`, Schritt 8, die Template-Namen anpassen:
 
 ```
 hero_template_ki_fuehrung:       ki-fuehrung-standard
