@@ -2,15 +2,18 @@
 
 **Version 1.0.0** | Autor: Andreas Lezgus
 
-Vollautomatische Content-Pipeline: 
-Analysiert z.B. Gartner reserach aus Devonthink und erstellt folgende Entwürfe mit meinem spezifischen Brand Guide:
+Vollautomatische Agenten als Team-Mitglieder: 
+
+1. Matthias: Analysiert z.B. Gartner reserach aus Devonthink und erstellt folgende Entwürfe mit meinem spezifischen Brand Guide:
+
 - 3 Blog-Artikel für die Kategorien: KI-Führung, Quick Checks und Kritisches Denken in Deutsch
 - 1 LinkedIN Artikel mit Verweis auf die Blog-Artikel in Deutsch
 - 1 Substack Artikel in Englisch
 - 30 Substack Notes mit Verweis auf den Substack Artikel in Englisch
 - 3 Hero-Imgaes für die drei Blog-Artikel
 
-Weitere Agenten für den Tagesalltag:
+
+2. Nadina: Analysiert die in der letzten Woche eröffentlichten 
 
 ---
 
