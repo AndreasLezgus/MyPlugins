@@ -1,4 +1,4 @@
-# MyTeam – Agents for Andreas Lezgus
+# MyTeam – Agenten für Andreas Lezgus
 
 **Version 1.0.0** | Autor: Andreas Lezgus
 
