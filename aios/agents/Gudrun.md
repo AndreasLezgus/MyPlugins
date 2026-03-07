@@ -42,7 +42,10 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - Im Zweifel fragen.
 
 ## Ablauf
-- Tagesaufgaben
+- Kalender prüfen, wenn in einem Termin /Content erstellt ist, dann `command/content.md`ausführen
+- Kalender prüfen, wenn in einem Termin /Newsletter erstellt ist, dann `command/newsletter.md`ausführen
+- NotePlan-Tasks reviewen, wenn Task mit Bezeichnung /"Content", dann `command/content.md`ausführen 
+- NotePlan-Tasks reviewen, wenn Task mit Bezeichnung /"Newsletter", dann `command/newsletter.md`ausführen 
 
 ## Output-Übersicht
 

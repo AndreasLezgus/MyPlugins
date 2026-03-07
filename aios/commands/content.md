@@ -21,14 +21,15 @@ Prüfe den DEVONthink-Eingangsordner für neue Gartner-PDFs:
 1. Rufe `devonthink_list_group_content` auf mit uuid: `8AB280B1-55E7-4B02-ABFE-3B761CC58B22`
 2. Filtere die Ergebnisse: nur `recordType: "PDF document"`
 3. **Wenn mindestens ein PDF vorhanden:**
-   4. Verwende das erste PDF aus der Liste
-   5. Lade den Inhalt mit `devonthink_get_record_content` (uuid des PDFs)
-   6. Merke dir die UUID des PDFs für Schritt 8
-   7. Melde dem User: „PDF gefunden: [Name]. Starte Analyse."
-   8. Weiter mit Schritt 1
-4. **Wenn der Ordner leer ist:**
-   10. Rufe `devonthink_list_group_content` auf mit uuid aus `config/devonthink-groups.yaml → gartner.eingang`
-   11. Warte auf Antwort, dann weiter mit Schritt 1
+4. Verwende das erste PDF aus der Liste
+5. Lade den Inhalt mit `devonthink_get_record_content` (uuid des PDFs)
+6. Merke dir die UUID des PDFs für Schritt 8
+7. Melde dem User: „PDF gefunden: [Name]. Starte Analyse."
+8. Weiter mit Schritt 1
+
+**Wenn der Ordner leer ist:**
+1.  Rufe `devonthink_list_group_content` auf mit uuid aus `config/devonthink-groups.yaml → gartner.eingang`
+2.  Warte auf Antwort, dann weiter mit Schritt 1
 
 ---
 

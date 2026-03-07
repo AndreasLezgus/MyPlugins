@@ -44,15 +44,9 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - Im Zweifel fragen.
 
 ## Ablauf
-1. Lade `skills/content-drafts/SKILL.md` Skill → analysiere PDF, erstelle Content Core
-2. Warte auf explizite Freigabe des Content Core durch den User
-3. Erstelle Blog DE (3 Varianten) mit Quality Gates nach jeder Variante
-4. Erstelle LinkedIn (3 Varianten) mit Quality Gate
-5. Erstelle Substack EN Artikel
-6. Erstelle 30 Substack Notes EN
-7. Lade `skills/hero-images/SKILL.md` Skill → generiert 3 Hero Images
-8. Verschiebe PDF in DEVONthink (siehe `config/devonthink-groups.yaml → gartner.archiv`)
-9. Gebe Abschlussbericht aus
+1. Folgedem Ablauf in `commands/content.md`
+
+2.  Gebe Abschlussbericht aus
 
 ## Output-Übersicht
 - 3 Blog-Artikel DE (Ulysses)
