@@ -11,18 +11,9 @@ Lese zunächst folgende Skills für Stil und Qualitätsanforderungen:
 - `skills/gartner-pipeline/references/content-core-template.md`
 
 ---
----
 
-## WICHTIG – Ulysses Titel-Handling
-
-Beim Speichern in Ulysses mit `ulysses_new_sheet` wird der Titel automatisch
-aus der **ersten Markdown-Zeile** (`# Titel`) übernommen.
-**Rufe NIEMALS `ulysses_set_sheet_title` auf** – der MCP-Server leitet den
-erforderlichen `type`-Parameter nicht an die Ulysses-API weiter, was zu einem
-Fehler führt. Stelle stattdessen sicher, dass die erste Zeile des Contents
-immer den gewünschten Titel als H1-Heading enthält (`# Mein Titel`).
-
----
+## WICHTIG – MCP-Einschränkungen
+Lies vor der Ausführung `config/mcp-constraints.md` für bekannte API-Einschränkungen.
 
 ## SCHRITT 0 – PDF automatisch aus DEVONthink laden
 Prüfe den DEVONthink-Eingangsordner für neue Gartner-PDFs:
@@ -36,7 +27,7 @@ Prüfe den DEVONthink-Eingangsordner für neue Gartner-PDFs:
    7. Melde dem User: „PDF gefunden: [Name]. Starte Analyse."
    8. Weiter mit Schritt 1
 4. **Wenn der Ordner leer ist:**
-   10. Frage den User: „Kein neues Gartner-PDF im Eingangsordner gefunden. Bitte lade ein PDF hoch oder nenne mir den Titel/die UUID des Dokuments in DEVONthink."
+   10. Rufe `devonthink_list_group_content` auf mit uuid aus `config/devonthink-groups.yaml → gartner.eingang`
    11. Warte auf Antwort, dann weiter mit Schritt 1
 
 ---
@@ -90,7 +81,7 @@ Fokus: KI-Kompetenz für Führungskräfte – Entscheidungsfähigkeit ohne Exper
 Ghost-Tag: KI-Führung
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `aEabxcQsV6hz0jZ7F7jiaA`
+- group: siehe `config/ulysses-groups.yaml → blog_de.ki_fuehrung`
 - Titel: `[SEO-Titel] – KI-Führung – [DATUM]`
 
 ### SCHRITT 3b – Blog DE: Quick Checks
@@ -102,7 +93,7 @@ Empfehlungen in konkrete Ja/Nein-Prüfpunkte übersetzen.
 Jeder Punkt muss ohne technisches Vorwissen anwendbar sein.
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `Ji9rIHGlNVFhxSdZXacQEg`
+- group: siehe `config/ulysses-groups.yaml → blog_de.quick_checks`
 - Titel: `Quick Check: [Thema] – [DATUM]`
 
 ### SCHRITT 3c – Blog DE: Kritisches Denken
@@ -113,8 +104,8 @@ Ghost-Tag: Kritisches Denken
 Artikel als Gesprächspartner nutzen, nicht als Autorität.
 Explizit benennen: Was sieht der Artikel nicht? Welche Annahmen fehlen?
 
-Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `vuROqgmapR70lV49mty2lA`
+- Speichern in Ulysses mit `ulysses_new_sheet`:
+- group: siehe `config/ulysses-groups.yaml → blog_de.kritisches_denken`
 - Titel: `[Thema]: Warum [Annahme] die falsche Frage ist – [DATUM]`
 
 Fortschrittsbericht ausgeben (alle drei Varianten zusammen). Weiter mit Schritt 4.
@@ -133,7 +124,7 @@ Bezug: Blog-Artikel aus Schritt 3a
 Zielgruppe: C-Level und Senior Führungskräfte
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `qrJnA9hWVujo-yB_HNAdPQ`
+- group: siehe `config/ulysses-groups.yaml → linkedin.posts`
 - Titel: `LinkedIn KI-Führung – [DATUM]`
 
 ### SCHRITT 4b – LinkedIn: Quick Checks
@@ -142,7 +133,7 @@ Bezug: Blog-Artikel aus Schritt 3b
 Zielgruppe: Projektverantwortliche in Entscheidungssituationen
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `qrJnA9hWVujo-yB_HNAdPQ`
+- group: siehe `config/ulysses-groups.yaml → linkedin.posts`
 - Titel: `LinkedIn Quick Check – [DATUM]`
 
 ### SCHRITT 4c – LinkedIn: Kritisches Denken
@@ -151,7 +142,7 @@ Bezug: Blog-Artikel aus Schritt 3c
 Zielgruppe: Erfahrene Führungskräfte mit Skepsis-Kompetenz
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `qrJnA9hWVujo-yB_HNAdPQ`
+- group: siehe `config/ulysses-groups.yaml → linkedin.posts`
 - Titel: `LinkedIn Kritisches Denken – [DATUM]`
 
 Nach Erstellung aller drei: Quality Gate 3 Schnell-Check durchführen.
@@ -168,7 +159,7 @@ Schreibstil: `skills/writing-style/SKILL.md` → Abschnitt EN
 Nach Erstellung: Quality Gate 4 Schnell-Check durchführen.
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `WfAl6Ob7Qe6c_2K2IhnBFQ`
+- group: siehe `config/ulysses-groups.yaml → substack_en.artikel`
 - Titel: `[English Title] – [DATUM]`
 
 Fortschrittsbericht ausgeben. Weiter mit Schritt 6.
@@ -193,7 +184,7 @@ Verteilung:
 - 4x Konkreter Tipp / Handlungsempfehlung
 
 Alle 30 Notes in einzelnen Sheets (Beginnend mit Nummern im Namen mit 01-30) speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `1zd3tHuyCwmGRJn1iHTMcA`
+- group: siehe `config/ulysses-groups.yaml → substack_en.notes`
 - Titel: `Substack Notes – [THEMA] – [DATUM]`
 
 Fortschrittsbericht ausgeben. Weiter mit Schritt 7.
@@ -252,7 +243,7 @@ Fortschrittsbericht ausgeben. Weiter mit Schritt 8.
 
 Verschiebe das verarbeitete PDF in die Gartner-Hauptgruppe mit `devonthink_move_record`:
 - uuid: [UUID des PDFs aus Schritt 1]
-- destinationGroupUuid: `18B2F3AE-9D1E-448F-ABA2-236549FD71BA`  (50.01-Gartner)
+- destinationGroupUuid: siehe `config/devonthink-groups.yaml → gartner.archiv`
 
 Setze anschließend Tags mit `devonthink_add_tags`:
 - tags: `["Content-Pipeline-Fertig", "Blog-Erstellt", "LinkedIn-Erstellt", "Substack-Erstellt"]`

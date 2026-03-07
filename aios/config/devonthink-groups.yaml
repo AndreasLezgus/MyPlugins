@@ -1,0 +1,21 @@
+# DEVONthink Gruppen-UUIDs
+# Zentrale Referenz für alle Agenten und Commands.
+# Bei Änderungen NUR diese Datei anpassen.
+
+gartner:
+  eingang:
+    uuid: "8AB280B1-55E7-4B02-ABFE-3B761CC58B22"
+    label: "Gartner Eingangsordner (PDF-Scan)"
+    verwendung: "Schritt 0 der Content-Pipeline – neue PDFs erkennen"
+
+  archiv:
+    uuid: "18B2F3AE-9D1E-448F-ABA2-236549FD71BA"
+    label: "50.01-Gartner (Archiv)"
+    verwendung: "Schritt 8 der Content-Pipeline – verarbeitete PDFs ablegen"
+
+# Tags nach Verarbeitung
+pipeline_tags:
+  - "Content-Pipeline-Fertig"
+  - "Blog-Erstellt"
+  - "LinkedIn-Erstellt"
+  - "Substack-Erstellt"

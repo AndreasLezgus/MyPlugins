@@ -50,22 +50,10 @@ Vollständige Anleitung: `hero-images/IMPORT-GUIDE.md`
 ---
 
 ## Ulysses Gruppen-IDs
-
-| Gruppe | ID |
-|--------|----|
-| Blog DE / KI-Führung | `aEabxcQsV6hz0jZ7F7jiaA` |
-| Blog DE / Quick Checks | `Ji9rIHGlNVFhxSdZXacQEg` |
-| Blog DE / Kritisches Denken | `vuROqgmapR70lV49mty2lA` |
-| LinkedIN | `qrJnA9hWVujo-yB_HNAdPQ` |
-| Substack EN | `WfAl6Ob7Qe6c_2K2IhnBFQ` |
-| Substack Notes | `1zd3tHuyCwmGRJn1iHTMcA` |
-| Newsletter DE | `0Q-jME_qsk8pGVqIje_xSQ` |
-| Newsletter EN | `7_8DSLUtrezBJopbYRIkDA` |
+→ Siehe `config/ulysses-groups.yaml`
 
 ## DEVONthink
-
-PDF nach Verarbeitung → Gruppe `50.01-Gartner`
-UUID: `18B2F3AE-9D1E-448F-ABA2-236549FD71BA`
+→ Siehe `config/devonthink-groups.yaml`
 
 ## MCP Integrations
 

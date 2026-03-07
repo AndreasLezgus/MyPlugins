@@ -1,0 +1,42 @@
+# Ulysses Gruppen-IDs
+# Zentrale Referenz für alle Agenten und Commands.
+# Bei Änderungen NUR diese Datei anpassen.
+
+blog_de:
+  ki_fuehrung:
+    id: "aEabxcQsV6hz0jZ7F7jiaA"
+    label: "Blog DE / KI-Führung"
+    ghost_tag: "KI-Führung"
+
+  quick_checks:
+    id: "Ji9rIHGlNVFhxSdZXacQEg"
+    label: "Blog DE / Quick Checks"
+    ghost_tag: "Quick Checks"
+
+  kritisches_denken:
+    id: "vuROqgmapR70lV49mty2lA"
+    label: "Blog DE / Kritisches Denken"
+    ghost_tag: "Kritisches Denken"
+
+linkedin:
+  posts:
+    id: "qrJnA9hWVujo-yB_HNAdPQ"
+    label: "LinkedIn Posts"
+
+substack_en:
+  artikel:
+    id: "WfAl6Ob7Qe6c_2K2IhnBFQ"
+    label: "Substack EN / Artikel"
+
+  notes:
+    id: "1zd3tHuyCwmGRJn1iHTMcA"
+    label: "Substack EN / Notes"
+
+newsletter:
+  de:
+    id: "0Q-jME_qsk8pGVqIje_xSQ"
+    label: "Newsletter DE (Ghost)"
+
+  en:
+    id: "7_8DSLUtrezBJopbYRIkDA"
+    label: "Newsletter EN (Substack)"
