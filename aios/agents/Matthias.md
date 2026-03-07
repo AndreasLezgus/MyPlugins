@@ -6,9 +6,11 @@ model: sonnet
 color: magenta
 tools:
   - Read
+  - Edit
+  - Write
   - Glob
   - Grep
-maxTurns: 15
+  - Bash
 ---
 
 # matthias.md (agent)
