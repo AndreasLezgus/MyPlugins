@@ -1,5 +1,5 @@
 ---
-name: gartner-pipeline
+name: content-drafts
 description: Content-Pipeline für "Die Zweite Meinung" – analysiert Gartner-Research-PDFs und erstellt daraus Blog DE (3 Varianten), LinkedIn (3 Varianten), Substack EN und 30 Notes. Automatisch aktivieren wenn ein Gartner-PDF verarbeitet werden soll oder /content aufgerufen wird.
 ---
 
