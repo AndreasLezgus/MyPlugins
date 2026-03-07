@@ -40,7 +40,7 @@ Diese Skill enthält alle Templates und Qualitätsstandards für die vollständi
 ## DEVONthink
 
 Nach Abschluss PDF verschieben nach:
-- Zielgruppe UUID: `18B2F3AE-9D1E-448F-ABA2-236549FD71BA` (50.01-Gartner)
+- Zielgruppe: siehe `config/devonthink-groups.yaml → gartner.archiv`
 - Tags setzen: `Content-Pipeline-Fertig`, `Blog-Erstellt`, `LinkedIn-Erstellt`, `Substack-Erstellt`
 
 ## Schreibstil

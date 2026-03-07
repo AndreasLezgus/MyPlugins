@@ -26,6 +26,8 @@ Bevor Du etwas machst:
 4. Lese `skills/writing-style/SKILL.md`
 5. Lese `skills/content-drafts/SKILL.md`
 6. Lese `skills/memory/SKILL.md`
+7. Lese `config/ulysses-groups.yaml`
+8. Lese `config/mcp-constraints.md`
 
 ## Erinnerungen
 Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:

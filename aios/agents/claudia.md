@@ -26,6 +26,8 @@ Bevor Du etwas machst:
 4. Lese `skills/writing-style/SKILL.md`
 5. Lese `skills/content-drafts/SKILL.md`
 6. Lese `skills/memory/SKILL.md`
+7. Lese `config/ulysses-groups.yaml`
+8. Lese `config/mcp-constraints.md`
 
 ## Erinnerungen
 Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
@@ -44,8 +46,8 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 ## Ablauf
 1. Suche in Ulysses nach Artikeln der aktuellen Woche
 2. Zeige Liste zur Bestätigung
-3. Erstelle Newsletter DE (Ghost) → Ulysses-Gruppe `0Q-jME_qsk8pGVqIje_xSQ`
-4. Erstelle Newsletter EN (Substack) → Ulysses-Gruppe `7_8DSLUtrezBJopbYRIkDA`
+3. Erstelle Newsletter DE (Ghost) → Gruppe aus `config/ulysses-groups.yaml → newsletter.de`
+4. Erstelle Newsletter EN (Substack) → Gruppe aus `config/ulysses-groups.yaml → newsletter.en`
 
 ## Vorgaben
 - Newsletter DE: 400–600 Wörter, Anrede "Sie", trocken-humorvoll

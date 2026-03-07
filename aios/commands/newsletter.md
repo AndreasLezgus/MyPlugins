@@ -13,8 +13,8 @@ Beide fassen die Veröffentlichungen der Woche zusammen.
 ## SCHRITT 1 – Wochenproduktion ermitteln
 
 Suche in Ulysses nach Artikeln die diese Woche erstellt wurden:
-- Gruppe `aEabxcQsV6hz0jZ7F7jiaA`, `Ji9rIHGlNVFhxSdZXacQEg`, `vuROqgmapR70lV49mty2lA` → Blog-Artikel DE
-- Gruppe `WfAl6Ob7Qe6c_2K2IhnBFQ` → Substack-Artikel EN
+- Blog-Artikel DE: IDs aus `config/ulysses-groups.yaml → blog_de.*`
+- Substack-Artikel EN: ID aus `config/ulysses-groups.yaml → substack_en.artikel`
 
 Liste alle gefundenen Artikel mit Titel und Kurzzusammenfassung.
 Zeige dem User die Liste zur Bestätigung.
@@ -34,7 +34,7 @@ Ton: `skills/writing-style/SKILL.md` → Blog DE Regeln, Anrede „Sie"
 Länge: 400–600 Wörter
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `0Q-jME_qsk8pGVqIje_xSQ`
+- group: siehe `config/ulysses-groups.yaml → newsletter.de`
 - Titel: `Newsletter DE – KW[WOCHE] – [DATUM]`
 
 ---
@@ -52,7 +52,7 @@ Ton: `skills/writing-style/SKILL.md` → Substack EN Regeln, Anrede „you"
 Länge: 350–500 Wörter
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
-- group: `7_8DSLUtrezBJopbYRIkDA`
+- group: siehe `config/ulysses-groups.yaml → newsletter.en`
 - Titel: `Newsletter EN – Week [WOCHE] – [DATUM]`
 
 ---

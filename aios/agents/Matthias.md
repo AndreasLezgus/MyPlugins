@@ -26,6 +26,8 @@ Bevor Du etwas machst:
 4. Lese `skills/writing-style/SKILL.md`
 5. Lese `skills/content-drafts/SKILL.md`
 6. Lese `skills/memory/SKILL.md`
+7. Lese `config/ulysses-groups.yaml`
+8. Lese `config/mcp-constraints.md`
 
 ## Erinnerungen
 Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
@@ -49,7 +51,7 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 5. Erstelle Substack EN Artikel
 6. Erstelle 30 Substack Notes EN
 7. Lade `skills/hero-images/SKILL.md` Skill → generiert 3 Hero Images
-8. Verschiebe PDF in DEVONthink (UUID: `18B2F3AE-9D1E-448F-ABA2-236549FD71BA`)
+8. Verschiebe PDF in DEVONthink (siehe `config/devonthink-groups.yaml → gartner.archiv`)
 9. Gebe Abschlussbericht aus
 
 ## Output-Übersicht
