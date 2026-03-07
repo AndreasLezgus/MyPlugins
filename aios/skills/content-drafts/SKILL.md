@@ -34,17 +34,8 @@ Diese Skill enthält alle Templates und Qualitätsstandards für die vollständi
 - `assets/newsletter-en.md`
 
 ## Ulysses Gruppen-IDs
+- `README.md`
 
-| Format | Ulysses-ID |
-|--------|-----------|
-| Blog DE – KI-Führung | `aEabxcQsV6hz0jZ7F7jiaA` |
-| Blog DE – Quick Checks | `Ji9rIHGlNVFhxSdZXacQEg` |
-| Blog DE – Kritisches Denken | `vuROqgmapR70lV49mty2lA` |
-| LinkedIn | `qrJnA9hWVujo-yB_HNAdPQ` |
-| Substack EN | `WfAl6Ob7Qe6c_2K2IhnBFQ` |
-| Substack Notes | `1zd3tHuyCwmGRJn1iHTMcA` |
-| Newsletter DE | `0Q-jME_qsk8pGVqIje_xSQ` |
-| Newsletter EN | `7_8DSLUtrezBJopbYRIkDA` |
 
 ## DEVONthink
 

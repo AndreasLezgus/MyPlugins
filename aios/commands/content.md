@@ -63,7 +63,7 @@ Lies das PDF vollständig. Extrahiere:
    - Was wird nicht erwähnt?
    - Praktikabilität im deutschen Behördenumfeld?
 
-Fülle das Content Core Template aus (`skills/gartner-pipeline/references/content-core-template.md`).
+Fülle das Content Core Template aus (`skills/content-drafts/references/content-core-template.md`).
 Zeige den ausgefüllten Core dem User **vor** dem Weiterschreiben.
 Warte auf explizite Freigabe: „ok", „weiter", „bestätigt" oder ähnlich.
 
@@ -71,7 +71,7 @@ Warte auf explizite Freigabe: „ok", „weiter", „bestätigt" oder ähnlich.
 
 ## SCHRITT 2 – Quality Gate 0 prüfen
 
-Prüfe alle 5 Punkte aus Gate 0 Schnell-Check (`skills/gartner-pipeline/references/quality-gates.md`).
+Prüfe alle 5 Punkte aus Gate 0 Schnell-Check (`skills/content-drafts/references/quality-gates.md`).
 
 Bei einem „nein": Stoppen. Erklären welcher Punkt nicht erfüllt ist. Korrektur vorschlagen.
 Bei allen „ja": Weiter mit Schritt 3.
@@ -192,7 +192,7 @@ Verteilung:
 - 5x Kritik / Gegenperspektive
 - 4x Konkreter Tipp / Handlungsempfehlung
 
-Alle 30 Notes in einem Sheet speichern in Ulysses mit `ulysses_new_sheet`:
+Alle 30 Notes in einzelnen Sheets (Beginnend mit Nummern im Namen mit 01-30) speichern in Ulysses mit `ulysses_new_sheet`:
 - group: `1zd3tHuyCwmGRJn1iHTMcA`
 - Titel: `Substack Notes – [THEMA] – [DATUM]`
 
@@ -203,14 +203,14 @@ Fortschrittsbericht ausgeben. Weiter mit Schritt 7.
 ## SCHRITT 7 – Hero Images erstellen
 
 Erstelle drei Hero Images (1200×628px PNG) direkt im Anschluss.
-Nutze `skills/hero-images/hero-image-generator.py` mit den JSON-Templates aus `hero-images/`.
+Nutze `skills/hero-images/scripts/hero-image-generator.py` mit den JSON-Templates aus `hero-images/assets/`.
 
 Leite die Texte aus den fertigen Blog-Titeln ab und rufe das Script auf:
 
 **7a – KI-Führung** (Template: `ki-fuehrung-standard`):
 ```
-python3 [PLUGIN-PFAD]/skills/hero-images/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/templates/hero-templates \
+python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
+  --templates-dir [PLUGIN-PFAD]/templates \
   --template      ki-fuehrung-standard \
   --title         "[Kurzform des Blog-Titels, max 25 Zeichen]" \
   --subtitle      "[Untertitel, max 45 Zeichen]" \
@@ -220,8 +220,8 @@ python3 [PLUGIN-PFAD]/skills/hero-images/hero-image-generator.py \
 
 **7b – Quick Checks** (Template: `quick-checks-standard`):
 ```
-python3 [PLUGIN-PFAD]/skills/hero-images/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/templates/hero-templates \
+python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
+  --templates-dir [PLUGIN-PFAD]/templates \
   --template      quick-checks-standard \
   --title         "[Frage aus dem Titel, max 30 Zeichen]" \
   --subtitle      "[Antwort / Thema, max 20 Zeichen]" \
@@ -232,8 +232,8 @@ python3 [PLUGIN-PFAD]/skills/hero-images/hero-image-generator.py \
 
 **7c – Kritisches Denken** (Template: `kritisches-denken-standard`):
 ```
-python3 [PLUGIN-PFAD]/skills/hero-images/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/templates/hero-templates \
+python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
+  --templates-dir [PLUGIN-PFAD]/templates \
   --template      kritisches-denken-standard \
   --title         "[Oberbegriff, max 25 Zeichen]" \
   --subtitle      "[Kritische These, max 45 Zeichen]" \
@@ -241,8 +241,8 @@ python3 [PLUGIN-PFAD]/skills/hero-images/hero-image-generator.py \
   --output        ~/Desktop/Hero-Images/hero-kritisches-denken-[DATUM].png
 ```
 
-Neue Templates anlegen: JSON-Datei in `hero-images/` kopieren und anpassen.
-Anleitung: `hero-immages/IMPORT-GUIDE.md`
+Neue Templates anlegen: JSON-Datei in `hero-images/assets` kopieren und anpassen.
+Anleitung: `hero-images/references/IMPORT-GUIDE.md`
 
 Fortschrittsbericht ausgeben. Weiter mit Schritt 8.
 

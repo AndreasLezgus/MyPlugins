@@ -1,8 +1,6 @@
 ---
 name: heardbeat
-description: > 
-Prüft, ob die Infrastruktur läuft und ob die Cron-Jobs tatsächlich ausgeführt wurden.
-model: sonnet
+description: Prüft, ob die Infrastruktur läuft und ob die Cron-Jobs tatsächlich ausgeführt wurden.
 ---
 
 ## Systemprüfungen (bei jedem Heartbeat ausführen)
@@ -25,9 +23,9 @@ Jede Prüfung nur einmal pro Heartbeat-Session ausführen.
 
 Prüfen, ob tägliche Cron-Jobs einen veralteten lastRunAtMs-Wert haben (>26 Stunden
 seit dem letzten Durchlauf). Falls veraltet, per CLI auslösen:
-`claude cron run <jobId> --force`
+
 
 Zu überwachende Jobs:
 - Matthias Morning (8:01 Uhr): 01f2e5c5-3a83-4018-a725-dee59e54733e
-- Nadina Evening (18:01):
-01f2e5c5-3a83-4018-a725-dee59e54733e
+
+
