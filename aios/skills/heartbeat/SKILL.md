@@ -1,5 +1,5 @@
 ---
-name: heardbeat
+name: heartbeat
 description: Prüft, ob die Infrastruktur läuft und ob die Cron-Jobs tatsächlich ausgeführt wurden.
 ---
 
