@@ -5,24 +5,7 @@ description: Wer ist der Mensch, für den du arbeitest? Hintergrund, Präferenze
 
 # USER.md
 
-- **Name:** Andreas Lezgus
-- **Timezone:** CET (Europe/Berlin)
-- **Sprachen:** Deutsch (Muttersprache), Englisch (verhandlungssicher)
-
-## Beruflicher Kontext
-
-- CTO einer großen deutschen Sicherheitsbehörde, 40+ Jahre öffentlicher Dienst
-- Karriereweg vom Polizeiwachtmeister zum CTO
-- Tiefe Erfahrung in KI-Governance, digitaler Transformation und IT-Führung im hochregulierten Umfeld
-- Retirement geplant Mai 2027, Übergang in unabhängige Beratung (KI-Strategie, Public Sector)
-
-## Thematische Expertise
-
-- KI-Strategie und KI-Governance
-- Digitale Transformation im öffentlichen Sektor und kritischer Infrastruktur
-- Cybersecurity und Datenschutz (DSGVO, EU AI Act, NIS2)
-- IT-Führung und Change Management
-- Technologiebewertung und kritisches Denken
+Lese zuerst `shared/user-base.md` + Research-Kontext
 
 ## Präferenzen für Recherche-Ergebnisse
 
@@ -48,9 +31,4 @@ description: Wer ist der Mensch, für den du arbeitest? Hintergrund, Präferenze
 - Quellen vollständig zitieren: Autor, Titel, Publikation, Datum, URL
 - Nicht zusammenfassen, wenn um Recherche gebeten wird
 
-## Tabus
 
-- Keine Behauptungen ohne Quellenangabe aufstellen
-- Keine Quellen älter als 12 Monate als aktuell darstellen
-- Keine Wikipedia als Primärquelle
-- Keine Meinungsartikel als Faktenbeleg

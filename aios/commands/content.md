@@ -59,6 +59,10 @@ Fülle das Content Core Template aus (`skills/content-drafts/references/content-
 Zeige den ausgefüllten Core dem User **vor** dem Weiterschreiben.
 Warte auf explizite Freigabe: „ok", „weiter", „bestätigt" oder ähnlich.
 
+## Nach SCHRITT 1
+Speichere den ausgefüllten Content Core in:
+output/data/content-core-[DATUM]-[KURZTHEMA].md
+
 ---
 
 ## SCHRITT 2 – Quality Gate 0 prüfen
@@ -169,7 +173,7 @@ Fortschrittsbericht ausgeben. Weiter mit Schritt 6.
 
 ## SCHRITT 6 – 30 Substack Notes EN erstellen
 
-Erstelle 30 individuelle Notes aus dem Substack-Artikel.
+Erstelle 15 individuelle Notes aus dem Substack-Artikel.
 Jede Note:
 - Greift einen anderen Aspekt auf
 - Ist eigenständig lesbar
@@ -178,13 +182,13 @@ Jede Note:
 - Link-Platzhalter: `[LINK TO SUBSTACK ARTICLE – add before publishing]`
 
 Verteilung:
-- 8x These / Kernaussage aus verschiedenen Winkeln
-- 7x Praxis-Beobachtung / Erfahrung
-- 6x Frage / Zum Nachdenken einladen
-- 5x Kritik / Gegenperspektive
-- 4x Konkreter Tipp / Handlungsempfehlung
+- 3x These / Kernaussage aus verschiedenen Winkeln
+- 3x Praxis-Beobachtung / Erfahrung
+- 3x Frage / Zum Nachdenken einladen
+- 3x Kritik / Gegenperspektive
+- 3x Konkreter Tipp / Handlungsempfehlung
 
-Alle 30 Notes in einzelnen Sheets (Beginnend mit Nummern im Namen mit 01-30) speichern in Ulysses mit `ulysses_new_sheet`:
+Alle 15 Notes in einzelnen Sheets (Beginnend mit Nummern im Namen mit 01-30) speichern in Ulysses mit `ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → substack_en.notes`
 - Titel: `Substack Notes – [THEMA] – [DATUM]`
 

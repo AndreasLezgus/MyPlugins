@@ -5,7 +5,7 @@ description: Content-Pipeline für "Die Zweite Meinung" – analysiert Gartner-R
 
 # Gartner Content Pipeline
 
-Diese Skill enthält alle Templates und Qualitätsstandards für die vollständige Content-Pipeline von "Die Zweite Meinung" (lezgus.mymagic.page).
+Diese Skill enthält alle Templates und Qualitätsstandards für die vollständige Content-Pipeline von "Die Zweite Meinung" (lezgus.de).
 
 ## Verfügbare Ressourcen
 
@@ -34,7 +34,7 @@ Diese Skill enthält alle Templates und Qualitätsstandards für die vollständi
 - `assets/newsletter-en.md`
 
 ## Ulysses Gruppen-IDs
-- `README.md`
+- `config/ulysses-groups.yaml`
 
 
 ## DEVONthink

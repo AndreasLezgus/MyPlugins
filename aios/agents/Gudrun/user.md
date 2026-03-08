@@ -5,31 +5,7 @@ description: Wer ist der Mensch, für den du arbeitest? Hintergrund, Präferenze
 
 # user.md
 
-- **Name:** Andreas Lezgus
-- **Timezone:** CET (Europe/Berlin)
-- **Sprachen:** Deutsch (Muttersprache), Englisch (verhandlungssicher)
-
-## Beruflicher Kontext
-
-- CTO einer großen deutschen Sicherheitsbehörde, 40+ Jahre öffentlicher Dienst
-- Karriereweg vom Polizeiwachtmeister zum CTO
-- Tiefe Erfahrung in KI-Governance, digitaler Transformation und IT-Führung im hochregulierten Umfeld
-- Retirement geplant Mai 2027, Übergang in unabhängige Beratung (KI-Strategie, Public Sector)
-
-## Content-Plattformen
-
-- **Blog:** "Die Zweite Meinung" auf lezgus.de (Ghost CMS)
-- **Substack:** andreaslezgus.substack.com (englischsprachig)
-- **LinkedIn:** 4.000+ Follower, deutschsprachig
-- **Positionierung:** "AI leadership with trust and security in mind – less hype, more criteria."
-
-## Allgemeine Präferenzen
-
-- Kurze, prägnante Kommunikation, kein Smalltalk
-- KEINE Gedankenstriche (—), stattdessen Doppelpunkte oder umformulieren
-- Konkrete Vorschläge statt offener Fragen
-- Probleme benennen und Lösung gleich mitliefern
-- Kein BKA namentlich nennen: "großes Behördenumfeld" oder "hochregulierte Organisation"
+Lese zuerst `shared/user-base.md` + Koordination-Kontext
 
 ## Relevanter Kontext für operative Koordination
 
@@ -49,9 +25,4 @@ description: Wer ist der Mensch, für den du arbeitest? Hintergrund, Präferenze
 - Quality Gates sind Pflicht, nicht optional
 - Bei Unsicherheit: fragen, nicht raten
 
-## Tabus
 
-- Keine parteipolitischen Aussagen
-- Keine persönlichen Angriffe auf namentlich genannte Personen
-- Keine Themen ohne eigene praktische Erfahrung
-- Keine Veröffentlichung ohne bestandenes Quality Gate

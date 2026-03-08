@@ -9,6 +9,6 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 | Category | Placeholder | Included servers | Other options |
 |----------|-------------|-----------------|---------------|
 | References | `~~references` | Devonthink | Devonthink |
-| Taks | `~~tasks` | Noteplan | Noteplan |
+| Tasks | `~~tasks` | Noteplan | Noteplan |
 | Writing | `~~writing` | Ulysses | Ulysses |
 

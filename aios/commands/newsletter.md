@@ -37,6 +37,10 @@ Speichern in Ulysses mit `ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → newsletter.de`
 - Titel: `Newsletter DE – KW[WOCHE] – [DATUM]`
 
+## SCHRITT 2b – Quality Gate prüfen
+Prüfe Gate 0 aus quality-gates.md für den Newsletter DE.
+Bei "nein": Korrektur, nicht weitermachen.
+
 ---
 
 ## SCHRITT 3 – Newsletter EN erstellen (Substack)

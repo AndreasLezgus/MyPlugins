@@ -79,6 +79,7 @@ Nicht durch Behauptung – durch Spezifik:
 - Gedankenstriche statt Semikolons
 - Fettdruck für Schlüsselbegriffe, sparsam eingesetzt
 - Verbindungswörter wie „Daher" oder „Gleichzeitig" sind erlaubt
+- Doppelpunkte oder Umformulierung statt Gedankenstriche und Semikolons
 
 ### Nie
 
