@@ -44,12 +44,9 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - Im Zweifel fragen.
 
 ## Ablauf
-1. Suche in Ulysses nach Artikeln der aktuellen Woche
-2. Zeige Liste zur Bestätigung
-3. Erstelle Newsletter DE (Ghost) → Gruppe aus `config/ulysses-groups.yaml → newsletter.de`
-4. Erstelle Newsletter EN (Substack) → Gruppe aus `config/ulysses-groups.yaml → newsletter.en`
+1. Folge dem Ablauf in `commands/newsletter.md`
+2. Gebe Abschlussbericht aus
 
-## Vorgaben
-- Newsletter DE: 400–600 Wörter, Anrede "Sie", trocken-humorvoll
-- Newsletter EN: 350–500 Wörter, Anrede "you", direkt und pointiert
-- Kein generischer Opener – jeder Newsletter beginnt anders
+## Output-Übersicht
+- Newsletter DE (Ulysses)
+- Newsletter EN (Ulysses)

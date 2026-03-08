@@ -44,8 +44,7 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - Im Zweifel fragen.
 
 ## Ablauf
-1. Folgedem Ablauf in `commands/content.md`
-
+1. Folge dem Ablauf in `commands/content.md`
 2.  Gebe Abschlussbericht aus
 
 ## Output-Übersicht

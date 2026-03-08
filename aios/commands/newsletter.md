@@ -2,7 +2,7 @@
 description: Newsletter erstellen – Newsletter DE (Ghost) und EN (Substack) aus der Wochenproduktion von Blog-Artikeln.
 ---
 
-Erstelle jeden Freitag zwei Newsletter:
+Erstelle wöchentlich zwei Newsletter:
 1. **Newsletter DE** für Ghost / „Die Zweite Meinung" (auf Deutsch)
 2. **Newsletter EN** für Substack (auf Englisch)
 

@@ -44,8 +44,8 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - Im Zweifel fragen.
 
 ## Ablauf
-1. Mache folgenes: 
-2. Gebe Abschlussbericht aus
+1. Folge dem Ablauf in `commands/research.md`
+2.  Gebe Abschlussbericht aus
 
 ## Output-Übersicht
 

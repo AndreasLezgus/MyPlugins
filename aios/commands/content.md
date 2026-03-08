@@ -7,8 +7,8 @@ Arbeite jeden Schritt sequenziell ab. Stoppe bei Quality-Gate-Fehler und warte a
 
 Lese zunächst folgende Skills für Stil und Qualitätsanforderungen:
 - `skills/writing-style/SKILL.md`
-- `skills/gartner-pipeline/references/quality-gates.md`
-- `skills/gartner-pipeline/references/content-core-template.md`
+- `skills/content-drafts/references/quality-gates.md`
+- `skills/content-drafts/references/content-core-template.md`
 
 ---
 
@@ -51,7 +51,7 @@ Lies das PDF vollständig. Extrahiere:
 4. **Empfehlungen** (Quick Wins / Mittelfristig / Langfristig)
 
 5. **Kritische Prüfung**
-   - Welche Annahmen trifft Gartner?
+   - Welche Annahmen werden getroffen?
    - Was wird nicht erwähnt?
    - Praktikabilität im deutschen Behördenumfeld?
 
@@ -202,7 +202,7 @@ Leite die Texte aus den fertigen Blog-Titeln ab und rufe das Script auf:
 **7a – KI-Führung** (Template: `ki-fuehrung-standard`):
 ```
 python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/templates \
+  --templates-dir [PLUGIN-PFAD]/assets \
   --template      ki-fuehrung-standard \
   --title         "[Kurzform des Blog-Titels, max 25 Zeichen]" \
   --subtitle      "[Untertitel, max 45 Zeichen]" \
@@ -213,7 +213,7 @@ python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
 **7b – Quick Checks** (Template: `quick-checks-standard`):
 ```
 python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/templates \
+  --templates-dir [PLUGIN-PFAD]/assets \
   --template      quick-checks-standard \
   --title         "[Frage aus dem Titel, max 30 Zeichen]" \
   --subtitle      "[Antwort / Thema, max 20 Zeichen]" \
@@ -225,7 +225,7 @@ python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
 **7c – Kritisches Denken** (Template: `kritisches-denken-standard`):
 ```
 python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/templates \
+  --templates-dir [PLUGIN-PFAD]/assets \
   --template      kritisches-denken-standard \
   --title         "[Oberbegriff, max 25 Zeichen]" \
   --subtitle      "[Kritische These, max 45 Zeichen]" \
