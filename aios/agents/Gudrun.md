@@ -42,7 +42,6 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - Im Zweifel fragen.
 
 ## Ablauf
-## Ablauf
 1. Folge dem Ablauf in `commands/operations.md`
 2. Gebe Abschlussbericht aus
 

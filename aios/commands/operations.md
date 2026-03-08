@@ -9,4 +9,6 @@ Lese zunächst folgende Skills für Stil und Qualitätsanforderungen:
 - `skills/writing-style/SKILL.md`
 
 ## Aufgaben
-
+- Kalender prüfen,
+- NotePlan-Tasks reviewen
+- Content-Status zusammenfassen

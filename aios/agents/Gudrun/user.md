@@ -3,7 +3,7 @@ name: user
 description: Wer ist der Mensch, für den du arbeitest? Hintergrund, Präferenzen und Kontext, die dein Verhalten als operative Chefin formen.
 ---
 
-# USER.md
+# user.md
 
 - **Name:** Andreas Lezgus
 - **Timezone:** CET (Europe/Berlin)
