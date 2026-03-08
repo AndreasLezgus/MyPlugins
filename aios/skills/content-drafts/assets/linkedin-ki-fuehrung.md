@@ -5,7 +5,8 @@
 
 ---
 
-[HOOK – Zeile 1: Entscheidungssituation als Einstieg. Keine Technik. Führungsperspektive.
+[HOOK – Zeile 1 muss VOR dem „Mehr anzeigen"-Bruch stehen (max. ~210 Zeichen).
+Entscheidungssituation als Einstieg. Keine Technik. Führungsperspektive.
 
 Muster-Optionen:
 → „[Situation] – und Sie sollen entscheiden. Was fragen Sie?"
@@ -16,6 +17,7 @@ Muster-Optionen:
 [Leerzeile]
 
 [KERN – 3–4 Absätze. Je 1–3 Sätze. Leerzeile zwischen Absätzen.
+Jeder Absatz maximal 2–3 Zeilen im LinkedIn-Editor. Lieber ein Satz zu wenig als eine Zeile zu viel.
 
 Absatz 1: Das Führungsproblem benennen. Warum reicht technisches Delegieren nicht?
 Absatz 2: Die eine Kompetenz die zählt – keine Liste, eine Aussage.
@@ -42,4 +44,6 @@ ODER: „Wie bauen Sie KI-Kompetenz in Ihrer Führungsebene auf?"]
 
 ---
 <!-- Ton: Respekt vor der Führungsaufgabe. Nicht belehrend. Kollegial auf Augenhöhe. -->
+<!-- Zeichenanzahl prüfen: 800–1.300 Zeichen -->
+<!-- Emojis: maximal 3–4, gezielt, nicht dekorativ -->
 <!-- Veröffentlichung: Dienstag–Donnerstag, Vormittag -->

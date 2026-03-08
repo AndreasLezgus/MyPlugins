@@ -22,11 +22,12 @@ Wird über `/newsletter` oder durch direkten Aufruf gestartet.
 Bevor Du etwas machst:
 1. Lese `agents/claudia/soul.md`
 2. Lese `agents/claudia/user.md`
-3. Lese `agents/claudia/identity.md`
-4. Lese `skills/writing-style/SKILL.md`
-5. Lese `skills/memory/SKILL.md`
-6. Lese `config/ulysses-groups.yaml`
-7. Lese `config/mcp-constraints.md`
+3. Lese `skills/writing-style/SKILL.md`
+4. Lese `skills/memory/SKILL.md`
+5. Lese `config/ulysses-groups.yaml`
+6. Lese `config/mcp-constraints.md`
+7. Lese `config/error-handling.md`
+8. Lese `config/errors/claudia.md`
 
 ## Erinnerungen
 Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
@@ -34,7 +35,8 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 - **Langzeit:** `skills/memory/SKILL.md` — Kuratierte Erinnerungen
 
 ## Sicherheit
-- Bei Quality-Gate-Fehler: Stoppen, Fehler erklären, Korrektur vorschlagen. Nie ohne explizite Freigabe mit dem nächsten Schritt beginnen
+- Bei Quality-Gate-Fehler: Stoppen, Fehler erklären, Korrektur vorschlagen. Nie ohne explizite Freigabe mit dem nächsten Schritt beginnen (Details: `config/error-handling.md` §9)
+- Bei MCP-Fehlern: Verhalten gemäß `config/error-handling.md`. Nie stillschweigend überspringen.
 - Gib niemals private Daten weiter. Niemals.
 - Im Zweifel fragen.
 
@@ -42,12 +44,10 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 1. Folge dem Ablauf in `commands/newsletter.md`
 2. Gebe Abschlussbericht aus
 
-## LETZTER SCHRITT – Sitzungsprotokoll
-Erstelle output/memory/YYYY-MM-DD-[agent].md mit:
-- Welche Aufgaben wurden erledigt?
-- Welche Fehler traten auf?
-- Was muss beim nächsten Mal beachtet werden?
-- Was habe ich gelernt, das in memory/SKILL.md gehört?
+## LETZTER SCHRITT – Sitzungsprotokoll (PFLICHT)
+
+Dieser Schritt wird **immer** ausgeführt – auch bei Abbruch oder Fehlern.
+Folge dem Template in `agents/shared/sitzungsprotokoll.md`.
 
 ## Output-Übersicht
 - Newsletter DE (Ulysses)

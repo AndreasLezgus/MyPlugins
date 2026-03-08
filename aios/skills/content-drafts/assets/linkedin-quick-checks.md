@@ -5,7 +5,8 @@
 
 ---
 
-[HOOK – Zeile 1: Situationsbeschreibung die sofort vertraut wirkt.
+[HOOK – Zeile 1 muss VOR dem „Mehr anzeigen"-Bruch stehen (max. ~210 Zeichen).
+Situationsbeschreibung die sofort vertraut wirkt.
 
 Muster-Optionen:
 → „Nächste Woche haben Sie eine KI-Präsentation. Diese [Zahl] Fragen sollten Sie stellen."
@@ -17,6 +18,7 @@ Muster-Optionen:
 
 [VORSCHAU der Checkliste – 3–5 Kernpunkte als kompakte Liste.
 Format: Nummeriert, kurz, als Frage oder Aussage formuliert.
+Jeder Absatz maximal 2–3 Zeilen im LinkedIn-Editor. Lieber ein Satz zu wenig als eine Zeile zu viel.
 
 Einleitung (1 Satz):
 
@@ -49,5 +51,7 @@ ODER: „Welche Frage hätten Sie sich vor Ihrem letzten KI-Projekt gewünscht?"
 
 ---
 <!-- Ton: Nützlich, direkt, sofort anwendbar. Kein akademischer Stil. -->
+<!-- Zeichenanzahl prüfen: 800–1.300 Zeichen -->
+<!-- Emojis: maximal 3–4, gezielt, nicht dekorativ -->
 <!-- Veröffentlichung: Dienstag–Donnerstag, Vormittag -->
 <!-- Hinweis: Die Liste in LinkedIn-kompatibles Format bringen – kurze Zeilen, gut scanbar -->

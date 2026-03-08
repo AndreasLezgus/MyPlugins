@@ -1,5 +1,5 @@
 ---
-description: Vollständige Content-Pipeline – Gartner PDF analysieren und alle Formate erstellen (Blog DE × 3, LinkedIn × 3, Substack EN, 30 Notes, Hero Images, DEVONthink)
+description: Vollständige Content-Pipeline – Gartner PDF analysieren und alle Formate erstellen (Blog DE × 3, LinkedIn × 3, Substack EN, 15 Notes, Hero Images, DEVONthink)
 ---
 
 Führe die vollständige Content-Pipeline für das bereitgestellte Gartner PDF aus.
@@ -15,21 +15,31 @@ Lese zunächst folgende Skills für Stil und Qualitätsanforderungen:
 ## WICHTIG – MCP-Einschränkungen
 Lies vor der Ausführung `config/mcp-constraints.md` für bekannte API-Einschränkungen.
 
+## WICHTIG – Checkpoint & Fortsetzen
+Diese Pipeline verwendet Checkpoints (siehe `config/error-handling.md → Checkpoint-Konvention`).
+
+**Bei Sitzungsbeginn:** Prüfe ob `output/data/checkpoint-matthias-[HEUTE]-*.md` existiert.
+- Wenn ja: Inhalt dem User zeigen und fragen: „Pipeline fortsetzen ab [letztem offenen Schritt] oder neu starten?"
+- Wenn nein: normal beginnen.
+
+**Checkpoint-Datei:** `output/data/checkpoint-matthias-[DATUM]-[kurzthema].md`
+Wird nach Schritt 0 angelegt und nach jedem abgeschlossenen Schritt aktualisiert.
+
 ## SCHRITT 0 – PDF automatisch aus DEVONthink laden
 Prüfe den DEVONthink-Eingangsordner für neue Gartner-PDFs:
 
-1. Rufe `devonthink_list_group_content` auf mit uuid: `8AB280B1-55E7-4B02-ABFE-3B761CC58B22`
+1. Rufe `devonthink_list_group_content` auf mit uuid aus `config/devonthink-groups.yaml → gartner.eingang`
 2. Filtere die Ergebnisse: nur `recordType: "PDF document"`
 3. **Wenn mindestens ein PDF vorhanden:**
 4. Verwende das erste PDF aus der Liste
 5. Lade den Inhalt mit `devonthink_get_record_content` (uuid des PDFs)
 6. Merke dir die UUID des PDFs für Schritt 8
 7. Melde dem User: „PDF gefunden: [Name]. Starte Analyse."
-8. Weiter mit Schritt 1
+8. **CHECKPOINT:** Erstelle `output/data/checkpoint-matthias-[DATUM]-[kurzthema].md` mit allen Schritten als `[ ]`. Hake Schritt 0 ab.
+9. Weiter mit Schritt 1
 
 **Wenn der Ordner leer ist:**
-1.  Rufe `devonthink_list_group_content` auf mit uuid aus `config/devonthink-groups.yaml → gartner.eingang`
-2.  Warte auf Antwort, dann weiter mit Schritt 1
+Melde dem User: „Kein neues PDF im Eingangsordner gefunden." Frage ob manuell ein PDF bereitgestellt wird oder die Sitzung beendet werden soll.
 
 ---
 
@@ -62,6 +72,7 @@ Warte auf explizite Freigabe: „ok", „weiter", „bestätigt" oder ähnlich.
 ## Nach SCHRITT 1
 Speichere den ausgefüllten Content Core in:
 output/data/content-core-[DATUM]-[KURZTHEMA].md
+**CHECKPOINT:** Schritt 1 abhaken. Content-Core-Dateipfad im Checkpoint notieren.
 
 ---
 
@@ -70,7 +81,7 @@ output/data/content-core-[DATUM]-[KURZTHEMA].md
 Prüfe alle 5 Punkte aus Gate 0 Schnell-Check (`skills/content-drafts/references/quality-gates.md`).
 
 Bei einem „nein": Stoppen. Erklären welcher Punkt nicht erfüllt ist. Korrektur vorschlagen.
-Bei allen „ja": Weiter mit Schritt 3.
+Bei allen „ja": **CHECKPOINT:** Schritt 2 abhaken. Weiter mit Schritt 3.
 
 ---
 
@@ -113,6 +124,7 @@ Explizit benennen: Was sieht der Artikel nicht? Welche Annahmen fehlen?
 - group: siehe `config/ulysses-groups.yaml → blog_de.kritisches_denken`
 - Titel: `[Thema]: Warum [Annahme] die falsche Frage ist – [DATUM]`
 
+**CHECKPOINT:** Schritte 3a/3b/3c abhaken. Ulysses-Sheet-IDs im Checkpoint notieren.
 Fortschrittsbericht ausgeben (alle drei Varianten zusammen). Weiter mit Schritt 4.
 
 ---
@@ -151,6 +163,7 @@ Speichern in Ulysses mit `ulysses_new_sheet`:
 - Titel: `LinkedIn Kritisches Denken – [DATUM]`
 
 Nach Erstellung aller drei: Quality Gate 3 Schnell-Check durchführen.
+**CHECKPOINT:** Schritt 4 abhaken. Ulysses-Sheet-IDs im Checkpoint notieren.
 Fortschrittsbericht ausgeben. Weiter mit Schritt 5.
 
 ---
@@ -167,30 +180,48 @@ Speichern in Ulysses mit `ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → substack_en.artikel`
 - Titel: `[English Title] – [DATUM]`
 
+**CHECKPOINT:** Schritt 5 abhaken. Ulysses-Sheet-ID im Checkpoint notieren.
 Fortschrittsbericht ausgeben. Weiter mit Schritt 6.
 
 ---
 
-## SCHRITT 6 – 30 Substack Notes EN erstellen
+## SCHRITT 6 – 15 Substack Notes EN erstellen (3 Batches)
 
-Erstelle 15 individuelle Notes aus dem Substack-Artikel.
+> **Kontextschonung:** 15 Notes à 150–300 Wörter = 2.250–4.500 Wörter.
+> Um Context-Window-Overflow zu vermeiden, werden die Notes in 3 Batches à 5 erstellt.
+
 Jede Note:
-- Greift einen anderen Aspekt auf
-- Ist eigenständig lesbar
+- Greift einen anderen Aspekt des Substack-Artikels auf
+- Ist eigenständig lesbar (kein „wie oben erwähnt")
 - 150–300 Wörter
 - Variierender Einstieg (keine identischen Opener)
 - Link-Platzhalter: `[LINK TO SUBSTACK ARTICLE – add before publishing]`
 
-Verteilung:
-- 3x These / Kernaussage aus verschiedenen Winkeln
-- 3x Praxis-Beobachtung / Erfahrung
-- 3x Frage / Zum Nachdenken einladen
-- 3x Kritik / Gegenperspektive
-- 3x Konkreter Tipp / Handlungsempfehlung
+Verteilung (15 Notes = 5 Kategorien × 3 Notes):
+- 3× These / Kernaussage aus verschiedenen Winkeln
+- 3× Praxis-Beobachtung / Erfahrung
+- 3× Frage / Zum Nachdenken einladen
+- 3× Kritik / Gegenperspektive
+- 3× Konkreter Tipp / Handlungsempfehlung
 
-Alle 15 Notes in einzelnen Sheets (Beginnend mit Nummern im Namen mit 01-30) speichern in Ulysses mit `ulysses_new_sheet`:
+### Batch-Ablauf
+
+**Batch A (Notes 01–05):** Je 1 Note pro Kategorie erstellen → sofort in Ulysses speichern.
+**CHECKPOINT:** Batch A im Checkpoint notieren (5 Notes gespeichert).
+
+**Batch B (Notes 06–10):** Je 1 Note pro Kategorie erstellen → sofort in Ulysses speichern.
+**CHECKPOINT:** Batch B im Checkpoint notieren (10 Notes gespeichert).
+
+**Batch C (Notes 11–15):** Je 1 Note pro Kategorie erstellen → sofort in Ulysses speichern.
+**CHECKPOINT:** Schritt 6 abhaken. Alle 15 Notes im Checkpoint notieren.
+
+### Ulysses-Speicherung (pro Note)
+
+`ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → substack_en.notes`
-- Titel: `Substack Notes – [THEMA] – [DATUM]`
+- Titel: `[NR] – Substack Note – [THEMA] – [DATUM]` (NR = 01–15)
+
+> **Bei Sitzungsabbruch:** Checkpoint enthält die Batch-Nummer. Beim Fortsetzen nur fehlende Batches erstellen. Bereits gespeicherte Notes in Ulysses nicht duplizieren.
 
 Fortschrittsbericht ausgeben. Weiter mit Schritt 7.
 
@@ -198,48 +229,20 @@ Fortschrittsbericht ausgeben. Weiter mit Schritt 7.
 
 ## SCHRITT 7 – Hero Images erstellen
 
-Erstelle drei Hero Images (1200×628px PNG) direkt im Anschluss.
-Nutze `skills/hero-images/scripts/hero-image-generator.py` mit den JSON-Templates aus `hero-images/assets/`.
+Erstelle drei Hero Images (1200×628px PNG). Texte aus den fertigen Blog-Titeln ableiten.
 
-Leite die Texte aus den fertigen Blog-Titeln ab und rufe das Script auf:
+Script: `skills/hero-images/scripts/hero-image-generator.py`
+Vollständige CLI-Referenz und Parameter: siehe `skills/hero-images/SKILL.md`
 
-**7a – KI-Führung** (Template: `ki-fuehrung-standard`):
-```
-python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/assets \
-  --template      ki-fuehrung-standard \
-  --title         "[Kurzform des Blog-Titels, max 25 Zeichen]" \
-  --subtitle      "[Untertitel, max 45 Zeichen]" \
-  --subline       "[Kernaussage, max 70 Zeichen]" \
-  --output        ~/Desktop/Hero-Images/hero-ki-fuehrung-[DATUM].png
-```
+| Variante | Template | Output |
+|---|---|---|
+| 7a KI-Führung | `ki-fuehrung-standard` | `~/Desktop/Hero-Images/hero-ki-fuehrung-[DATUM].png` |
+| 7b Quick Checks | `quick-checks-standard` | `~/Desktop/Hero-Images/hero-quick-checks-[DATUM].png` |
+| 7c Kritisches Denken | `kritisches-denken-standard` | `~/Desktop/Hero-Images/hero-kritisches-denken-[DATUM].png` |
 
-**7b – Quick Checks** (Template: `quick-checks-standard`):
-```
-python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/assets \
-  --template      quick-checks-standard \
-  --title         "[Frage aus dem Titel, max 30 Zeichen]" \
-  --subtitle      "[Antwort / Thema, max 20 Zeichen]" \
-  --subline       "[Einladender Satz, max 65 Zeichen]" \
-  --count         [Anzahl der Prüfpunkte] \
-  --output        ~/Desktop/Hero-Images/hero-quick-checks-[DATUM].png
-```
+Pflichtparameter: `--template`, `--title` (max 25–30 Z.), `--subtitle` (max 20–45 Z.), `--subline` (max 65–70 Z.), `--output`. Quick Checks zusätzlich: `--count`.
 
-**7c – Kritisches Denken** (Template: `kritisches-denken-standard`):
-```
-python3 [PLUGIN-PFAD]/skills/hero-images/scripts/hero-image-generator.py \
-  --templates-dir [PLUGIN-PFAD]/assets \
-  --template      kritisches-denken-standard \
-  --title         "[Oberbegriff, max 25 Zeichen]" \
-  --subtitle      "[Kritische These, max 45 Zeichen]" \
-  --subline       "[Kontext-Satz, max 70 Zeichen]" \
-  --output        ~/Desktop/Hero-Images/hero-kritisches-denken-[DATUM].png
-```
-
-Neue Templates anlegen: JSON-Datei in `hero-images/assets` kopieren und anpassen.
-Anleitung: `hero-images/references/IMPORT-GUIDE.md`
-
+**CHECKPOINT:** Schritt 7 abhaken. Erstellte Image-Dateinamen notieren.
 Fortschrittsbericht ausgeben. Weiter mit Schritt 8.
 
 ---
@@ -253,9 +256,13 @@ Verschiebe das verarbeitete PDF in die Gartner-Hauptgruppe mit `devonthink_move_
 Setze anschließend Tags mit `devonthink_add_tags`:
 - tags: `["Content-Pipeline-Fertig", "Blog-Erstellt", "LinkedIn-Erstellt", "Substack-Erstellt"]`
 
+**CHECKPOINT:** Schritt 8 abhaken.
+
 ---
 
 ## SCHRITT 9 – Abschlussbericht
+
+**CHECKPOINT:** Alle Schritte abhaken. Pipeline als abgeschlossen markieren.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -271,7 +278,7 @@ CONTENT
   📝 Blog DE – Kritisches Denken → [Titel] ([Wörter] Wörter)
   💼 LinkedIn × 3                → KI-Führung | Quick Check | Kritisch
   🌍 Substack EN                 → [Titel] ([Wörter] Wörter)
-  📌 30 Substack Notes           → 1 Sheet in Ulysses
+  📌 15 Substack Notes (3 Batches) → 15 Sheets in Ulysses
 
 HERO IMAGES  →  ~/Desktop/Hero-Images/
   🖼  hero-ki-fuehrung-[DATUM].png
@@ -284,7 +291,7 @@ DEVONTHINK
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Noch manuell nötig:
   [ ] Blog-URLs in die 3 LinkedIn-Posts eintragen
-  [ ] Substack-Link in den 30 Notes ergänzen
+  [ ] Substack-Link in den 15 Notes ergänzen
   [ ] Hero Images in Ghost hochladen (3×)
   [ ] Veröffentlichung:
         Di → LinkedIn KI-Führung + Blog

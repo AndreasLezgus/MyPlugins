@@ -9,10 +9,7 @@
 <!-- Ghost Metadaten -->
 <!-- title: [50–60 Zeichen | Keyword: KI-Führung | Nutzen für Entscheider] -->
 <!-- excerpt: [150–160 Zeichen | Versprechen: bessere Entscheidungen, kein Expertenwissen nötig] -->
-<!-- tags: KI-Führung, Digitale-Transformation, Leadership -->
-<!-- published_date: [YYYY-MM-DD] -->
-<!-- reading_time: 5 Minuten -->
-<!-- TODO: Featured Image einfügen -->
+<!-- tags: KI-Führung, Digitale-Transformation, Leadership | TODO: Featured Image -->
 
 ---
 
@@ -93,6 +90,8 @@ Einleitung (1–2 Sätze).
 
 Abschluss: „Wie können wir diese Kompetenz systematisch aufbauen?"]
 
+[Optional: 1–2 interne Links zu früheren Artikeln die das Thema ergänzen – natürlich im Textfluss einbauen, nicht als separate Liste.]
+
 ---
 
 ## Fazit
@@ -105,13 +104,9 @@ Erlaubte Abschluss-Varianten für KI-Führung:
 „Verantwortung hat einen Namen. KI-Entscheidungen auch."
 „Führung bedeutet nicht, alles zu wissen. Sondern die richtigen Fragen zu stellen."]
 
----
-
-**Quellen:**
-- Gartner Research: „[Vollständiger Titel]" ([Gartner-ID], [Jahr])
 
 ---
-*Tags: KI-Führung · Leadership · Digitale-Transformation*
+*Sie möchten keine Analyse verpassen? [Die Zweite Meinung als Newsletter – jeden Freitag.]*
 
 ---
 <!-- PROMPT-HINWEIS FÜR DEN AGENTEN:
@@ -121,4 +116,5 @@ Ton: Autoritär aber nicht belehrend. Respekt vor der Führungsaufgabe.
 Kernfrage: "Was muss ich als Führungskraft wissen und tun – nicht was muss ich verstehen?"
 Gartner-Material: Auf Führungsimplikationen reduzieren, technische Details weglassen.
 Beispiele: Entscheidungssituationen, Budgetgespräche, Projektsteuerung.
-Niemals: Technische Erklärungen von KI-Algorithmen oder Architekturen. -->
+Niemals: Technische Erklärungen von KI-Algorithmen oder Architekturen.
+Niemals BKA namentlich nennen. Stattdessen: „aus langjähriger Praxis in hochregulierten Behörden". -->

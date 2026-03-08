@@ -76,15 +76,14 @@ Nicht durch Behauptung – durch Spezifik:
 - Listen nur mit kurzer Einleitung davor und Fazit danach
 - Konkrete Beispiele aus eigener Praxis – anonym wenn nötig, aber konkret
 - Trockener Humor, besonders am Ende
-- Gedankenstriche statt Semikolons
+- KEINE Gedankenstriche (—) und KEINE Semikolons – stattdessen Doppelpunkte oder umformulieren
 - Fettdruck für Schlüsselbegriffe, sparsam eingesetzt
 - Verbindungswörter wie „Daher" oder „Gleichzeitig" sind erlaubt
-- Doppelpunkte oder Umformulierung statt Gedankenstriche und Semikolons
 
 ### Nie
 
 - „10 Tipps für…"-Listicles
-- Semikolons
+- Gedankenstriche (—) und Semikolons
 - Schachtelsätze
 - Plastikphrasen: „Im Mittelpunkt steht der Mensch" / „Einfach mal machen" / „KI verändert alles" / „Digital Sovereignty" als hohle Phrase
 - Abgedroschene Metaphern: „Daten sind das neue Öl" / „Digitalisierung als Reise"
@@ -317,23 +316,6 @@ So klingt generischer KI-Output – und was stattdessen gemeint ist:
 
 ---
 
-### 5.5 Substack Deutsch (später)
-
-**Basis:** Substack EN als Ausgangspunkt – keine Rückübersetzung aus dem Deutschen.
-
-| Parameter | Vorgabe |
-|---|---|
-| Anrede | „Du" |
-| Ton | Wie Substack EN, aber DE-Kulturkontext |
-| Länge | Identisch zu Substack EN |
-
-**Was sich ändert gegenüber Substack EN:**
-- Deutsche Leser brauchen weniger Kontext zur Behördenrealität – direkt einsteigen
-- „Du" schafft dieselbe Nähe wie „you" – bewusst einsetzen
-- Kulturell: deutsche Leser schätzen mehr Substanz vor Einladung zur Diskussion
-
----
-
 ## 6. Schlüssel-Begriffe & Terminologie
 
 ### Bevorzugte Begriffe (Deutsch)
@@ -420,5 +402,5 @@ Wenn die Antwort unsicher ist: zurücknehmen, vereinfachen, konkreter werden.
 
 ---
 
-*Letzte Aktualisierung: 2026-03*
-*Gilt für: Blog DE, Blog EN, LinkedIn DE, Substack EN, Substack DE*
+*Letzte Aktualisierung: 2026-03 (Phase 3: §5.5 Substack DE entfernt)*
+*Gilt für: Blog DE, Blog EN, LinkedIn DE, Substack EN*

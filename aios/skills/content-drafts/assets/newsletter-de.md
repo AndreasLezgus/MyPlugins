@@ -52,6 +52,8 @@ Kein BKA nennen.]
 Kein „Ich wünsche Ihnen ein schönes Wochenende."
 Stattdessen etwas das hängen bleibt.]
 
+*Kennen Sie jemanden, der von dieser Analyse profitieren würde? Leiten Sie diesen Newsletter gerne weiter.*
+
 [Unterschrift:]
 Andreas Lezgus
 *Die Zweite Meinung – KI-Leadership mit Verstand und Sicherheit*

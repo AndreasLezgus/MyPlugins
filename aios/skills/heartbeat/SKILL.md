@@ -5,15 +5,16 @@ description: Prüft, ob die Infrastruktur läuft und ob die Cron-Jobs tatsächli
 
 ## Systemprüfungen (bei jedem Heartbeat ausführen)
 
-**Browser:** Prüfen, ob der von verwendete Browser (Safari) läuft. Falls nicht laufend: Browser starten. 
-Matthias ist darauf für seine Content Erstellung angewiesen.
+**Browser:** Prüfen, ob der verwendete Browser (Safari) läuft. Falls nicht laufend: Browser starten.
+Matthias ist darauf für seine Content-Erstellung angewiesen.
 
-**Cron-Jobs:** Prüfen, ob tägliche Jobs einen veralteten lastRunAtMs-Wert haben (>26 Stunden).
-Falls veraltet, per CLI auslösen: claude cron run <jobId> --force
+**Cron-Jobs:** Alle Scheduled Tasks auflisten (`list_scheduled_tasks`) und prüfen, ob tägliche Jobs einen veralteten `lastRunAt`-Wert haben (>26 Stunden seit letztem Lauf).
+Falls veraltet, per CLI auslösen: `claude cron run <jobId> --force`
 
-Zu überwachende Jobs:
-- Matthias Content (8:01 Uhr): 01f2e5c5-3a83-4018-a725-dee59e54733e
-- Claudia Newsletter (18:01 Uhr): [ID ERGÄNZEN]
+Zu überwachende Jobs (per `list_scheduled_tasks` identifizieren):
+- **Matthias Content** – läuft morgens, erstellt Content-Pipeline-Output
+- **Claudia Newsletter** – läuft abends, erstellt Newsletter aus Wochenproduktion
+
+> **Hinweis:** Job-IDs sind dynamisch. Nicht hardcoden, sondern immer per `list_scheduled_tasks` auflösen. Falls ein erwarteter Job fehlt, dies im Heartbeat-Protokoll melden.
 
 Jede Prüfung nur einmal pro Heartbeat-Session ausführen.
-

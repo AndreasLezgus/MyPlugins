@@ -37,26 +37,14 @@ Ein nicht bestandenes Gate bedeutet: zurück zum Content Core, nicht weiterschre
 
 ## GATE 0 – Universeller Deep-Check (bei Bedarf)
 
-**Stimme & Authentizität**
+> Detailregeln zu Stimme, Ton und verbotenen Phrasen: siehe `writing-style` Skill §2–§3.
 
-- [ ] Klingt der geplante Text wie Andreas – oder wie eine KI, die ihn imitiert?
-- [ ] Ist die Kritik diplomatisch formuliert, behält aber Biss?
-- [ ] Kein belehrender Ton von oben herab?
-- [ ] Kein übertriebener Enthusiasmus, keine Buzzword-These?
-
-**Inhalt & Substanz**
-
-- [ ] Jede Aussage ist durch Praxiserfahrung oder Quelle gedeckt
-- [ ] Keine unbelegte Behauptung, kein Hype ohne Substanz
-- [ ] Quellen: korrekt eingebunden, eigene Einordnung vorhanden
-- [ ] Keine Plastikphrasen: „KI verändert alles" / „Im Mittelpunkt steht der Mensch" / „Einfach mal machen"
-- [ ] Keine abgedroschenen Metaphern: „Daten sind das neue Öl" / „Digitalisierung als Reise"
-
-**Referenzen & Anonymisierung**
-
+- [ ] Klingt der Text wie Andreas – nicht wie KI-Output?
+- [ ] Kritik diplomatisch, aber mit Biss?
+- [ ] Jede Aussage durch Praxiserfahrung oder Quelle gedeckt?
+- [ ] Keine Plastikphrasen, keine abgedroschenen Metaphern? (→ §3 writing-style)
 - [ ] Kein Bezug auf das BKA – stattdessen: „hochreguliertes Behördenumfeld"
-- [ ] Keine erkennbaren Verweise auf Quellmaterial
-- [ ] Personen und Projekte ausreichend anonymisiert
+- [ ] Personen und Projekte ausreichend anonymisiert?
 
 ---
 
@@ -89,7 +77,7 @@ Ein nicht bestandenes Gate bedeutet: zurück zum Content Core, nicht weiterschre
 - [ ] Zwischenüberschriften: kurz, provokant, ohne Nummerierung
 - [ ] Listen: nur mit Einleitung davor und Fazit danach
 - [ ] 2–3 Fragezeichen als Türöffner eingeplant
-- [ ] Gedankenstriche statt Semikolons
+- [ ] KEINE Gedankenstriche (—), KEINE Semikolons – Doppelpunkte oder umformulieren
 
 **SEO & Metadaten**
 
@@ -106,42 +94,6 @@ Ein nicht bestandenes Gate bedeutet: zurück zum Content Core, nicht weiterschre
 - [ ] Encoding: UTF-8
 
 ---
-
-## GATE 2 – Blog Englisch
-
-### Stufe 1 – Schnell-Check
-
-- [ ] Basis ist der Content Core – keine direkte Übersetzung aus Blog DE
-- [ ] Eröffnung neu geschrieben auf Englisch (nicht übersetzt)
-- [ ] Referenzen zum deutschen Kontext haben kurze Erklärung
-- [ ] Ton: direkter und weniger hierarchisch als Blog DE
-- [ ] Anrede: „you" durchgehend
-- [ ] Ziel-Länge: 900–1.100 Wörter
-
-**→ Alle gecheckt: Draft in Ulysses anlegen.**
-
----
-
-### Stufe 2 – Deep-Check
-
-**Adaptation (nicht Übersetzung)**
-
-- [ ] Autorität anders aufgebaut: Zahlen, Zeiträume, Projektgrößen statt Hierarchietitel
-- [ ] „BKA" ersetzt durch „Germany's Federal Criminal Police Office" oder „a large public sector organization"
-- [ ] Signatur-Aphorismen adaptiert, nicht wörtlich übersetzt
-- [ ] Englische Kalibrierungsbeispiele aus `writing-style.md` als Rhythmus-Referenz genutzt
-
-**Struktur & Ton**
-
-- [ ] Identische Grundstruktur wie Blog DE: Problem → Analyse → Lösung
-- [ ] Trockener Humor am Ende – englisch formuliert, nicht übersetzt
-- [ ] Keine typischen KI-Anglizismen ohne Erklärung: „leverage", „ecosystem", „game-changing"
-
-**SEO & Metadaten**
-
-- [ ] Englischer Titel: 50–60 Zeichen, Keyword vorn
-- [ ] Englischer Excerpt: 150–160 Zeichen
-- [ ] Tags: angepasst für englisches Publikum
 
 ---
 
@@ -228,26 +180,6 @@ Ein nicht bestandenes Gate bedeutet: zurück zum Content Core, nicht weiterschre
 
 ---
 
-## GATE 5 – Substack Deutsch (wenn aktiv)
-
-### Stufe 1 – Schnell-Check
-
-- [ ] Basis: Substack EN – keine Rückübersetzung aus Blog DE
-- [ ] Anrede: „Du" durchgehend
-- [ ] Ton: persönlich, nah am Leser
-- [ ] Betreffzeile: unter 50 Zeichen
-- [ ] Länge: 600–1.200 Wörter (Newsletter) / 150–300 Wörter (Note)
-
-**→ Alle gecheckt: Draft in Ulysses anlegen.**
-
----
-
-### Stufe 2 – Deep-Check
-
-- [ ] Deutsche Leser brauchen weniger Kontext zur Behördenrealität – direkter Einstieg möglich
-- [ ] „Du" schafft dieselbe Nähe wie „you" – konsequent durchhalten
-- [ ] Mehr Substanz vor Einladung zur Diskussion als in Substack EN
-
 ---
 
 ## Schnellreferenz: Gate-Übersicht
@@ -256,10 +188,8 @@ Ein nicht bestandenes Gate bedeutet: zurück zum Content Core, nicht weiterschre
 |---|---|---|
 | Alle Formate | Gate 0 Schnell | Gate 0 Deep |
 | Blog DE | Gate 0 + Gate 1 Schnell | Gate 1 Deep |
-| Blog EN | Gate 0 + Gate 2 Schnell | Gate 2 Deep |
 | LinkedIn DE | Gate 0 + Gate 3 Schnell | Gate 3 Deep |
 | Substack EN | Gate 0 + Gate 4 Schnell | Gate 4 Deep |
-| Substack DE | Gate 0 + Gate 5 Schnell | Gate 5 Deep |
 
 ---
 

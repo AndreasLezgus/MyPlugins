@@ -22,7 +22,7 @@ Bei `ulysses_new_sheet` immer die Gruppen-ID aus `config/ulysses-groups.yaml` ve
 
 ### Bulk-Operationen
 
-Bei mehr als 10 sequenziellen `ulysses_new_sheet`-Aufrufen (z.B. 30 Substack Notes): nach jedem 10er-Block kurz den Fortschritt melden. Bei Fehler: ab der letzten erfolgreichen Note fortfahren, nicht von vorn beginnen.
+Bei Bulk-Operationen (z.B. 15 Substack Notes in 3 Batches à 5): nach jedem Batch den Fortschritt melden und Checkpoint aktualisieren. Bei Fehler: ab der letzten erfolgreichen Note fortfahren, nicht von vorn beginnen.
 
 ---
 

@@ -10,20 +10,20 @@
     "noteplan": {
       "command": "node",
       "args": [
-        "/Users/administrator/noteplan-mcp/dist/index.js"
+        "${HOME}/noteplan-mcp/dist/index.js"
       ],
       "env": {
-        "NOTEPLAN_BASE_PATH": "/Users/andreas/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp"
+        "NOTEPLAN_BASE_PATH": "${HOME}/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp"
       }
     },
     "ulysses": {
-  "command": "/Users/andreas/.local/bin/uv",
-  "args": [
-    "--directory",
-    "/Users/andreas/ulysses-mcp",
-    "run",
-    "ulysses-mcp"
-  ]
-}
-}
+      "command": "${HOME}/.local/bin/uv",
+      "args": [
+        "--directory",
+        "${HOME}/ulysses-mcp",
+        "run",
+        "ulysses-mcp"
+      ]
+    }
+  }
 }

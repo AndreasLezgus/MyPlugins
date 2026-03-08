@@ -5,8 +5,8 @@
 
 ---
 
-[HOOK – Zeile 1: Provokante Gegenthese zur gängigen Meinung.
-Nicht aggressiv – methodisch scharf.
+[HOOK – Zeile 1 muss VOR dem „Mehr anzeigen"-Bruch stehen (max. ~210 Zeichen).
+Provokante Gegenthese zur gängigen Meinung. Nicht aggressiv – methodisch scharf.
 
 Muster-Optionen:
 → „[Gängige KI-Behauptung]. Das stimmt. Es ist trotzdem die falsche Frage."
@@ -17,6 +17,7 @@ Muster-Optionen:
 [Leerzeile]
 
 [KERN – 3–4 Absätze. Leerzeile zwischen Absätzen.
+Jeder Absatz maximal 2–3 Zeilen im LinkedIn-Editor. Lieber ein Satz zu wenig als eine Zeile zu viel.
 
 Absatz 1: Die bequeme Erzählung kurz skizzieren. Fair und präzise.
 Absatz 2: Was diese Erzählung auslässt. Eine spezifische blinde Stelle.
@@ -43,5 +44,7 @@ ODER: „Welchen KI-Claim hören Sie gerade zu oft – und was steckt wirklich d
 
 ---
 <!-- Ton: Intelligent provokant. Einladend zur Diskussion. Nie zynisch oder resigniert. -->
+<!-- Zeichenanzahl prüfen: 800–1.300 Zeichen -->
+<!-- Emojis: maximal 3–4, gezielt, nicht dekorativ -->
 <!-- Veröffentlichung: Dienstag–Donnerstag, Vormittag -->
 <!-- Hinweis: Dieser Post lädt bewusst zum Widerspruch ein – Call-to-Action entsprechend offen formulieren -->

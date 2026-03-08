@@ -9,10 +9,7 @@
 <!-- Ghost Metadaten -->
 <!-- title: [50–60 Zeichen | Keyword: Kritisches Denken / Technologiebewertung] -->
 <!-- excerpt: [150–160 Zeichen | Versprechen: Methoden die Buzzword-Bingo entlarven] -->
-<!-- tags: Kritisches-Denken, Technologie-Bewertung, KI-Leadership -->
-<!-- published_date: [YYYY-MM-DD] -->
-<!-- reading_time: 5 Minuten -->
-<!-- TODO: Featured Image einfügen -->
+<!-- tags: Kritisches-Denken, Technologie-Bewertung, KI-Leadership | TODO: Featured Image -->
 
 ---
 
@@ -95,6 +92,8 @@ aber auch nicht blind ablehnen. Methodisch prüfen.
 Wie kommuniziert man kritische Rückfragen ohne als Verhinderer zu gelten?
 „Dies kann man so machen. Erfolgsversprechend ist es allerdings nicht, wenn…"]
 
+[Optional: 1–2 interne Links zu früheren Artikeln die das Thema ergänzen – natürlich im Textfluss einbauen, nicht als separate Liste.]
+
 ---
 
 ## Fazit
@@ -109,12 +108,7 @@ Erlaubte Abschluss-Varianten für Kritisches Denken:
 „Buzzword-Bingo ist kein KI-Piloten-Konzept – auch wenn es manchmal so aussieht."]
 
 ---
-
-**Quellen:**
-- Gartner Research: „[Vollständiger Titel]" ([Gartner-ID], [Jahr])
-
----
-*Tags: Kritisches-Denken · Technologie-Bewertung · KI-Leadership*
+*Sie möchten keine Analyse verpassen? [Die Zweite Meinung als Newsletter – jeden Freitag.]*
 
 ---
 <!-- PROMPT-HINWEIS FÜR DEN AGENTEN:
@@ -127,4 +121,5 @@ vereinfacht wurde. Gartner ist hier nicht die Wahrheit – sondern der Gespräch
 Beispiele: Situationen wo Hype-Glaube zu schlechten Entscheidungen geführt hat.
 Denkmethoden: Konkrete, benannte Kriterien – keine abstrakten Apelle zu „mehr Kritik".
 Niemals: Pauschale Technologieskepsis. Die Zweite Meinung ist konstruktiv kritisch,
-nicht grundsätzlich technologiefeindlich. Immer: Weg nach vorn. -->
+nicht grundsätzlich technologiefeindlich. Immer: Weg nach vorn.
+Niemals BKA namentlich nennen. Stattdessen: „aus langjähriger Praxis in hochregulierten Behörden". -->

@@ -103,13 +103,13 @@ Allowed closing aphorisms (EN):
 
 Closing invitation (Substack-specific):
 "If this resonates — or if you'd push back on any of it — I'd genuinely like to hear it.
-Hit reply."]
+Hit reply."
 
----
-
-*Source: Gartner Research: "[Full Title]" ([ID], [Year])*
+Optional cross-promotion (include when thematically fitting):
+"I also publish a German-language blog with additional analysis: diezweitemeinung.com"]
 
 ---
 <!-- Word count target: 800–1.200 words -->
 <!-- Tone check: More personal than Blog DE. "I've seen this" is right here. -->
 <!-- International context: German examples need one sentence of framing -->
+<!-- Substack-Engagement: "Hit reply" + "Like" sind die zwei wichtigsten Aktionen für Reichweite -->

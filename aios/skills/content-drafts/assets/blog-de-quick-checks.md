@@ -9,10 +9,7 @@
 <!-- Ghost Metadaten -->
 <!-- title: [50–60 Zeichen | Keyword: Quick Check / Checkliste | sofortiger Nutzen] -->
 <!-- excerpt: [150–160 Zeichen | Versprechen: sofort anwendbar, kompakt, praxisnah] -->
-<!-- tags: Quick-Checks, KI-Projekte, Praxis-Tools -->
-<!-- published_date: [YYYY-MM-DD] -->
-<!-- reading_time: 4 Minuten -->
-<!-- TODO: Featured Image einfügen -->
+<!-- tags: Quick-Checks, KI-Projekte, Praxis-Tools | TODO: Featured Image -->
 
 ---
 
@@ -83,6 +80,8 @@ Wie hat jemand diesen Quick Check angewendet?
 Was hat er aufgedeckt?
 Anonym und konkret: „In einem KI-Pilotprojekt einer deutschen Bundesbehörde…"]
 
+[Optional: 1–2 interne Links zu früheren Artikeln die das Thema ergänzen – natürlich im Textfluss einbauen, nicht als separate Liste.]
+
 ---
 
 ## Fazit
@@ -93,12 +92,7 @@ Appell: Sofort anwenden, nicht erst nach der nächsten Schulung.
 Trockener Humor erlaubt.]
 
 ---
-
-**Quellen:**
-- Gartner Research: „[Vollständiger Titel]" ([Gartner-ID], [Jahr])
-
----
-*Tags: Quick-Checks · KI-Projekte · Praxis-Tools*
+*Sie möchten keine Analyse verpassen? [Die Zweite Meinung als Newsletter – jeden Freitag.]*
 
 ---
 <!-- PROMPT-HINWEIS FÜR DEN AGENTEN:
@@ -110,4 +104,5 @@ Gartner-Material: Empfehlungen in überprüfbare Ja/Nein-Fragen übersetzen.
 Beispiele: Budgetentscheidungen, Projektgenehmigungen, Präsentationsbewertungen.
 Format: Die Checkliste ist das Herzstück – nicht ein Anhang zu einem langen Text.
 Länge: Kürzer als andere Varianten. 800–1.000 Wörter. Leser wollen die Liste, nicht den Aufsatz.
-Niemals: Technische Implementierungsdetails. Wenn ein Punkt erklärungsbedürftig ist, ist er zu technisch. -->
+Niemals: Technische Implementierungsdetails. Wenn ein Punkt erklärungsbedürftig ist, ist er zu technisch.
+Niemals BKA namentlich nennen. Stattdessen: „aus langjähriger Praxis in hochregulierten Behörden". -->

@@ -52,9 +52,11 @@ Frame lightly: "Something I've been thinking about this week:"]
 Not "Have a great weekend."
 Something that earns the memory.]
 
+*Know someone who'd find this useful? Feel free to forward this edition.*
+
 [Signature:]
 Andreas Lezgus
-*AI leadership with trust and security in mind – less hype, more criteria.*
+*The Second Opinion – less hype, more criteria.*
 
 ---
 <!-- Send: Friday -->

@@ -117,30 +117,12 @@
 
 ---
 
-## BLOCK 6 – Channel-Planung
+## BLOCK 6 – Channel-Hinweise
 
-> Jetzt erst entscheiden, was daraus wird.
+> Die Standard-Pipeline erstellt automatisch: Blog DE × 3, LinkedIn × 3, Substack EN, 15 Notes.
+> Nur ausfüllen wenn **Abweichungen** nötig sind.
 
-**Welche Channels werden bespielt?**
-
-```
-□ Blog DE    → voller Artikel, „Sie", 1.000–1.200 Wörter
-□ Blog EN    → freie Adaptation, nicht Übersetzung
-□ LinkedIn DE → Hook + Kern, kurz, „Sie" oder „Du"
-□ Substack EN → Adaptation, „you", internationaler Kontext
-□ Substack DE → (später)
-```
-
-**Reihenfolge der Erstellung:**
-*(Empfohlen: Blog DE zuerst, dann Adaptionen)*
-
-```
-1. _______________
-2. _______________
-3. _______________
-```
-
-**Gibt es Channel-spezifische Anpassungen zu beachten?**
+**Channel-spezifische Anpassungen:**
 *(z.B. Referenzen die auf Englisch mehr Kontext brauchen, kulturelle Nuancen)*
 
 ```
@@ -149,22 +131,14 @@
 
 ---
 
-## BLOCK 7 – SEO & Metadaten (Vorplanung)
+## BLOCK 7 – SEO-Vorplanung (kompakt)
 
-**Mögliche Titel-Varianten:**
-*(3 Varianten, 50–60 Zeichen, Keyword vorn)*
+> Titel und Excerpt entstehen beim Schreiben der Blog-Templates.
+> Hier nur Keyword und Tags vorplanen.
 
+**Haupt-Keyword:**
 ```
-1. [Hier ausfüllen]
-2. [Hier ausfüllen]
-3. [Hier ausfüllen]
-```
-
-**Excerpt / Teaser:**
-*(150–160 Zeichen, Neugier wecken, Keyword enthalten)*
-
-```
-[Hier ausfüllen]
+[Hier ausfüllen – z.B. KI-Strategie, Technologiebewertung]
 ```
 
 **Tags (3–5):**
@@ -172,41 +146,25 @@
 [Hier ausfüllen – z.B. KI-Leadership, Digitale-Transformation, Technologie-Bewertung]
 ```
 
-**English Title-Varianten:** *(falls Blog EN oder Substack EN geplant)*
-```
-1. [Hier ausfüllen]
-2. [Hier ausfüllen]
-```
-
 ---
 
-## BLOCK 8 – Qualitäts-Check vor dem Draft
+## Qualitäts-Check vor dem Draft
 
-> Alle Punkte müssen mit „ja" beantwortet werden. Sonst: zurück zum jeweiligen Block.
-
-- [ ] Die These ist klar und in einem Satz formulierbar
-- [ ] Es gibt eine echte „Zweite Meinung" – nicht nur Zusammenfassung
-- [ ] Eigene Praxiserfahrung ist vorhanden und eingebaut
-- [ ] Mindestens ein konkretes Beispiel ist identifiziert
-- [ ] Es gibt einen Weg nach vorn – kein Problem ohne Lösung
-- [ ] Die Kernbotschaft ist relevant für IT-Führungskräfte oder C-Level
-- [ ] Kein Thema ohne eigene Erfahrung
-- [ ] Kein Buzzword als These getarnt *(„KI verändert alles" ist keine These)*
-
-**→ Alle acht Punkte: ✅ → Draft in Ulysses anlegen.**
+> **Nicht hier prüfen.** Nach dem Content Core → weiter zu `quality-gates.md → Gate 0`.
+> Gate 0 ist der Pflicht-Check. Erst danach Draft in Ulysses anlegen.
 
 ---
 
 ## Referenz: Channel-Unterschiede auf einen Blick
 
-| | Blog DE | Blog EN | LinkedIn DE | Substack EN | Substack DE |
-|---|---|---|---|---|---|
-| **Anrede** | Sie | you | Sie / Du | you | Du |
-| **Länge** | 1.000–1.200 W | 900–1.100 W | 300–800 Z | 600–1.000 W | 600–1.000 W |
-| **Ton** | Sachlich-kritisch | Direkter, weniger hierarchisch | Prägnant, Hook-first | Persönlicher, internationaler | Persönlich |
-| **Struktur** | H2/H3, Fließtext | H2/H3, Fließtext | Absätze + Leerzeilen | Fließtext | Fließtext |
-| **Referenzen** | DE-Kontext | Kontext erklären | DE-Kontext | Kontext erklären | DE-Kontext |
-| **Basis** | Core | Blog DE adaptiert | Core | Core / Blog DE adaptiert | Substack EN adaptiert |
+| | Blog DE | LinkedIn DE | Substack EN |
+|---|---|---|---|
+| **Anrede** | Sie | Sie | you |
+| **Länge** | 1.000–1.200 W | 800–1.300 Z | 800–1.200 W |
+| **Ton** | Sachlich-kritisch | Prägnant, Hook-first | Persönlicher, internationaler |
+| **Struktur** | H2/H3, Fließtext | Absätze + Leerzeilen | Fließtext |
+| **Referenzen** | DE-Kontext | DE-Kontext | Kontext erklären |
+| **Basis** | Core | Core / Blog DE | Core |
 
 ---
 
