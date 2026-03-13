@@ -7,16 +7,12 @@
         "github:TomBener/devonthink-mcp"
       ]
     },
-    "noteplan": {
-      "command": "node",
-      "args": [
-        "${HOME}/noteplan-mcp/dist/index.js"
-      ],
-      "env": {
-        "NOTEPLAN_BASE_PATH": "${HOME}/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp"
-      }
+      "noteplan": {
+      "command": "npx",
+      "args": ["-y", "@noteplanco/noteplan-mcp"]
     },
-    "ulysses": {
+
+      "ulysses": {
       "command": "${HOME}/.local/bin/uv",
       "args": [
         "--directory",
