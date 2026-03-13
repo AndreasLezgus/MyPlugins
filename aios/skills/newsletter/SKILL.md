@@ -1,5 +1,8 @@
 ---
-description: Newsletter erstellen – Newsletter DE (Ghost) und EN (Substack) aus der Wochenproduktion von Blog-Artikeln.
+name: newsletter
+description: >
+  Newsletter erstellen – Newsletter DE (Ghost) und EN (Substack) aus der
+  Wochenproduktion von Blog-Artikeln.
 ---
 
 Erstelle wöchentlich zwei Newsletter:
@@ -52,7 +55,7 @@ Speichern in Ulysses mit `ulysses_new_sheet`:
 
 ## SCHRITT 2b – Quality Gate: Newsletter DE
 
-Lese `skills/content-drafts/references/quality-gates.md` und prüfe den Newsletter DE gegen:
+Lese `skills/content/references/quality-gates.md` und prüfe den Newsletter DE gegen:
 
 **Gate 0 – Universeller Schnell-Check (5 Fragen, alle „ja"):**
 - [ ] Eigene Praxiserfahrung mit dem Thema vorhanden
@@ -122,7 +125,7 @@ Prüfe den Newsletter EN gegen:
 **CHECKPOINT:** Alle Schritte abhaken. Pipeline als abgeschlossen markieren.
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ✅ NEWSLETTER ERSTELLT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

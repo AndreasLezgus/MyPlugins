@@ -1,5 +1,10 @@
 ---
-description: Vollständige Content-Pipeline – Gartner PDF analysieren und alle Formate erstellen (Blog DE × 3, LinkedIn × 3, Substack EN, 15 Notes, Hero Images, DEVONthink)
+name: content
+description: >
+  Vollständige Content-Pipeline – Gartner PDF analysieren und alle Formate erstellen
+  (Blog DE × 3, LinkedIn × 3, Substack EN, 15 Notes, Hero Images, DEVONthink).
+  Automatisch aktivieren wenn ein Gartner-PDF verarbeitet werden soll oder /content
+  aufgerufen wird.
 ---
 
 Führe die vollständige Content-Pipeline für das bereitgestellte Gartner PDF aus.
@@ -7,8 +12,8 @@ Arbeite jeden Schritt sequenziell ab. Stoppe bei Quality-Gate-Fehler und warte a
 
 Lese zunächst folgende Skills für Stil und Qualitätsanforderungen:
 - `skills/writing-style/SKILL.md`
-- `skills/content-drafts/references/quality-gates.md`
-- `skills/content-drafts/references/content-core-template.md`
+- `skills/content/references/quality-gates.md`
+- `skills/content/references/content-core-template.md`
 
 ---
 
@@ -65,7 +70,7 @@ Lies das PDF vollständig. Extrahiere:
    - Was wird nicht erwähnt?
    - Praktikabilität im deutschen Behördenumfeld?
 
-Fülle das Content Core Template aus (`skills/content-drafts/references/content-core-template.md`).
+Fülle das Content Core Template aus (`skills/content/references/content-core-template.md`).
 Zeige den ausgefüllten Core dem User **vor** dem Weiterschreiben.
 Warte auf explizite Freigabe: „ok", „weiter", „bestätigt" oder ähnlich.
 
@@ -78,7 +83,7 @@ output/data/content-core-[DATUM]-[KURZTHEMA].md
 
 ## SCHRITT 2 – Quality Gate 0 prüfen
 
-Prüfe alle 5 Punkte aus Gate 0 Schnell-Check (`skills/content-drafts/references/quality-gates.md`).
+Prüfe alle 5 Punkte aus Gate 0 Schnell-Check (`skills/content/references/quality-gates.md`).
 
 Bei einem „nein": Stoppen. Erklären welcher Punkt nicht erfüllt ist. Korrektur vorschlagen.
 Bei allen „ja": **CHECKPOINT:** Schritt 2 abhaken. Weiter mit Schritt 3.

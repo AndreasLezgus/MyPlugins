@@ -1,5 +1,8 @@
 ---
-description: Tägliche Operationsübersicht – NotePlan-Tasks, Kalender, Pipeline-Status und Tagesplan mit Delegation.
+name: operations
+description: >
+  Tägliche Operationsübersicht – NotePlan-Tasks, Kalender, Pipeline-Status
+  und Tagesplan mit Delegation.
 ---
 
 Führe die tägliche Operationsübersicht aus.

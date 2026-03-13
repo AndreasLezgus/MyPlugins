@@ -1,5 +1,5 @@
 ---
-name: carousel-maker
+name: carousel
 description: >
   Create professional LinkedIn/Instagram carousel PDFs from URLs or pasted text.
   Use this skill whenever the user wants to create a carousel, slide deck for social media,

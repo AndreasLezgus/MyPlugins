@@ -192,7 +192,7 @@ Es stehen zwei Schriftarten zur Verfügung:
 
 ## Template im Pipeline-Command aktivieren
 
-In `commands/content.md`, Schritt 8, die Template-Namen anpassen:
+In `skills/content/SKILL.md`, Schritt 7, die Template-Namen anpassen:
 
 ```
 hero_template_ki_fuehrung:       ki-fuehrung-standard
