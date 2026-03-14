@@ -1,0 +1,8 @@
+# Zentrale Pfad-Konfiguration
+# Alle Ausgabepfade für Agenten und Commands.
+# Bei Änderungen NUR diese Datei anpassen.
+
+hero_images:
+  output_dir: "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Hero-Images"
+  label: "iCloud Documents / Hero-Images"
+  hinweis: "Ordner wird automatisch erstellt wenn nicht vorhanden"
