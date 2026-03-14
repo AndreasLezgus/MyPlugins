@@ -239,11 +239,13 @@ Erstelle drei Hero Images (1200×628px PNG). Texte aus den fertigen Blog-Titeln 
 Script: `skills/hero-images/scripts/hero-image-generator.py`
 Vollständige CLI-Referenz und Parameter: siehe `skills/hero-images/SKILL.md`
 
+**Ausgabepfad:** siehe `config/paths.yaml → hero_images.output_dir`
+
 | Variante | Template | Output |
 |---|---|---|
-| 7a KI-Führung | `ki-fuehrung-standard` | `~/Desktop/Hero-Images/hero-ki-fuehrung-[DATUM].png` |
-| 7b Quick Checks | `quick-checks-standard` | `~/Desktop/Hero-Images/hero-quick-checks-[DATUM].png` |
-| 7c Kritisches Denken | `kritisches-denken-standard` | `~/Desktop/Hero-Images/hero-kritisches-denken-[DATUM].png` |
+| 7a KI-Führung | `ki-fuehrung-standard` | `[output_dir]/hero-ki-fuehrung-[DATUM].png` |
+| 7b Quick Checks | `quick-checks-standard` | `[output_dir]/hero-quick-checks-[DATUM].png` |
+| 7c Kritisches Denken | `kritisches-denken-standard` |`[output_dir]/hero-kritisches-denken-[DATUM].png` |
 
 Pflichtparameter: `--template`, `--title` (max 25–30 Z.), `--subtitle` (max 20–45 Z.), `--subline` (max 65–70 Z.), `--output`. Quick Checks zusätzlich: `--count`.
 
@@ -285,7 +287,7 @@ CONTENT
   🌍 Substack EN                 → [Titel] ([Wörter] Wörter)
   📌 15 Substack Notes (3 Batches) → 15 Sheets in Ulysses
 
-HERO IMAGES  →  ~/Desktop/Hero-Images/
+HERO IMAGES  →  [config/paths.yaml → hero_images.output_dir]
   🖼  hero-ki-fuehrung-[DATUM].png
   🖼  hero-quick-checks-[DATUM].png
   🖼  hero-kritisches-denken-[DATUM].png

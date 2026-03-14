@@ -9,6 +9,8 @@ Erstellt professionelle Hero Images (1200×628px) für die drei Blog-Varianten v
 
 ## Script ausführen
 
+**Ausgabepfad:** siehe `config/paths.yaml → hero_images.output_dir`
+
 ```bash
 python3 scripts/hero-image-generator.py \
   --templates-dir assets \
@@ -16,7 +18,7 @@ python3 scripts/hero-image-generator.py \
   --title         "[Zeile 1, max 25 Zeichen]" \
   --subtitle      "[Zeile 2, max 45 Zeichen]" \
   --subline       "[Beschreibung, max 70 Zeichen]" \
-  --output        ~/Desktop/Hero-Images/hero-[VARIANTE]-[DATUM].png
+  --output        [output_dir]/hero-[VARIANTE]-[DATUM].png
 ```
 
 ## Verfügbare Templates (assets/)
@@ -37,5 +39,5 @@ Für Quick Checks zusätzlich `--count [Anzahl]` angeben.
 
 ## Ausgabe
 
-Bilder landen in `~/Desktop/Hero-Images/` (Ordner wird automatisch erstellt).
+Bilder landen in `config/paths.yaml → hero_images.output_dir` (Ordner wird automatisch erstellt).
 Format: PNG, 1200×628px, für Ghost CMS optimiert.
