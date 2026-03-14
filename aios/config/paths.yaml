@@ -6,3 +6,8 @@ hero_images:
   output_dir: "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Hero-Images"
   label: "iCloud Documents / Hero-Images"
   hinweis: "Ordner wird automatisch erstellt wenn nicht vorhanden"
+
+carousels:
+  output_dir: "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Carousels"
+  label: "iCloud Documents / Carousels"
+  hinweis: "Ordner wird automatisch erstellt wenn nicht vorhanden"

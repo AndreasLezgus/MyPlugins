@@ -10,8 +10,8 @@ These values appear throughout both templates. To customize, find-and-replace:
 
 | Element | Default value |
 |---|---|
-| **Author name** | `Karen Spinner` |
-| **Handle** | `@karenspinner` |
+| **Author name** | `Andreas Lezgus` |
+| **Handle** | `@andreaslezgus` |
 | **Accent color** | `#0d9488` |
 | **Accent light** | `#14b8a6` |
 | **Font family** | `'Inter', sans-serif` |
@@ -138,8 +138,8 @@ Table layout for reliable spacing in WeasyPrint (flexbox margin/gap is buggy in 
   <div style="display: flex; flex-direction: row; align-items: center; gap: 20px; white-space: nowrap; flex-shrink: 0;">
     <img src="data:image/png;base64,HEADSHOT_B64" width="64" height="64" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; flex-shrink: 0;" />
     <div style="flex-shrink: 0;">
-      <p style="font-size: 22px; font-weight: 600; color: #f1f5f9; margin: 0; line-height: 1.3;">Karen Spinner</p>
-      <p style="font-size: 17px; color: #94a3b8; margin: 0; line-height: 1.3;">@karenspinner</p>
+      <p style="font-size: 22px; font-weight: 600; color: #f1f5f9; margin: 0; line-height: 1.3;">Andreas Lezgus</p>
+      <p style="font-size: 17px; color: #94a3b8; margin: 0; line-height: 1.3;">@andreaslezgus</p>
     </div>
   </div>
   <!-- Center: nav dots -->
@@ -170,8 +170,8 @@ Same structure, different colors:
   <div style="display: flex; flex-direction: row; align-items: center; gap: 20px; white-space: nowrap; flex-shrink: 0;">
     <img src="data:image/png;base64,HEADSHOT_B64" width="64" height="64" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; flex-shrink: 0;" />
     <div style="flex-shrink: 0;">
-      <p style="font-size: 22px; font-weight: 600; color: #0f172a; margin: 0; line-height: 1.3;">Karen Spinner</p>
-      <p style="font-size: 17px; color: #64748b; margin: 0; line-height: 1.3;">@karenspinner</p>
+      <p style="font-size: 22px; font-weight: 600; color: #0f172a; margin: 0; line-height: 1.3;">Andreas Lezgus</p>
+      <p style="font-size: 17px; color: #64748b; margin: 0; line-height: 1.3;">@andreaslezgus</p>
     </div>
   </div>
   <div style="flex: 1; display: flex; justify-content: center;">

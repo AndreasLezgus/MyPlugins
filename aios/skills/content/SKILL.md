@@ -254,7 +254,49 @@ Fortschrittsbericht ausgeben. Weiter mit Schritt 8.
 
 ---
 
-## SCHRITT 8 – DEVONthink: PDF verschieben
+## SCHRITT 8 – Carousel PDFs erstellen
+
+Erstelle drei LinkedIn-Carousels (1080×1350px PDF, Dark Theme). Jedes Carousel fasst die Kernbotschaften eines Blog-Artikels in 8–10 Slides zusammen und verweist per CTA auf den Artikel.
+
+Skill-Referenz: `skills/carousel/SKILL.md`
+Templates & Farben: `skills/carousel/references/templates.md`
+Scripts: `skills/carousel/scripts/html_to_pdf.py` (Playwright) / `skills/carousel/scripts/html_to_pdf_fallback.py` (WeasyPrint)
+
+**Ausgabepfad:** siehe `config/paths.yaml → carousels.output_dir`
+
+### Ablauf pro Variante
+
+1. **Kernbotschaften extrahieren:** Lies den fertigen Blog-Artikel (Ulysses-Sheet aus Schritt 3). Extrahiere 3–5 Kernaussagen, 1–2 Statistiken/Prognosen und die zentrale Empfehlung.
+2. **Slide-Copy generieren:** Erstelle 8–10 Slides nach dem Carousel-Skill-Schema:
+   - Slide 1 (Hook): Aufmerksamkeitsstarker Titel aus dem Blog-Thema
+   - Slides 2–N: Je eine Kernbotschaft mit 2–3 Bullet Points
+   - Letzter Slide (CTA): „Vollständigen Artikel lesen → [LINK ZUM BLOG – vor Veröffentlichung ergänzen]"
+3. **HTML bauen:** Python-Build-Script gemäß `skills/carousel/SKILL.md` Step 4. Fonts per npm einbetten. Dark Theme verwenden.
+4. **PDF konvertieren:** Playwright (Fallback: WeasyPrint) gemäß `skills/carousel/SKILL.md` Step 5.
+
+### Drei Varianten
+
+| Variante | Quelle | Output |
+|---|---|---|
+| 8a KI-Führung | Blog DE aus Schritt 3a | `[output_dir]/carousel-ki-fuehrung-[DATUM].pdf` |
+| 8b Quick Checks | Blog DE aus Schritt 3b | `[output_dir]/carousel-quick-checks-[DATUM].pdf` |
+| 8c Kritisches Denken | Blog DE aus Schritt 3c | `[output_dir]/carousel-kritisches-denken-[DATUM].pdf` |
+
+### Content-Regeln für Pipeline-Carousels
+
+- Jeder Slide transportiert EINE Idee (max 15 Wörter pro Bullet)
+- Konkrete Zahlen und Beispiele aus dem Gartner-Report übernehmen
+- Hook-Slide: Provokante Frage oder überraschende Statistik aus dem Artikel
+- CTA-Slide: Link-Platzhalter `[LINK ZUM BLOG – vor Veröffentlichung ergänzen]`
+- Sprache: Deutsch (wie Blog DE), Anrede „Sie"
+- Schreibstil: `skills/writing-style/SKILL.md` → Blog DE Regeln
+
+**CHECKPOINT:** Schritt 8 abhaken. Erstellte Carousel-Dateinamen notieren.
+Fortschrittsbericht ausgeben. Weiter mit Schritt 9.
+
+---
+
+## SCHRITT 9 – DEVONthink: PDF verschieben
 
 Verschiebe das verarbeitete PDF in die Gartner-Hauptgruppe mit `devonthink_move_record`:
 - uuid: [UUID des PDFs aus Schritt 1]
@@ -263,11 +305,11 @@ Verschiebe das verarbeitete PDF in die Gartner-Hauptgruppe mit `devonthink_move_
 Setze anschließend Tags mit `devonthink_add_tags`:
 - tags: `["Content-Pipeline-Fertig", "Blog-Erstellt", "LinkedIn-Erstellt", "Substack-Erstellt"]`
 
-**CHECKPOINT:** Schritt 8 abhaken.
+**CHECKPOINT:** Schritt 9 abhaken.
 
 ---
 
-## SCHRITT 9 – Abschlussbericht
+## SCHRITT 10 – Abschlussbericht
 
 **CHECKPOINT:** Alle Schritte abhaken. Pipeline als abgeschlossen markieren.
 
@@ -292,17 +334,24 @@ HERO IMAGES  →  [config/paths.yaml → hero_images.output_dir]
   🖼  hero-quick-checks-[DATUM].png
   🖼  hero-kritisches-denken-[DATUM].png
 
+CAROUSELS  →  [config/paths.yaml → carousels.output_dir]
+  📊  carousel-ki-fuehrung-[DATUM].pdf
+  📊  carousel-quick-checks-[DATUM].pdf
+  📊  carousel-kritisches-denken-[DATUM].pdf
+
 DEVONTHINK
   🗂  PDF → 50.01-Gartner (verschoben + getaggt)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Noch manuell nötig:
   [ ] Blog-URLs in die 3 LinkedIn-Posts eintragen
+  [ ] Blog-URLs in die 3 Carousel-CTAs eintragen
   [ ] Substack-Link in den 15 Notes ergänzen
   [ ] Hero Images in Ghost hochladen (3×)
+  [ ] Carousel PDFs auf LinkedIn hochladen (3×)
   [ ] Veröffentlichung:
-        Di → LinkedIn KI-Führung + Blog
-        Mi → LinkedIn Quick Check + Blog
-        Do → LinkedIn Kritisches Denken + Blog
+        Di → LinkedIn KI-Führung + Blog + Carousel
+        Mi → LinkedIn Quick Check + Blog + Carousel
+        Do → LinkedIn Kritisches Denken + Blog + Carousel
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
