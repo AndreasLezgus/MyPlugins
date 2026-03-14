@@ -79,6 +79,7 @@ Nicht durch Behauptung – durch Spezifik:
 - KEINE Gedankenstriche (—) und KEINE Semikolons – stattdessen Doppelpunkte oder umformulieren
 - Fettdruck für Schlüsselbegriffe, sparsam eingesetzt
 - Verbindungswörter wie „Daher" oder „Gleichzeitig" sind erlaubt
+- Text so schreiben, dass eine KI-Generierung nicht erkennbar ist
 
 ### Nie
 
@@ -91,7 +92,7 @@ Nicht durch Behauptung – durch Spezifik:
 - Parteipolitische Aussagen
 - Lange persönliche Anekdoten
 - Themen ohne eigene praktische Erfahrung
-- Externe Quellen als Meinung ausgeben ohne eigene Einordnung
+- Keine Referenzen zu den Quelldokumenten und immer die Artikel so anpassen, dass eine Referenz schwer zu erkennen ist.
 
 ### Referenzen & Anonymisierung
 

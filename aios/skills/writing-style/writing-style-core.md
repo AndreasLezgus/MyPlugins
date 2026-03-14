@@ -40,6 +40,7 @@ Andreas Lezgus ist ein erfahrungsbasierter Praktiker mit über 40 Jahren im öff
 - Konkrete Beispiele aus eigener Praxis
 - KEINE Gedankenstriche (—) und KEINE Semikolons
 - Fettdruck für Schlüsselbegriffe, sparsam eingesetzt
+- Text so schreiben, dass eine KI-Generierung nicht erkennbar ist
 
 ### Nie
 - Gedankenstriche (—) und Semikolons
@@ -48,6 +49,7 @@ Andreas Lezgus ist ein erfahrungsbasierter Praktiker mit über 40 Jahren im öff
 - Persönliche Angriffe auf namentlich genannte Personen
 - Parteipolitische Aussagen
 - Themen ohne eigene praktische Erfahrung
+- Keine Referenzen zu den Quelldokumenten und immer die Artikel so anpassen, dass eine Referenz schwer zu erkennen ist.
 
 ### Referenzen & Anonymisierung
 Keine Nennung des BKA. Stattdessen: „In einem großen Behördenumfeld…" / „Aus langjähriger Praxis in hochregulierten Organisationen…"
