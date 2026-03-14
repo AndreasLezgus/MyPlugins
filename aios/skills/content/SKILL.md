@@ -14,6 +14,7 @@ Lese zunächst folgende Skills für Stil und Qualitätsanforderungen:
 - `skills/writing-style/SKILL.md`
 - `skills/content/references/quality-gates.md`
 - `skills/content/references/content-core-template.md`
+- `skills/content/references/blog-template-system.md` (Strukturvarianten-Pool für Blog DE)
 
 ---
 
@@ -90,16 +91,41 @@ Bei allen „ja": **CHECKPOINT:** Schritt 2 abhaken. Weiter mit Schritt 3.
 
 ---
 
-## SCHRITT 3 – Blog DE: Drei Varianten erstellen
+## SCHRITT 3 – Blog DE: Drei Kategorien erstellen (mit Strukturvarianten)
 
-Erstelle alle drei Varianten sequenziell.
-Nach jeder Variante: Quality Gate 1 Schnell-Check durchführen.
+> **WICHTIG:** Jeder Blog-Artikel verwendet eine Strukturvariante aus dem
+> Varianten-Pool (`references/blog-template-system.md → Teil 2`).
+> Die drei Artikel müssen unterschiedliche Varianten verwenden.
+> Nach jeder Kategorie: Anti-KI-Checkliste + Quality Gate 1 Schnell-Check.
+
+Erstelle alle drei Kategorien sequenziell.
 Alle drei müssen das Gate bestehen bevor Schritt 4 beginnt.
+
+### Varianten-Tracking für Schritt 3
+
+Führe während Schritt 3 ein Rotations-Log, damit keine Wiederholung entsteht:
+
+```yaml
+# Wird nach jedem Artikel aktualisiert:
+3a_variante: [A-E]
+3a_eröffnung: [substantiv-kette | szenario | zitat | statistik]
+3a_abschluss: [aphorismus | frage | appell | humor]
+3b_variante: [A-E] # muss sich von 3a unterscheiden
+3b_eröffnung: [...]  # muss sich von 3a unterscheiden
+3b_abschluss: [...]  # muss sich von 3a unterscheiden
+3c_variante: [A-E] # muss sich von 3a und 3b unterscheiden
+3c_eröffnung: [...]  # muss sich von 3b unterscheiden
+3c_abschluss: [...]  # muss sich von 3b unterscheiden
+```
 
 ### SCHRITT 3a – Blog DE: KI-Führung
 
-Fokus: KI-Kompetenz für Führungskräfte – Entscheidungsfähigkeit ohne Expertenwissen
-Ghost-Tag: KI-Führung
+Lese: `skills/content/assets/blog-de-ki-fuehrung.md`
+Wähle Strukturvariante gemäß Entscheidungslogik (`references/blog-template-system.md → Teil 3`).
+Bevorzugt: A, B, E. Ghost-Tag: KI-Führung.
+
+Nach dem Schreiben: Anti-KI-Checkliste + Quality Gate 1.
+Rotations-Log aktualisieren.
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → blog_de.ki_fuehrung`
@@ -107,11 +133,13 @@ Speichern in Ulysses mit `ulysses_new_sheet`:
 
 ### SCHRITT 3b – Blog DE: Quick Checks
 
-Fokus: Checklisten und Prüfpunkte – sofort anwendbar, kompakt, praxisnah
-Ghost-Tag: Quick Checks
+Lese: `skills/content/assets/blog-de-quick-checks.md`
+Wähle Strukturvariante (muss sich von 3a unterscheiden). Bevorzugt: E, C.
+Zusätzlich: Check-Format wählen (prüffragen | szenario | vorher-nachher | warnsignal).
+Ghost-Tag: Quick Checks.
 
-Empfehlungen in konkrete Ja/Nein-Prüfpunkte übersetzen.
-Jeder Punkt muss ohne technisches Vorwissen anwendbar sein.
+Nach dem Schreiben: Anti-KI-Checkliste + Quality Gate 1.
+Rotations-Log aktualisieren.
 
 Speichern in Ulysses mit `ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → blog_de.quick_checks`
@@ -119,18 +147,19 @@ Speichern in Ulysses mit `ulysses_new_sheet`:
 
 ### SCHRITT 3c – Blog DE: Kritisches Denken
 
-Fokus: Hype von Substanz unterscheiden – methodische Technologiebewertung
-Ghost-Tag: Kritisches Denken
+Lese: `skills/content/assets/blog-de-kritisches-denken.md`
+Wähle Strukturvariante (muss sich von 3a und 3b unterscheiden). Bevorzugt: A, D, C.
+Ghost-Tag: Kritisches Denken.
 
-Artikel als Gesprächspartner nutzen, nicht als Autorität.
-Explizit benennen: Was sieht der Artikel nicht? Welche Annahmen fehlen?
+Nach dem Schreiben: Anti-KI-Checkliste + Quality Gate 1.
+Rotations-Log aktualisieren.
 
-- Speichern in Ulysses mit `ulysses_new_sheet`:
+Speichern in Ulysses mit `ulysses_new_sheet`:
 - group: siehe `config/ulysses-groups.yaml → blog_de.kritisches_denken`
 - Titel: `[Thema]: Warum [Annahme] die falsche Frage ist – [DATUM]`
 
-**CHECKPOINT:** Schritte 3a/3b/3c abhaken. Ulysses-Sheet-IDs im Checkpoint notieren.
-Fortschrittsbericht ausgeben (alle drei Varianten zusammen). Weiter mit Schritt 4.
+**CHECKPOINT:** Schritte 3a/3b/3c abhaken. Ulysses-Sheet-IDs und Rotations-Log im Checkpoint notieren.
+Fortschrittsbericht ausgeben (alle drei Kategorien zusammen). Weiter mit Schritt 4.
 
 ---
 

@@ -27,11 +27,12 @@ Bevor Du etwas machst:
 2. Lese `config/personas/matthias/user.md`
 3. Lese `skills/writing-style/SKILL.md`
 4. Lese `skills/content/SKILL.md`
-5. Lese `skills/memory/SKILL.md`
-6. Lese `config/ulysses-groups.yaml`
-7. Lese `config/mcp-constraints.md`
-8. Lese `config/error-handling.md`
-9. Lese `config/errors/matthias.md`
+5. Lese `skills/content/references/blog-template-system.md`
+6. Lese `skills/memory/SKILL.md`
+7. Lese `config/ulysses-groups.yaml`
+8. Lese `config/mcp-constraints.md`
+9. Lese `config/error-handling.md`
+10. Lese `config/errors/matthias.md`
 
 ## Erinnerungen
 Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
@@ -46,7 +47,8 @@ Du startest jede Sitzung neu. Diese Dateien sind deine Kontinuität:
 
 ## Ablauf
 1. Folge dem Ablauf in `skills/content/SKILL.md`
-2.  Gebe Abschlussbericht aus
+2. Bei Schritt 3 (Blog DE): Verwende das Varianten-System aus `skills/content/references/blog-template-system.md`. Wähle für jeden der drei Artikel eine andere Strukturvariante. Führe nach jedem Artikel die Anti-KI-Checkliste durch. Dokumentiere die gewählten Varianten im Checkpoint.
+3. Gebe Abschlussbericht aus
 
 ## LETZTER SCHRITT – Sitzungsprotokoll (PFLICHT)
 

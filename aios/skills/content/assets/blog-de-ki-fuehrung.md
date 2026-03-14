@@ -1,4 +1,4 @@
-# Template: Blog Deutsch – Variante 1: KI-Führung
+# Template: Blog Deutsch – Kategorie: KI-Führung
 # Ulysses-Gruppe: Blog DE/KI-Führung
 # Ghost-Tag: KI-Führung
 # Positionierung: KI-Kompetenz für Führungskräfte – Entscheidungsfähigkeit ohne Expertenwissen
@@ -13,108 +13,83 @@
 
 ---
 
-# [Titel: Was Führungskräfte über KI wissen müssen – ohne selbst Experte zu werden]
+## Strukturwahl
 
-> **TL;DR:** [3–4 Sätze. Kernaussage: Welche KI-Kompetenz brauchen Führungskräfte wirklich?
-> Was ist die eine Entscheidung, die dieser Artikel erleichtert?
-> Warum reicht es nicht, KI den Experten zu überlassen?]
-
----
-
-## [Zwischenüberschrift: Was Führungskräfte wirklich wissen müssen]
-
-[ERÖFFNUNG – Führungsperspektive zuerst.
-Nicht: „Was ist KI?" Sondern: „Was bedeutet KI für Ihre Verantwortung?"
-
-Muster: Entscheidungssituation als Einstieg.
-„Sie müssen über ein KI-Projekt entscheiden. Die Präsentation war überzeugend.
-Die Zahlen klingen gut. Aber welche Fragen hätten Sie stellen sollen – und haben es nicht?"
-
-Dann: Was zeigt Gartner / die Quelle dazu? 2–3 Sätze, eigene Einordnung direkt danach.
-Keine technischen Details. Führungsrelevanz sofort klar machen.]
-
-[Absatz 2: Die Kernkompetenz benennen.
-Führungskräfte müssen keine KI entwickeln – aber sie müssen KI beurteilen können.
-Was heißt das konkret? 3–4 Sätze.
-„Nicht jede KI-Entscheidung ist eine technische Entscheidung. Die meisten sind es nicht."]
+> **Dieses Template gibt keine feste Struktur vor.**
+> Wähle die passende Variante aus `references/blog-template-system.md → Teil 2`.
+>
+> **Bevorzugte Varianten für KI-Führung:** A (Widerspruch), B (Entscheidungssituation), E (Werkzeug)
+> **Möglich, seltener:** C (Praxis-Check), D (Fehldiagnose)
+>
+> **Entscheidung dokumentieren:**
+> ```yaml
+> gewählte_variante: [A-E]
+> begründung: [Warum passt diese Variante zum Content Core?]
+> ```
 
 ---
 
-## [Zwischenüberschrift: Die drei Fragen, die Sie immer stellen sollten]
+## Pflicht-Elemente (variante-unabhängig)
 
-[FÜHRUNGS-WERKZEUG: 3 Schlüsselfragen die jede Führungskraft zu jedem KI-Vorhaben
-stellen kann – unabhängig von technischem Vorwissen.
+Jeder KI-Führung-Artikel enthält:
 
-Einleitung vor der Liste (2 Sätze):
-
-**Frage 1: [Frage zur Datengrundlage]**
-Warum diese Frage? Was zeigt die Antwort? Was ist ein Warnsignal?
-2–3 Sätze.
-
-**Frage 2: [Frage zur Verantwortung / Accountability]**
-Warum diese Frage? Was zeigt die Antwort? Was ist ein Warnsignal?
-2–3 Sätze.
-
-**Frage 3: [Frage zum Mehrwert-Nachweis]**
-Warum diese Frage? Was zeigt die Antwort? Was ist ein Warnsignal?
-2–3 Sätze.
-
-Fazit nach der Liste (2 Sätze): Was diese Fragen gemeinsam leisten.]
+1. **TL;DR** als Blockquote (3-4 Sätze, immer am Anfang)
+2. **Führungsperspektive** als Einstieg (nicht: „Was ist KI?" Sondern: „Was bedeutet KI für Ihre Verantwortung?")
+3. **Praxisanker** (anonymisiertes Beispiel aus reguliertem Umfeld)
+4. **Handlungsimpuls** (konkret, mit Zeitrahmen oder Format)
+5. **Abschluss** mit Appell oder trockenem Humor
 
 ---
 
-## [Zwischenüberschrift: Was passiert, wenn Führungskräfte diese Kompetenz nicht haben]
+## Kategorie-spezifische Regeln
 
-[PRAXIS-ANKER: Konsequenzen fehlender Führungskompetenz.
+**Keine technischen Details.** Wenn Technik erklärt werden muss: maximal ein Satz, dann sofort Führungsrelevanz. Keine Erklärungen von KI-Algorithmen oder Architekturen.
 
-Situation: Eine typische Entscheidungssituation die schief geht.
-Anonymes Beispiel aus reguliertem Umfeld.
-Was war das Problem? Was wurde übersehen? Was war das Ergebnis?
+**Zielgruppe:** Menschen, die über KI-Projekte entscheiden, aber nicht aus der IT kommen. C-Level und Senior Führungskräfte ohne technischen Hintergrund.
 
-„Das Ergebnis war vorhersehbar." darf hier stehen.
+**Ton:** Respektvoll, aber direkt. „Sie müssen das nicht verstehen. Sie müssen es beurteilen können." Autoritär aber nicht belehrend. Respekt vor der Führungsaufgabe.
 
-Dann: Was hätte eine informierte Führungskraft anders gefragt / entschieden?]
+**Gartner-Material:** Auf Führungsimplikationen reduzieren, technische Details weglassen.
 
----
-
-## [Zwischenüberschrift: Wie Sie sich als Führungskraft gezielt vorbereiten]
-
-[HANDLUNGSEMPFEHLUNG: 3–4 konkrete, umsetzbare Schritte.
-Nicht: „Bilden Sie sich weiter." Sondern: Spezifisch und sofort umsetzbar.
-
-Einleitung (1–2 Sätze).
-
-**Erstens:** [Schritt mit konkretem Zeitaufwand – z.B. „30 Minuten pro Woche"]
-**Zweitens:** [Schritt mit konkretem Format – z.B. „eine Frage pro KI-Präsentation"]
-**Drittens:** [Schritt mit konkreter Ressource oder Methode]
-
-Abschluss: „Wie können wir diese Kompetenz systematisch aufbauen?"]
-
-[Optional: 1–2 interne Links zu früheren Artikeln die das Thema ergänzen – natürlich im Textfluss einbauen, nicht als separate Liste.]
+**Beispiele:** Entscheidungssituationen, Budgetgespräche, Projektsteuerung.
 
 ---
 
-## Fazit
+## Titel-Muster (rotieren, nie zweimal dasselbe)
 
-[ABSCHLUSS: Kernbotschaft wiederholen.
-Appell direkt an die Führungskraft. Trockener Humor.
+- „[Thema]: Was Führungskräfte wirklich wissen müssen"
+- „[Provokante These] – und was das für Ihre KI-Strategie bedeutet"
+- „Warum [verbreitete Annahme] Führungskräfte in die Irre führt"
+- „[Thema] ohne Technik-Jargon: Ein Leitfaden für Entscheider"
 
-Erlaubte Abschluss-Varianten für KI-Führung:
-„Schreiben Sie jetzt Ihre KI-Strategie – bevor es die KI für Sie tut."
-„Verantwortung hat einen Namen. KI-Entscheidungen auch."
-„Führung bedeutet nicht, alles zu wissen. Sondern die richtigen Fragen zu stellen."]
+---
 
+## Rotations-Check vor dem Schreiben
+
+```yaml
+# Aus Checkpoint oder Übergabe befüllen:
+letzte_variante: [A-E | null]
+letzter_eröffnungstyp: [substantiv-kette | szenario | zitat | statistik | null]
+letzter_abschlusstyp: [aphorismus | frage | appell | humor | null]
+```
+
+Die gewählte Variante, Eröffnung und Abschluss müssen sich vom letzten Artikel unterscheiden.
+
+---
+
+## Nach dem Schreiben
+
+1. Anti-KI-Checkliste durchlaufen (`references/blog-template-system.md → Teil 5`)
+2. Quality Gate 1 Schnell-Check (`references/quality-gates.md`)
+3. Ergebnis dokumentieren
 
 ---
 *Sie möchten keine Analyse verpassen? [Die Zweite Meinung als Newsletter – jeden Freitag.]*
 
 ---
 <!-- PROMPT-HINWEIS FÜR DEN AGENTEN:
-Fokus dieser Variante: Entscheidungskompetenz für Nicht-Experten.
-Zielgruppe: C-Level und Senior Führungskräfte ohne technischen Hintergrund.
-Ton: Autoritär aber nicht belehrend. Respekt vor der Führungsaufgabe.
+Fokus dieser Kategorie: Entscheidungskompetenz für Nicht-Experten.
 Kernfrage: "Was muss ich als Führungskraft wissen und tun – nicht was muss ich verstehen?"
-Gartner-Material: Auf Führungsimplikationen reduzieren, technische Details weglassen.
-Beispiele: Entscheidungssituationen, Budgetgespräche, Projektsteuerung.
-Niemals: Technische Erklärungen von KI-Algorithmen oder Architekturen.
+WICHTIG: Keine feste Struktur verwenden. Variante aus dem Pool wählen (references/blog-template-system.md).
+WICHTIG: Anti-KI-Checkliste nach dem Schreiben durchlaufen.
 Niemals BKA namentlich nennen. Stattdessen: „aus langjähriger Praxis in hochregulierten Behörden". -->

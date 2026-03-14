@@ -1,4 +1,4 @@
-# Template: Blog Deutsch – Variante 3: Kritisches Denken
+# Template: Blog Deutsch – Kategorie: Kritisches Denken
 # Ulysses-Gruppe: Blog DE/Kritisches Denken
 # Ghost-Tag: Kritisches Denken
 # Positionierung: Hype von Substanz unterscheiden – Methoden zur kritischen Technologiebewertung
@@ -13,113 +13,91 @@
 
 ---
 
-# [Titel: [Thema]: Warum [gängige Annahme] die falsche Frage ist]
+## Strukturwahl
 
-> **TL;DR:** [3–4 Sätze. Kernaussage: Welche Annahme wird hier hinterfragt?
-> Was ist die alternative Denkweise? Warum ist kritische Distanz hier wichtiger als Enthusiasmus?
-> Kein Pessimismus – konstruktive Gegenperspektive.]
-
----
-
-## [Zwischenüberschrift: Die bequeme Geschichte – und warum sie nicht stimmt]
-
-[ERÖFFNUNG – Die gängige Erzählung benennen und sofort hinterfragen.
-Nicht destruktiv – methodisch.
-
-Muster: „Die offizielle Geschichte lautet [X]. Sie ist nicht falsch. Sie ist unvollständig."
-
-Was sagt Gartner / die Quelle? 2–3 Sätze zusammenfassen.
-Dann: Was ist die versteckte Annahme in dieser Erzählung?
-Wo setzt kritisches Denken an?
-
-„Nicht alles, was technisch möglich ist, ist auch rechtsstaatlich erlaubt."
-– Dieser Satz gehört in jeden KI-Diskurs. Er steht in keiner Gartner-Studie.]
-
-[Absatz 2: Die Annahme präzise benennen.
-Was glauben die meisten? Warum ist das verständlich? Warum reicht es nicht?
-3–4 Sätze. Kein Angriff auf Personen – Angriff auf die Annahme.]
+> **Dieses Template gibt keine feste Struktur vor.**
+> Wähle die passende Variante aus `references/blog-template-system.md → Teil 2`.
+>
+> **Bevorzugte Varianten für Kritisches Denken:** A (Widerspruch), D (Fehldiagnose)
+> **Möglich, sekundär:** C (Praxis-Check)
+>
+> **Struktur-Besonderheit:** Kritisches Denken erlaubt als einzige Kategorie
+> einen Abschnitt „Was wir nicht wissen" – ein bewusster Bruch mit der Erwartung,
+> dass jeder Artikel alle Fragen beantwortet.
+>
+> **Entscheidung dokumentieren:**
+> ```yaml
+> gewählte_variante: [A-E]
+> begründung: [Warum passt diese Variante zum Content Core?]
+> nutzt_offene_frage: [ja | nein] # "Was wir nicht wissen"-Abschnitt?
+> ```
 
 ---
 
-## [Zwischenüberschrift: Wie man Hype von Substanz unterscheidet]
+## Pflicht-Elemente (variante-unabhängig)
 
-[DENK-METHODE: Das ist das Herzstück dieser Variante.
-Nicht eine Checkliste – sondern ein Denkrahmen.
+Jeder Kritisches-Denken-Artikel enthält:
 
-3 Fragen / Kriterien / Methoden die helfen, eine Technologiebehauptung zu bewerten:
-
-**Kriterium 1: [Name des Kriteriums]**
-Erklärung: Was wird damit geprüft? 2–3 Sätze.
-Anwendung: Wie wendet man es auf das aktuelle Thema an? 2–3 Sätze.
-Warnsignal: Was ist ein typisches Zeichen das dieses Kriterium verletzt wird? 1 Satz.
-
-**Kriterium 2: [Name des Kriteriums]**
-[Gleiche Struktur]
-
-**Kriterium 3: [Name des Kriteriums]**
-[Gleiche Struktur]
-
-Beispiel-Kriterien:
-- „Wer profitiert von dieser Darstellung?" (Interessenanalyse)
-- „Wurde das in einem regulierten Umfeld getestet oder nur im Sandbox?" (Kontextprüfung)
-- „Was ist der Beweis – Korrelation oder Kausalität?" (Evidenzprüfung)]
+1. **TL;DR** als Blockquote (3-4 Sätze, konstruktive Gegenperspektive, kein Pessimismus)
+2. **Die gängige Erzählung** fair benennen, dann methodisch hinterfragen
+3. **Praxisanker** (wo hat unkritisches Denken zu einem schlechten Ergebnis geführt?)
+4. **Denkrahmen oder Methode** (nicht nur „denken Sie kritischer", sondern konkrete Kriterien)
+5. **Abschluss** (stärkster Humor-Einsatz aller drei Kategorien)
 
 ---
 
-## [Zwischenüberschrift: Ein konkretes Beispiel aus der Praxis]
+## Kategorie-spezifische Regeln
 
-[PRAXIS-ANKER: Wo hat unkritisches Denken zu einem schlechten Ergebnis geführt?
+**Der Artikel ist Gesprächspartner, nicht Autorität.** Er stellt Fragen, die andere nicht stellen. Er darf unbequem sein.
 
-Situation: Was war die Ausgangslage? Welche Behauptung wurde akzeptiert?
-Verlauf: Was passierte? Wo zeigte sich das Problem?
-Ergebnis: Was war die Konsequenz?
-Lehre: Was hätte kritisches Denken früher aufgedeckt?
+**Gartner ist hier der Gesprächspartner, nicht die Wahrheit.** Die Quelle wird als Ausgangspunkt genommen und dann gezielt hinterfragt: Was fehlt? Was wurde vereinfacht? Welche Annahmen bleiben unausgesprochen?
 
-Anonym: „In einer großen öffentlichen Organisation…"
-Konkret: Zahlen, Zeitrahmen, Art der Konsequenz.
-Nicht moralisieren – analysieren.]
+**Konstruktiv kritisch, nie technologiefeindlich.** Die Zweite Meinung ist für Technologie, aber gegen Hype. Immer ein Weg nach vorn.
 
----
+**Offene Enden erlaubt.** Als einzige Kategorie darf Kritisches Denken mit einer offenen Frage schließen: „Diese Frage bleibt offen. Und das ist in Ordnung."
 
-## [Zwischenüberschrift: Positive Sturheit als Führungstugend]
-
-[REFRAMING: Kritisches Denken ist keine Blockade – es ist Führungsverantwortung.
-
-„Positive Sturheit" ist das Konzept: Nicht jeden Hype mitmachen,
-aber auch nicht blind ablehnen. Methodisch prüfen.
-
-3–4 Sätze: Was bedeutet das konkret in der Praxis?
-Wie kommuniziert man kritische Rückfragen ohne als Verhinderer zu gelten?
-„Dies kann man so machen. Erfolgsversprechend ist es allerdings nicht, wenn…"]
-
-[Optional: 1–2 interne Links zu früheren Artikeln die das Thema ergänzen – natürlich im Textfluss einbauen, nicht als separate Liste.]
+**„Positive Sturheit" als Konzept:** Nicht jeden Hype mitmachen, aber auch nicht blind ablehnen. Methodisch prüfen. Kritische Rückfragen kommunizieren, ohne als Verhinderer zu gelten.
 
 ---
 
-## Fazit
+## Titel-Muster (rotieren, nie zweimal dasselbe)
 
-[ABSCHLUSS: Kernbotschaft wiederholen.
-Appell: Kritisches Denken ist eine Kompetenz, keine Haltung.
-Trockener Humor.
+- „[Thema]: Warum [Annahme] die falsche Frage ist"
+- „Die unbequeme Wahrheit über [Thema]"
+- „[Buzzword] unter der Lupe: Was bleibt, wenn der Hype vergeht?"
+- „[Thema]: Was Gartner sagt – und was fehlt"
 
-Erlaubte Abschluss-Varianten für Kritisches Denken:
-„Nostalgie ist kein Geschäftsmodell für die Zukunft. Unkritischer Enthusiasmus auch nicht."
-„Der nächste Hype kommt bestimmt. Die Methode zur Bewertung auch."
-„Buzzword-Bingo ist kein KI-Piloten-Konzept – auch wenn es manchmal so aussieht."]
+---
+
+## Rotations-Check vor dem Schreiben
+
+```yaml
+# Aus Checkpoint oder Übergabe befüllen:
+letzte_variante: [A-E | null]
+letzter_eröffnungstyp: [substantiv-kette | szenario | zitat | statistik | null]
+letzter_abschlusstyp: [aphorismus | frage | appell | humor | null]
+```
+
+Die gewählte Variante, Eröffnung und Abschluss müssen sich vom letzten Artikel unterscheiden.
+
+---
+
+## Nach dem Schreiben
+
+1. Anti-KI-Checkliste durchlaufen (`references/blog-template-system.md → Teil 5`)
+2. Quality Gate 1 Schnell-Check (`references/quality-gates.md`)
+3. Ergebnis dokumentieren
 
 ---
 *Sie möchten keine Analyse verpassen? [Die Zweite Meinung als Newsletter – jeden Freitag.]*
 
 ---
 <!-- PROMPT-HINWEIS FÜR DEN AGENTEN:
-Fokus dieser Variante: Methodische Technologiebewertung gegen Hype-Zyklen.
+Fokus dieser Kategorie: Methodische Technologiebewertung gegen Hype-Zyklen.
 Zielgruppe: Erfahrene Führungskräfte und Digitalmanager mit Skepsis-Kompetenz.
 Ton: Sachlich-kritisch, intelligent provokant, methodisch – nicht zynisch.
 Kernfrage: "Wie unterscheide ich Substanz von Hype – und was tue ich damit?"
-Gartner-Material: Als Ausgangspunkt nehmen, dann gezielt hinterfragen was fehlt oder
-vereinfacht wurde. Gartner ist hier nicht die Wahrheit – sondern der Gesprächspartner.
-Beispiele: Situationen wo Hype-Glaube zu schlechten Entscheidungen geführt hat.
-Denkmethoden: Konkrete, benannte Kriterien – keine abstrakten Apelle zu „mehr Kritik".
-Niemals: Pauschale Technologieskepsis. Die Zweite Meinung ist konstruktiv kritisch,
-nicht grundsätzlich technologiefeindlich. Immer: Weg nach vorn.
+WICHTIG: Keine feste Struktur verwenden. Variante aus dem Pool wählen (references/blog-template-system.md).
+WICHTIG: Anti-KI-Checkliste nach dem Schreiben durchlaufen.
+Niemals: Pauschale Technologieskepsis. Immer: Weg nach vorn.
 Niemals BKA namentlich nennen. Stattdessen: „aus langjähriger Praxis in hochregulierten Behörden". -->
